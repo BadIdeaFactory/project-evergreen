@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://xlfbl7fowoic"]
+
+[ext_resource type="Texture2D" uid="uid://dy5vfc6jr3l4i" path="res://vendor/Double C's Pixel World Map/3x Size/All_3x/PixelWorldMap_All_Countries_3x.png" id="1_kd50k"]
+[ext_resource type="PackedScene" uid="uid://2hgdqurtbrxg" path="res://scenes/common/player_controller.tscn" id="2_bjhnr"]
+
+[node name="WorldMap" type="Node2D"]
+
+[node name="WorldMapImage" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_kd50k")
+
+[node name="MainCamera" type="Camera2D" parent="."]
+position = Vector2(808, 672)
+
+[node name="PlayerController" parent="." node_paths=PackedStringArray("camera") instance=ExtResource("2_bjhnr")]
+camera = NodePath("../MainCamera")
