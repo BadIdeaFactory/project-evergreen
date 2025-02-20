@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://xlfbl7fowoic"]
+[gd_scene load_steps=4 format=3 uid="uid://xlfbl7fowoic"]
 
 [ext_resource type="Texture2D" uid="uid://dy5vfc6jr3l4i" path="res://vendor/Double C's Pixel World Map/3x Size/All_3x/PixelWorldMap_All_Countries_3x.png" id="1_kd50k"]
 [ext_resource type="PackedScene" uid="uid://2hgdqurtbrxg" path="res://scenes/common/player_controller.tscn" id="2_bjhnr"]
+[ext_resource type="PackedScene" uid="uid://dcnty7qxod06" path="res://scenes/components/camera_component.tscn" id="3_f33gq"]
 
 [node name="WorldMap" type="Node2D"]
 
@@ -10,8 +11,11 @@ offset_right = 40.0
 offset_bottom = 40.0
 texture = ExtResource("1_kd50k")
 
-[node name="MainCamera" type="Camera2D" parent="."]
-position = Vector2(808, 672)
+[node name="Controllers" type="Node" parent="."]
 
-[node name="PlayerController" parent="." node_paths=PackedStringArray("camera") instance=ExtResource("2_bjhnr")]
-camera = NodePath("../MainCamera")
+[node name="PlayerController" parent="Controllers" node_paths=PackedStringArray("camera_component") instance=ExtResource("2_bjhnr")]
+camera_component = NodePath("../../Components/CameraComponent")
+
+[node name="Components" type="Node" parent="."]
+
+[node name="CameraComponent" parent="Components" instance=ExtResource("3_f33gq")]

@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://dcnty7qxod06"]
+
+[ext_resource type="Script" path="res://scenes/components/camera_component.gd" id="1_rq8ms"]
+
+[node name="CameraComponent" type="Node2D" node_paths=PackedStringArray("camera")]
+script = ExtResource("1_rq8ms")
+camera = NodePath("MainCamera")
+
+[node name="MainCamera" type="Camera2D" parent="."]
+position = Vector2(808, 672)
+limit_left = 0
+limit_top = 0
+limit_right = 2562
+limit_bottom = 1620
+limit_smoothed = true
