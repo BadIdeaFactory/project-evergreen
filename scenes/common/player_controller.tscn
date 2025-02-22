@@ -4,3 +4,4 @@
 
 [node name="PlayerController" type="Node2D"]
 script = ExtResource("1_86wpr")
+mouse_drag_scroll_speed = 0.7

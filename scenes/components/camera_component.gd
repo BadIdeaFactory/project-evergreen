@@ -9,8 +9,8 @@ func apply_camera_movement(movement: Vector2):
 
 # _snap_in_limit prevents the camera from moving when the viewport isn't
 func _snap_in_limit():
-	var viewport_center_x = get_viewport_rect().size.x/2
-	var viewport_center_y = get_viewport_rect().size.y/2
+	var viewport_center_x = get_viewport_rect().size.x / 2 / camera.zoom.x
+	var viewport_center_y = get_viewport_rect().size.y / 2 / camera.zoom.y
 	
 	# offset the limits to acount for the viewport size
 	var adjusted_limit_left = camera.limit_left + viewport_center_x
