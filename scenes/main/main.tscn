@@ -1,7 +1,13 @@
-[gd_scene load_steps=2 format=3 uid="uid://d3nj6rt0cm53e"]
+[gd_scene load_steps=3 format=3 uid="uid://d3nj6rt0cm53e"]
 
 [ext_resource type="PackedScene" uid="uid://xlfbl7fowoic" path="res://scenes/worldmap/world_map.tscn" id="1_cjno1"]
+[ext_resource type="PackedScene" uid="uid://bnqxch8qylr8l" path="res://ui/widgets/hud.tscn" id="2_jggq6"]
 
 [node name="World" type="Node2D"]
 
 [node name="WorldMap" parent="." instance=ExtResource("1_cjno1")]
+position = Vector2(-660, 1)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="HUD" parent="CanvasLayer" instance=ExtResource("2_jggq6")]

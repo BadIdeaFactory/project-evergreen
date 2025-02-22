@@ -1,0 +1,33 @@
+[gd_scene load_steps=4 format=3 uid="uid://ci04dr1xobg8"]
+
+[ext_resource type="Texture2D" uid="uid://bb3q52vv7m64f" path="res://vendor/GUI Game #14 [Space, Minimalism, Action, SciFi, RTS]/Elements/TopMenu01.png" id="1_rd70o"]
+[ext_resource type="Theme" uid="uid://dxgsaua2q7y8i" path="res://ui/themes/hud.tres" id="2_7qrg5"]
+[ext_resource type="Script" path="res://ui/widgets/GameTimeLabel.gd" id="3_08rmb"]
+
+[node name="TopAppBar" type="Control"]
+layout_mode = 3
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+grow_horizontal = 2
+
+[node name="TopBarImage" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -383.0
+offset_right = 383.0
+offset_bottom = 54.0
+grow_horizontal = 2
+texture = ExtResource("1_rd70o")
+
+[node name="GameTimeLabel" type="Label" parent="TopBarImage"]
+layout_mode = 0
+offset_left = 470.0
+offset_top = 7.0
+offset_right = 627.0
+offset_bottom = 31.0
+theme = ExtResource("2_7qrg5")
+text = "January 1st, 2022"
+script = ExtResource("3_08rmb")
