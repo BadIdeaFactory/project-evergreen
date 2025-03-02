@@ -3,6 +3,17 @@ class_name TimerViewModel
 
 signal on_formatted_time_updated (new_time: String)
 
+var time_component: TimeComponent
+
+func initialize(new_time_component: TimeComponent):
+	time_component = new_time_component
+	
+func toggle_paused():
+	time_component.toggle_paused()
+	
+func toggle_speed_up():
+	time_component.toggle_speed_up()
+
 func set_time(new_timestamp: int):
 	var now_dict := Time.get_datetime_dict_from_unix_time(new_timestamp)
 	var formatted_datetime = _format_datetime(now_dict)

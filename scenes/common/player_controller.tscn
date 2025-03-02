@@ -1,19 +1,11 @@
-[gd_scene load_steps=8 format=3 uid="uid://2hgdqurtbrxg"]
+[gd_scene load_steps=4 format=3 uid="uid://2hgdqurtbrxg"]
 
 [ext_resource type="Script" path="res://scripts/controllers/player_controller.gd" id="1_86wpr"]
 [ext_resource type="Texture2D" uid="uid://p0bi3bytr53n" path="res://vendor/kenney_cursor-pack/PNG/Outline/Default/hand_closed.png" id="2_tvrf7"]
 [ext_resource type="Texture2D" uid="uid://h7bopucdukak" path="res://vendor/kenney_cursor-pack/PNG/Outline/Default/pointer_b.png" id="3_h3cn0"]
-[ext_resource type="Texture2D" uid="uid://bjck8jhfqnq0b" path="res://vendor/kenney_cursor-pack/PNG/Outline/Double/arrow_e.png" id="4_sg2mc"]
-[ext_resource type="Texture2D" uid="uid://duld2c16y04fr" path="res://vendor/kenney_cursor-pack/PNG/Outline/Double/arrow_n.png" id="5_x6eqs"]
-[ext_resource type="Texture2D" uid="uid://ovblhumn68fu" path="res://vendor/kenney_cursor-pack/PNG/Outline/Double/arrow_s.png" id="6_c3rid"]
-[ext_resource type="Texture2D" uid="uid://bxw018pmva53p" path="res://vendor/kenney_cursor-pack/PNG/Outline/Double/arrow_w.png" id="7_gew4c"]
 
 [node name="PlayerController" type="Node2D"]
 script = ExtResource("1_86wpr")
 mouse_drag_scroll_speed = 0.7
 drag_icon = ExtResource("2_tvrf7")
 arrow_icon = ExtResource("3_h3cn0")
-scroll_east_icon = ExtResource("4_sg2mc")
-scroll_north_icon = ExtResource("5_x6eqs")
-scroll_south_icon = ExtResource("6_c3rid")
-scroll_west_icon = ExtResource("7_gew4c")
