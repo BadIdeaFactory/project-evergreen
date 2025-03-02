@@ -1,11 +1,18 @@
-[gd_scene load_steps=5 format=3 uid="uid://d3nj6rt0cm53e"]
+[gd_scene load_steps=6 format=3 uid="uid://d3nj6rt0cm53e"]
 
 [ext_resource type="PackedScene" uid="uid://xlfbl7fowoic" path="res://scenes/worldmap/world_map.tscn" id="1_cjno1"]
 [ext_resource type="PackedScene" uid="uid://bnqxch8qylr8l" path="res://ui/widgets/hud.tscn" id="2_jggq6"]
 [ext_resource type="PackedScene" uid="uid://2hgdqurtbrxg" path="res://scenes/common/player_controller.tscn" id="3_jr0xa"]
 [ext_resource type="PackedScene" uid="uid://dcnty7qxod06" path="res://scenes/components/camera_component.tscn" id="4_xha1d"]
+[ext_resource type="PackedScene" uid="uid://b1x0140gst6wf" path="res://entities/time_component.tscn" id="5_6js18"]
 
 [node name="World" type="Node2D"]
+
+[node name="Components" type="Node" parent="."]
+
+[node name="CameraComponent" parent="Components" instance=ExtResource("4_xha1d")]
+
+[node name="TimeComponent" parent="Components" instance=ExtResource("5_6js18")]
 
 [node name="WorldMap" parent="." instance=ExtResource("1_cjno1")]
 position = Vector2(0, 1)
@@ -19,7 +26,3 @@ position = Vector2(0, 1)
 [node name="PlayerController" parent="Controllers" node_paths=PackedStringArray("hud", "camera_component") instance=ExtResource("3_jr0xa")]
 hud = NodePath("../../CanvasLayer/HUD")
 camera_component = NodePath("../../Components/CameraComponent")
-
-[node name="Components" type="Node" parent="."]
-
-[node name="CameraComponent" parent="Components" instance=ExtResource("4_xha1d")]
