@@ -3,7 +3,7 @@ name: "godot-ci export"
 on: push
 
 env:
-  GODOT_VERSION: 4.2.1
+  GODOT_VERSION: 4.3
   EXPORT_NAME: project-evergreen
   PROJECT_PATH: .
 
@@ -12,7 +12,7 @@ jobs:
     name: Windows Export
     runs-on: ubuntu-20.04
     container:
-      image: barichello/godot-ci:4.2.1
+      image: barichello/godot-ci:4.3
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -29,7 +29,7 @@ jobs:
           mkdir -v -p build/windows
           EXPORT_DIR="$(readlink -f build)"
           cd $PROJECT_PATH
-          godot --headless --verbose --export-release "Windows Desktop" "$EXPORT_DIR/windows/$EXPORT_NAME.exe"
+          godot --headless --export-release "Windows Desktop" "$EXPORT_DIR/windows/$EXPORT_NAME.exe"
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
@@ -40,7 +40,7 @@ jobs:
   #   name: Linux Export
   #   runs-on: ubuntu-20.04
   #   container:
-  #     image: barichello/godot-ci:4.2.1
+  #     image: barichello/godot-ci:4.3
   #   steps:
   #     - name: Checkout
   #       uses: actions/checkout@v4
@@ -55,7 +55,7 @@ jobs:
   #         mkdir -v -p build/linux
   #         EXPORT_DIR="$(readlink -f build)"
   #         cd $PROJECT_PATH
-  #         godot --headless --verbose --export-release "Linux/X11" "$EXPORT_DIR/linux/$EXPORT_NAME.x86_64"
+  #         godot --headless --export-release "Linux/X11" "$EXPORT_DIR/linux/$EXPORT_NAME.x86_64"
   #     - name: Upload Artifact
   #       uses: actions/upload-artifact@v4
   #       with:
@@ -66,7 +66,7 @@ jobs:
   #   name: Mac Export
   #   runs-on: ubuntu-20.04
   #   container:
-  #     image: barichello/godot-ci:4.2.1
+  #     image: barichello/godot-ci:4.3
   #   steps:
   #     - name: Checkout
   #       uses: actions/checkout@v4
@@ -81,7 +81,7 @@ jobs:
   #         mkdir -v -p build/mac
   #         EXPORT_DIR="$(readlink -f build)"
   #         cd $PROJECT_PATH
-  #         godot --headless --verbose --export-release "macOS" "$EXPORT_DIR/mac/$EXPORT_NAME.zip"
+  #         godot --headless --export-release "macOS" "$EXPORT_DIR/mac/$EXPORT_NAME.zip"
   #     - name: Upload Artifact
   #       uses: actions/upload-artifact@v4
   #       with:

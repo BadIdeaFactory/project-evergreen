@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://2hgdqurtbrxg"]
 
-[ext_resource type="Script" path="res://scripts/controllers/player_controller.gd" id="1_86wpr"]
+[ext_resource type="Script" path="res://scenes/common/player_controller.gd" id="1_86wpr"]
 [ext_resource type="Texture2D" uid="uid://p0bi3bytr53n" path="res://vendor/kenney_cursor-pack/PNG/Outline/Default/hand_closed.png" id="2_tvrf7"]
 [ext_resource type="Texture2D" uid="uid://h7bopucdukak" path="res://vendor/kenney_cursor-pack/PNG/Outline/Default/pointer_b.png" id="3_h3cn0"]
 
