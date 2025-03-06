@@ -1,0 +1,59 @@
+[gd_scene load_steps=4 format=3 uid="uid://by1d3e21ksvsq"]
+
+[ext_resource type="Script" path="res://ui/widgets/shared/modal.gd" id="1_1llkl"]
+[ext_resource type="Texture2D" uid="uid://bwsjh4132ucy3" path="res://vendor/kenney_ui-pack-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0028.png" id="1_5b3d1"]
+[ext_resource type="Texture2D" uid="uid://bspk5yb026bq7" path="res://vendor/kenney_ui-pack-pixel-adventure/Tiles/Small tiles/Thick outline/tile_0004.png" id="2_ntygv"]
+
+[node name="Modal" type="Control" node_paths=PackedStringArray("close_button")]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_right = 400.0
+offset_bottom = 200.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_1llkl")
+close_button = NodePath("BackgroundTextureRect/CloseButton")
+
+[node name="BackgroundTextureRect" type="NinePatchRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_5b3d1")
+patch_margin_left = 11
+patch_margin_top = 11
+patch_margin_right = 11
+patch_margin_bottom = 11
+
+[node name="Content" type="Control" parent="BackgroundTextureRect"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -200.0
+offset_top = -100.0
+offset_right = 200.0
+offset_bottom = 100.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="CloseButton" type="TextureButton" parent="BackgroundTextureRect"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -41.0
+offset_top = 8.0
+offset_right = -24.0
+offset_bottom = 24.0
+grow_horizontal = 0
+scale = Vector2(2, 2)
+texture_normal = ExtResource("2_ntygv")

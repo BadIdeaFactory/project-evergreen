@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://dn4x4ceaceqr6"]
+
+[ext_resource type="PackedScene" uid="uid://by1d3e21ksvsq" path="res://ui/widgets/shared/modal.tscn" id="1_mypyc"]
+[ext_resource type="Theme" uid="uid://cxy82wftbcrt" path="res://ui/themes/text_h2_grey.tres" id="2_q3tta"]
+
+[node name="Modal" instance=ExtResource("1_mypyc")]
+offset_left = -62.0
+offset_top = -324.0
+
+[node name="Content" parent="BackgroundTextureRect" index="0"]
+offset_left = -228.0
+offset_top = -257.0
+offset_right = 227.0
+offset_bottom = 258.0
+
+[node name="Label" type="Label" parent="BackgroundTextureRect/Content" index="0"]
+layout_mode = 1
+anchors_preset = -1
+offset_left = 15.0
+offset_top = 15.0
+theme = ExtResource("2_q3tta")
+text = "Credits"

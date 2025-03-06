@@ -7,13 +7,20 @@ extends Node2D
 @export var arrow_icon: Texture2D
 @export var hud: Control
 @export var camera_component: CameraComponent
+@export var menu_scene: PackedScene
 var is_dragging: bool = false
+var menu_instance: Control
 
 func _ready():
 	Input.mouse_mode = Input.MOUSE_MODE_CONFINED
 	Input.set_custom_mouse_cursor(arrow_icon, Input.CURSOR_ARROW)
 
 func _unhandled_input(event: InputEvent) -> void:
+	if event.is_action_pressed("open_menu") and !menu_instance:
+		menu_instance = menu_scene.instantiate()
+		hud.add_child(menu_instance)
+		return
+	
 	if event.is_action_pressed("start_drag"):
 		Input.set_custom_mouse_cursor(drag_icon, Input.CURSOR_DRAG)
 		is_dragging = true

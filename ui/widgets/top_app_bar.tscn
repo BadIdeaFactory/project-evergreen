@@ -1,7 +1,7 @@
 [gd_scene load_steps=8 format=3 uid="uid://ci04dr1xobg8"]
 
 [ext_resource type="Script" path="res://ui/widgets/top_app_bar.gd" id="1_7s546"]
-[ext_resource type="Theme" uid="uid://dxgsaua2q7y8i" path="res://ui/themes/hud.tres" id="2_7qrg5"]
+[ext_resource type="Theme" uid="uid://dxgsaua2q7y8i" path="res://ui/themes/text_body_grey.tres" id="2_7qrg5"]
 [ext_resource type="Texture2D" uid="uid://uwdw62p64s6" path="res://vendor/kenney_ui-pack-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0028.png" id="3_rb1vo"]
 [ext_resource type="Texture2D" uid="uid://bef8hwvllnbmj" path="res://vendor/kenney_game-icons/PNG/White/1x/pause.png" id="4_vima0"]
 [ext_resource type="Texture2D" uid="uid://dxfxxwbmub6bx" path="res://vendor/kenney_game-icons/PNG/Black/1x/pause.png" id="5_cqa4u"]
