@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://dap6c80qsg2ip"]
+
+[ext_resource type="AudioStream" uid="uid://8bu7u8otft2e" path="res://vendor/Incompetech/Ancient Winds.mp3" id="2_iopsi"]
+
+[sub_resource type="AudioStreamPlaylist" id="AudioStreamPlaylist_tkyb6"]
+shuffle = true
+stream_count = 1
+stream_0 = ExtResource("2_iopsi")
+
+[node name="MusicPlayerComponent" type="Node2D"]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = SubResource("AudioStreamPlaylist_tkyb6")
+autoplay = true

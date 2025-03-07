@@ -1,0 +1,8 @@
+[gd_resource type="Theme" load_steps=2 format=3 uid="uid://dpfx4ghsih8rl"]
+
+[ext_resource type="FontFile" uid="uid://b6t27n38f6fjr" path="res://ui/fonts/poppins/Poppins-Medium.ttf" id="1_uh4yl"]
+
+[resource]
+default_font = ExtResource("1_uh4yl")
+default_font_size = 18
+Label/colors/font_color = Color(1, 0.8, 0, 1)

@@ -1,22 +1,45 @@
-[gd_scene load_steps=3 format=3 uid="uid://dn4x4ceaceqr6"]
+[gd_scene load_steps=4 format=3 uid="uid://dn4x4ceaceqr6"]
 
 [ext_resource type="PackedScene" uid="uid://by1d3e21ksvsq" path="res://ui/widgets/shared/modal.tscn" id="1_mypyc"]
 [ext_resource type="Theme" uid="uid://cxy82wftbcrt" path="res://ui/themes/text_h2_grey.tres" id="2_q3tta"]
+[ext_resource type="Theme" uid="uid://dxgsaua2q7y8i" path="res://ui/themes/text_body_grey.tres" id="3_p5ax1"]
 
 [node name="Modal" instance=ExtResource("1_mypyc")]
 offset_left = -62.0
 offset_top = -324.0
 
-[node name="Content" parent="BackgroundTextureRect" index="0"]
-offset_left = -228.0
-offset_top = -257.0
-offset_right = 227.0
-offset_bottom = 258.0
+[node name="BackgroundTextureRect" parent="." index="0"]
+offset_right = 88.0
 
-[node name="Label" type="Label" parent="BackgroundTextureRect/Content" index="0"]
+[node name="Content" parent="BackgroundTextureRect" index="0"]
+anchors_preset = 15
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 0.0
+offset_bottom = 0.0
+
+[node name="CreditsBox" type="VBoxContainer" parent="BackgroundTextureRect/Content" index="0"]
 layout_mode = 1
 anchors_preset = -1
-offset_left = 15.0
-offset_top = 15.0
+offset_left = 25.0
+offset_top = 40.0
+
+[node name="CreditsHeader" type="Label" parent="BackgroundTextureRect/Content/CreditsBox" index="0"]
+layout_mode = 2
 theme = ExtResource("2_q3tta")
 text = "Credits"
+
+[node name="IndividualCreditsBox" type="VBoxContainer" parent="BackgroundTextureRect/Content/CreditsBox" index="1"]
+layout_mode = 2
+
+[node name="AncientWinds" type="Label" parent="BackgroundTextureRect/Content/CreditsBox/IndividualCreditsBox" index="0"]
+layout_mode = 2
+theme = ExtResource("3_p5ax1")
+text = "\"Ancient Winds\"
+Kevin MacLeod (incompetech.com)
+Licensed under Creative Commons: By Attribution 3.0
+http://creativecommons.org/licenses/by/3.0/"
