@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://xlfbl7fowoic"]
+[gd_scene load_steps=3 format=3 uid="uid://xlfbl7fowoic"]
 
 [ext_resource type="Texture2D" uid="uid://xrpjeff551cv" path="res://art/PixelWorldMap_All_Countries_3x_Green.png" id="1_g7ewq"]
+[ext_resource type="PackedScene" uid="uid://bsbcdmesjv6qv" path="res://entities/countries/usa.tscn" id="2_srtnd"]
 
 [node name="WorldMap" type="Node2D"]
 
@@ -8,3 +9,10 @@
 offset_right = 40.0
 offset_bottom = 40.0
 texture = ExtResource("1_g7ewq")
+
+[node name="Countries" type="Node" parent="."]
+
+[node name="USA" parent="Countries" instance=ExtResource("2_srtnd")]
+position = Vector2(1281, 810)
+
+[connection signal="mouse_entered" from="Countries/USA" to="Countries/USA" method="_print_test"]

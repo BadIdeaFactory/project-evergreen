@@ -16,6 +16,19 @@ func _ready():
 	Input.set_custom_mouse_cursor(arrow_icon, Input.CURSOR_ARROW)
 
 func _unhandled_input(event: InputEvent) -> void:
+	if event.is_action_pressed("select"):
+		var params = PhysicsPointQueryParameters2D.new()
+		params.position = get_global_mouse_position()
+		params.collide_with_areas = true
+		params.collide_with_bodies = false
+		var collisions = get_world_2d().direct_space_state.intersect_point(params, 32)
+		if len(collisions) > 0:
+			for collision in collisions:
+				var country := collision.collider as Country
+				if country:
+					country.select()
+					return
+		
 	if event.is_action_pressed("open_menu") and !menu_instance:
 		menu_instance = menu_scene.instantiate()
 		hud.add_child(menu_instance)

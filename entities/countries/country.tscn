@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://bww8id20reu27"]
+
+[ext_resource type="Script" path="res://entities/countries/country.gd" id="1_j7m2o"]
+[ext_resource type="Texture2D" uid="uid://5tcwuxorjhmw" path="res://art/usa.png" id="2_1k81q"]
+
+[node name="Country" type="Area2D"]
+script = ExtResource("1_j7m2o")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_1k81q")
