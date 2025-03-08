@@ -28,9 +28,7 @@ grow_vertical = 2
 [node name="CreditsButton" parent="BackgroundTextureRect/Content/VBoxContainer" index="0" instance=ExtResource("2_ls4d8")]
 layout_mode = 2
 text = "Credits"
-button_text = "Credits"
 
 [node name="QuitButton" parent="BackgroundTextureRect/Content/VBoxContainer" index="1" instance=ExtResource("2_ls4d8")]
 layout_mode = 2
 text = "Quit"
-button_text = "Quit"

@@ -1,17 +1,15 @@
-[gd_scene load_steps=4 format=3 uid="uid://d0do44kqxb7ws"]
+[gd_scene load_steps=3 format=3 uid="uid://d0do44kqxb7ws"]
 
-[ext_resource type="Script" path="res://ui/widgets/shared/primary_button.gd" id="1_jo3q3"]
 [ext_resource type="Theme" uid="uid://dxgsaua2q7y8i" path="res://ui/themes/text_body_grey.tres" id="2_ilb70"]
 [ext_resource type="Theme" uid="uid://dpfx4ghsih8rl" path="res://ui/themes/text_body_gold.tres" id="3_job5g"]
 
-[node name="PrimaryButton" type="Button" node_paths=PackedStringArray("label")]
+[node name="PrimaryButton" type="Button"]
 offset_right = 250.0
 offset_bottom = 50.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme = ExtResource("2_ilb70")
-script = ExtResource("1_jo3q3")
-label = NodePath("ButtonText")
+text = "Test"
 
 [node name="ButtonText" type="Label" parent="."]
 layout_mode = 1
@@ -21,6 +19,5 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 theme = ExtResource("3_job5g")
-text = "Test"
 horizontal_alignment = 1
 vertical_alignment = 1
