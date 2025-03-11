@@ -15,6 +15,7 @@ dest_files=["res://.godot/imported/Lora-SemiBold.ttf-ff738762bbac754005c1b8e4c65
 Rendering=null
 antialiasing=1
 generate_mipmaps=false
+disable_embedded_bitmaps=true
 multichannel_signed_distance_field=false
 msdf_pixel_range=8
 msdf_size=48

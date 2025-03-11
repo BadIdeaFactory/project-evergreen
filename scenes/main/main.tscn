@@ -1,6 +1,7 @@
-[gd_scene load_steps=7 format=3 uid="uid://d3nj6rt0cm53e"]
+[gd_scene load_steps=8 format=3 uid="uid://d3nj6rt0cm53e"]
 
 [ext_resource type="PackedScene" uid="uid://xlfbl7fowoic" path="res://scenes/worldmap/world_map.tscn" id="1_cjno1"]
+[ext_resource type="PackedScene" uid="uid://qjjw8mvvjabt" path="res://ui/viewmodels/vm_countries.tscn" id="1_grghp"]
 [ext_resource type="PackedScene" uid="uid://bnqxch8qylr8l" path="res://ui/widgets/hud.tscn" id="2_jggq6"]
 [ext_resource type="PackedScene" uid="uid://2hgdqurtbrxg" path="res://scenes/common/player_controller.tscn" id="3_jr0xa"]
 [ext_resource type="PackedScene" uid="uid://dap6c80qsg2ip" path="res://entities/music_player_component.tscn" id="3_l6axm"]
@@ -8,6 +9,10 @@
 [ext_resource type="PackedScene" uid="uid://b1x0140gst6wf" path="res://entities/time_component.tscn" id="5_6js18"]
 
 [node name="World" type="Node2D"]
+
+[node name="GlobalViewModels" type="Node" parent="."]
+
+[node name="CountriesViewModel" parent="GlobalViewModels" instance=ExtResource("1_grghp")]
 
 [node name="Components" type="Node" parent="."]
 

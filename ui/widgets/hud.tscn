@@ -1,8 +1,10 @@
-[gd_scene load_steps=2 format=3 uid="uid://bnqxch8qylr8l"]
+[gd_scene load_steps=4 format=3 uid="uid://bnqxch8qylr8l"]
 
 [ext_resource type="PackedScene" uid="uid://ci04dr1xobg8" path="res://ui/widgets/top_app_bar.tscn" id="1_kowid"]
+[ext_resource type="Script" path="res://ui/widgets/hud.gd" id="1_oips3"]
+[ext_resource type="PackedScene" uid="uid://dgrgh72dksddm" path="res://ui/widgets/country_information_simple.tscn" id="2_aove6"]
 
-[node name="HUD" type="Control"]
+[node name="HUD" type="Control" node_paths=PackedStringArray("country_information_widget")]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -12,6 +14,12 @@ grow_vertical = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 mouse_filter = 1
+script = ExtResource("1_oips3")
+country_information_widget = NodePath("CountryInformationSimple")
 
 [node name="TopAppBar" parent="." instance=ExtResource("1_kowid")]
+layout_mode = 1
+offset_bottom = 49.0
+
+[node name="CountryInformationSimple" parent="." instance=ExtResource("2_aove6")]
 layout_mode = 1

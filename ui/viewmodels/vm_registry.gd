@@ -1,7 +1,7 @@
 extends Node
 class_name ViewModelRegistry
 
-enum Keys { TIMER }
+enum Keys { TIMER, COUNTRIES }
 static var registry = {}
 
 static func register(key: Keys, view_model: ViewModelBase):

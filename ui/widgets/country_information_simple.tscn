@@ -1,0 +1,45 @@
+[gd_scene load_steps=4 format=3 uid="uid://dgrgh72dksddm"]
+
+[ext_resource type="Script" path="res://ui/widgets/country_information_simple.gd" id="1_2hm0s"]
+[ext_resource type="Texture2D" uid="uid://bwsjh4132ucy3" path="res://vendor/kenney_ui-pack-pixel-adventure/Tiles/Large tiles/Thin outline/tile_0028.png" id="1_2kxyp"]
+[ext_resource type="Theme" uid="uid://dxgsaua2q7y8i" path="res://ui/themes/text_body_grey.tres" id="2_t416p"]
+
+[node name="CountryInformationSimple" type="Control" node_paths=PackedStringArray("label")]
+layout_mode = 3
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -500.0
+offset_top = -550.0
+grow_horizontal = 0
+grow_vertical = 0
+script = ExtResource("1_2hm0s")
+label = NodePath("BackgroundImage/CountryNameLabel")
+
+[node name="BackgroundImage" type="NinePatchRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_2kxyp")
+patch_margin_left = 11
+patch_margin_top = 11
+patch_margin_right = 11
+patch_margin_bottom = 11
+
+[node name="CountryNameLabel" type="Label" parent="BackgroundImage"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -20.0
+offset_top = 20.0
+offset_right = 20.0
+offset_bottom = 23.0
+grow_horizontal = 2
+theme = ExtResource("2_t416p")
+text = "Country Name"
