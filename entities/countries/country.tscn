@@ -3,8 +3,9 @@
 [ext_resource type="Script" path="res://entities/countries/country.gd" id="1_j7m2o"]
 [ext_resource type="Texture2D" uid="uid://5tcwuxorjhmw" path="res://art/usa.png" id="2_1k81q"]
 
-[node name="Country" type="Area2D"]
+[node name="Country" type="Area2D" node_paths=PackedStringArray("sprite")]
 script = ExtResource("1_j7m2o")
+sprite = NodePath("Sprite2D")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("2_1k81q")

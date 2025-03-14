@@ -4,6 +4,8 @@ class_name Country
 enum Keys { USA }
 
 @export var country_key: Keys
+@export var sprite: Sprite2D
+var selected_material: Material = preload("res://entities/countries/selected_country_material.tres")
 var country_name: String
 
 func _ready() -> void:
@@ -15,5 +17,9 @@ func _ready() -> void:
 
 func select() -> void:
 	var countries_vm = ViewModelRegistry.retrieve(ViewModelRegistry.Keys.COUNTRIES) as CountriesViewModel
+	sprite.material = selected_material
 	if countries_vm:
 		countries_vm.select_country(country_key)
+
+func unselect() -> void:
+	sprite.material = null

@@ -10,6 +10,7 @@ extends Node2D
 @export var menu_scene: PackedScene
 var is_dragging: bool = false
 var menu_instance: Control
+var selected_country: Country
 
 func _ready():
 	Input.mouse_mode = Input.MOUSE_MODE_CONFINED
@@ -26,6 +27,9 @@ func _unhandled_input(event: InputEvent) -> void:
 			for collision in collisions:
 				var country := collision.collider as Country
 				if country:
+					if selected_country:
+						selected_country.unselect()
+					selected_country = country
 					country.select()
 					return
 		
