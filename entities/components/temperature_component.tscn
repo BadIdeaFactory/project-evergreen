@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cxdm1p8x2yt7d"]
+
+[ext_resource type="Script" path="res://entities/components/temperature_component.gd" id="1_gnlrf"]
+
+[node name="TemperatureComponent" type="Node"]
+script = ExtResource("1_gnlrf")

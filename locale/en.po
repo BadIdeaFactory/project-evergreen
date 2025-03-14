@@ -1,5 +1,6 @@
 # LANGUAGE translation for project-evergreen for the following files:
 # res://entities/countries/usa.gd
+# res://ui/widgets/top_app_bar.tscn
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -20,3 +21,7 @@ msgstr ""
 #: entities/countries/usa.gd
 msgid "COUNTRY_USA_NAME"
 msgstr "United States of America"
+
+#: ui/widgets/top_app_bar.tscn
+msgid "TEMPERATURE_ANOMALY_DESCRIPTION"
+msgstr "Temperature Anomaly"
