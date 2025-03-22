@@ -15,6 +15,10 @@ run/main_scene="res://scenes/main/main.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
 
+[autoload]
+
+Console="*res://addons/console/console.gd"
+
 [debug]
 
 file_logging/enable_file_logging=true
@@ -24,6 +28,10 @@ file_logging/enable_file_logging=true
 window/size/viewport_width=1280
 window/size/viewport_height=720
 window/size/mode=2
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/console/plugin.cfg")
 
 [input]
 
