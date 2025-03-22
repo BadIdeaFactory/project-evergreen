@@ -1,6 +1,8 @@
 # LANGUAGE translation for project-evergreen for the following files:
 # res://entities/countries/usa.gd
 # res://ui/widgets/top_app_bar.tscn
+# res://ui/widgets/modal_loss.gd
+# res://ui/widgets/modal_loss.tscn
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -18,4 +20,16 @@ msgstr ""
 
 #: ui/widgets/top_app_bar.tscn
 msgid "TEMPERATURE_ANOMALY_DESCRIPTION"
+msgstr ""
+
+#: ui/widgets/modal_loss.gd
+msgid "LOSSCONDITION_TIMEEXCEEDED_TEXT"
+msgstr ""
+
+#: ui/widgets/modal_loss.gd
+msgid "LOSSCONDITION_TEMPERATUREEXCEEDED_TEXT"
+msgstr ""
+
+#: ui/widgets/modal_loss.tscn
+msgid "LOSSMODAL_RESTART_TEXT"
 msgstr ""

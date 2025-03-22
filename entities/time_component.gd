@@ -13,8 +13,11 @@ var time_since_last_update: float = 0
 var time: float = Time.get_unix_time_from_system()
 var is_paused: bool = false
 var speed: float = default_speed
+var date_string_regex: RegEx
 
 func _ready():
+	date_string_regex = RegEx.new()
+	date_string_regex.compile("(?<day>\\d{2})/(?<month>\\d{2})/(?<year>\\d{4})")
 	view_model.initialize(self)
 	ViewModelRegistry.register(ViewModelRegistry.Keys.TIMER, view_model)
 	
@@ -28,6 +31,26 @@ func _process(delta: float):
 		time += 86400 # seconds in a day
 		on_new_day.emit(time)
 		view_model.set_time(time)
+
+func get_timestamp_from_date_string(date_string: String) -> int:
+	var results = date_string_regex.search(date_string)
+	if results:
+		var datetime_dict = {}
+		datetime_dict["day"] = results.get_string("day")
+		datetime_dict["month"] = results.get_string("month")
+		datetime_dict["year"] = results.get_string("year")
+		return Time.get_unix_time_from_datetime_dict(datetime_dict)
+	else:
+		return 0
+
+# Must be in format MM/DD/YYYY. 
+func set_timestamp_from_date_string(date_string: String) -> Error:
+	var new_timestamp = get_timestamp_from_date_string(date_string)
+	if new_timestamp:
+		set_timestamp(new_timestamp)
+		return OK
+	else:
+		return ERR_INVALID_PARAMETER
 
 func set_timestamp(new_timestamp: float) -> void:
 	time = new_timestamp

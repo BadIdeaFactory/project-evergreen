@@ -10,17 +10,8 @@ func _handle_set_temperature_anomaly(temperature_anomaly: String) -> void:
 
 func _handle_set_date(date: String) -> void:
 	var time_component = _find_node(TimeComponent) as TimeComponent
-	var regex = RegEx.new()
-	regex.compile("(?<day>\\d{2})/(?<month>\\d{2})/(?<year>\\d{4})")
-	var results = regex.search(date)
-	if results:
-		var datetime_dict = {}
-		datetime_dict["day"] = results.get_string("day")
-		datetime_dict["month"] = results.get_string("month")
-		datetime_dict["year"] = results.get_string("year")
-		var timestamp = Time.get_unix_time_from_datetime_dict(datetime_dict)
-		time_component.set_timestamp(timestamp)
-	else:
+	var error = time_component.set_timestamp_from_date_string(date)
+	if error:
 		Console.print_error("Date should be in format DD/MM/YYYY.")
 	
 func _find_node(node_type: Variant) -> Node:

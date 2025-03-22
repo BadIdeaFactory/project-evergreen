@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://c57b4mhnpqlmr"]
+
+[ext_resource type="Script" path="res://scenes/common/standard_game_mode.gd" id="1_agwb2"]
+
+[node name="StandardGameMode" type="Node"]
+script = ExtResource("1_agwb2")
+start_date = null
+loss_date = null
+loss_temperature_anomaly = null

@@ -25,3 +25,25 @@ msgstr "United States of America"
 #: ui/widgets/top_app_bar.tscn
 msgid "TEMPERATURE_ANOMALY_DESCRIPTION"
 msgstr "Temperature Anomaly"
+
+#: ui/widgets/modal_loss.gd
+msgid "LOSSCONDITION_TIMEEXCEEDED_TEXT"
+msgstr ""
+"Humanity failed to achieve net-zero carbon emissions in time, leading "
+"to the worst effects of climate change being unavoidable. They include "
+"more frequent and intense weather events like hurricanes, wildfires, "
+"and floods. Additionally, biodiversity loss, food and water shortages, "
+"and economic instability will increasingly disrupt human life."
+
+#: ui/widgets/modal_loss.gd
+msgid "LOSSCONDITION_TEMPERATUREEXCEEDED_TEXT"
+msgstr ""
+"The Earth has warmed to a level where the worst effects of climate "
+"change are becoming unavoidable. They include more frequent and intense "
+"weather events like hurricanes, wildfires, and floods. Additionally, "
+"biodiversity loss, food and water shortages, and economic instability "
+"will increasingly disrupt human life."
+
+#: ui/widgets/modal_loss.tscn
+msgid "LOSSMODAL_RESTART_TEXT"
+msgstr "Restart"
