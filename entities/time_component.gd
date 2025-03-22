@@ -29,6 +29,14 @@ func _process(delta: float):
 		on_new_day.emit(time)
 		view_model.set_time(time)
 
+func set_timestamp(new_timestamp: float) -> void:
+	time = new_timestamp
+	start_new_day()
+	
+func start_new_day() -> void:
+	# Force an update on next tick.
+	time_since_last_update = (day_update_interval_seconds / speed)	
+
 func toggle_paused():
 	is_paused = !is_paused
 

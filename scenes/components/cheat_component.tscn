@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bs84f822v0oba"]
+
+[ext_resource type="Script" path="res://scenes/components/cheat_component.gd" id="1_tirdj"]
+
+[node name="CheatComponent" type="Node"]
+script = ExtResource("1_tirdj")

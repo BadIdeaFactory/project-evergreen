@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://d3nj6rt0cm53e"]
+[gd_scene load_steps=10 format=3 uid="uid://d3nj6rt0cm53e"]
 
 [ext_resource type="PackedScene" uid="uid://xlfbl7fowoic" path="res://scenes/worldmap/world_map.tscn" id="1_cjno1"]
 [ext_resource type="PackedScene" uid="uid://qjjw8mvvjabt" path="res://ui/viewmodels/vm_countries.tscn" id="1_grghp"]
@@ -8,6 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://dcnty7qxod06" path="res://scenes/components/camera_component.tscn" id="4_xha1d"]
 [ext_resource type="PackedScene" uid="uid://b1x0140gst6wf" path="res://entities/time_component.tscn" id="5_6js18"]
 [ext_resource type="PackedScene" uid="uid://cxdm1p8x2yt7d" path="res://entities/components/temperature_component.tscn" id="5_p0y26"]
+[ext_resource type="PackedScene" uid="uid://bs84f822v0oba" path="res://scenes/components/cheat_component.tscn" id="6_6lkyn"]
 
 [node name="World" type="Node2D"]
 
@@ -25,6 +26,8 @@
 
 [node name="TemperatureComponent" parent="Components" node_paths=PackedStringArray("time_component") instance=ExtResource("5_p0y26")]
 time_component = NodePath("../TimeComponent")
+
+[node name="CheatComponent" parent="Components" instance=ExtResource("6_6lkyn")]
 
 [node name="WorldMap" parent="." instance=ExtResource("1_cjno1")]
 position = Vector2(0, 1)

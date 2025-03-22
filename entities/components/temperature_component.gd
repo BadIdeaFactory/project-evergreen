@@ -1,4 +1,5 @@
 extends Node
+class_name TemperatureComponent
 
 @onready var view_model = TemperatureViewModel.new()
 
@@ -16,3 +17,7 @@ func _handle_new_day(new_temperature_anomaly: int) -> void:
 	# TODO: this is a large increase for testing. it should be based on the state of the world.
 	temperature_anomaly_celsius += .01
 	view_model.set_temperature_anomaly(temperature_anomaly_celsius)
+
+func set_temperature_anomaly(new_temperature_anomaly_celsius: float) -> void: 
+	temperature_anomaly_celsius = new_temperature_anomaly_celsius
+	time_component.start_new_day()
