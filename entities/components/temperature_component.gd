@@ -17,7 +17,7 @@ func _ready() -> void:
 	
 func _handle_new_day(new_timestamp: int) -> void:
 	# TODO: this is a large increase for testing. it should be based on the state of the world.
-	set_temperature_anomaly(temperature_anomaly_celsius + .01)
+	set_temperature_anomaly(temperature_anomaly_celsius + .001)
 
 func set_temperature_anomaly(new_temperature_anomaly_celsius: float) -> void: 
 	temperature_anomaly_celsius = new_temperature_anomaly_celsius

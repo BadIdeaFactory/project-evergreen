@@ -4,6 +4,3 @@
 
 [node name="StandardGameMode" type="Node"]
 script = ExtResource("1_agwb2")
-start_date = null
-loss_date = null
-loss_temperature_anomaly = null

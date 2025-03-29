@@ -8,12 +8,14 @@ class_name TimeComponent
 @export var fast_speed: float = 3
 
 signal on_new_day (new_timestamp: int)
+signal on_new_month (new_timestamp: int)
 
 var time_since_last_update: float = 0
 var time: float = Time.get_unix_time_from_system()
 var is_paused: bool = false
 var speed: float = default_speed
 var date_string_regex: RegEx
+var last_month: int
 
 func _ready():
 	date_string_regex = RegEx.new()
@@ -31,6 +33,11 @@ func _process(delta: float):
 		time += 86400 # seconds in a day
 		on_new_day.emit(time)
 		view_model.set_time(time)
+		var datetime_dict = Time.get_datetime_dict_from_unix_time(time)
+		var current_month = datetime_dict.get("month")
+		if last_month == Time.MONTH_DECEMBER and current_month == Time.MONTH_JANUARY || current_month > last_month:
+			last_month = current_month
+			on_new_month.emit(time) 
 
 func get_timestamp_from_date_string(date_string: String) -> int:
 	var results = date_string_regex.search(date_string)

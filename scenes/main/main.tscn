@@ -1,14 +1,15 @@
-[gd_scene load_steps=12 format=3 uid="uid://d3nj6rt0cm53e"]
+[gd_scene load_steps=13 format=3 uid="uid://d3nj6rt0cm53e"]
 
 [ext_resource type="PackedScene" uid="uid://xlfbl7fowoic" path="res://scenes/worldmap/world_map.tscn" id="1_cjno1"]
 [ext_resource type="PackedScene" uid="uid://qjjw8mvvjabt" path="res://ui/viewmodels/vm_countries.tscn" id="1_grghp"]
 [ext_resource type="PackedScene" uid="uid://bnqxch8qylr8l" path="res://ui/widgets/hud.tscn" id="2_jggq6"]
 [ext_resource type="PackedScene" uid="uid://2hgdqurtbrxg" path="res://scenes/common/player_controller.tscn" id="3_jr0xa"]
-[ext_resource type="PackedScene" uid="uid://dap6c80qsg2ip" path="res://entities/music_player_component.tscn" id="3_l6axm"]
+[ext_resource type="PackedScene" uid="uid://dap6c80qsg2ip" path="res://entities/components/music_player_component.tscn" id="3_l6axm"]
 [ext_resource type="PackedScene" uid="uid://dcnty7qxod06" path="res://scenes/components/camera_component.tscn" id="4_xha1d"]
-[ext_resource type="PackedScene" uid="uid://b1x0140gst6wf" path="res://entities/time_component.tscn" id="5_6js18"]
+[ext_resource type="PackedScene" uid="uid://b1x0140gst6wf" path="res://entities/components/time_component.tscn" id="5_6js18"]
 [ext_resource type="PackedScene" uid="uid://cxdm1p8x2yt7d" path="res://entities/components/temperature_component.tscn" id="5_p0y26"]
 [ext_resource type="PackedScene" uid="uid://bs84f822v0oba" path="res://scenes/components/cheat_component.tscn" id="6_6lkyn"]
+[ext_resource type="PackedScene" uid="uid://bcq54x0laubvw" path="res://entities/components/carbon_component.tscn" id="7_xe0mx"]
 [ext_resource type="PackedScene" uid="uid://7e58nln2jjm5" path="res://ui/widgets/modal_loss.tscn" id="10_f2gcx"]
 [ext_resource type="PackedScene" uid="uid://c57b4mhnpqlmr" path="res://scenes/common/standard_game_mode.tscn" id="10_o6r5s"]
 
@@ -31,12 +32,16 @@ time_component = NodePath("../TimeComponent")
 
 [node name="CheatComponent" parent="Components" instance=ExtResource("6_6lkyn")]
 
+[node name="CarbonComponent" parent="Components" node_paths=PackedStringArray("time_component") instance=ExtResource("7_xe0mx")]
+time_component = NodePath("../TimeComponent")
+
 [node name="WorldMap" parent="." instance=ExtResource("1_cjno1")]
 position = Vector2(0, 1)
 
-[node name="StandardGameMode" parent="." node_paths=PackedStringArray("time_component", "temperature_component") instance=ExtResource("10_o6r5s")]
+[node name="StandardGameMode" parent="." node_paths=PackedStringArray("time_component", "temperature_component", "carbon_component") instance=ExtResource("10_o6r5s")]
 time_component = NodePath("../Components/TimeComponent")
 temperature_component = NodePath("../Components/TemperatureComponent")
+carbon_component = NodePath("../Components/CarbonComponent")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 

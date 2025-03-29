@@ -8,7 +8,7 @@
 [ext_resource type="Texture2D" uid="uid://sjhcl4wxcwkn" path="res://vendor/kenney_game-icons/PNG/White/1x/fastForward.png" id="6_bwov5"]
 [ext_resource type="Texture2D" uid="uid://cqs1r264rxtpc" path="res://vendor/kenney_game-icons/PNG/Black/1x/fastForward.png" id="7_tcu34"]
 
-[node name="TopAppBar" type="Control" node_paths=PackedStringArray("date_label", "pause_button", "speed_up_button", "temperature_anomaly_label")]
+[node name="TopAppBar" type="Control" node_paths=PackedStringArray("date_label", "pause_button", "speed_up_button", "temperature_anomaly_label", "carbon_label")]
 layout_mode = 3
 anchors_preset = 10
 anchor_right = 1.0
@@ -19,6 +19,7 @@ date_label = NodePath("AppBarHBox/TimeHBox/GameTimeLabel")
 pause_button = NodePath("AppBarHBox/TimeHBox/PauseButton")
 speed_up_button = NodePath("AppBarHBox/TimeHBox/SpeedUpButton")
 temperature_anomaly_label = NodePath("AppBarHBox/TemperatureHBox/TemperatureAnomalyAmount")
+carbon_label = NodePath("AppBarHBox/CarbonHBox/CarbonAmount")
 
 [node name="Background" type="NinePatchRect" parent="."]
 layout_mode = 1
@@ -42,7 +43,28 @@ offset_bottom = 50.0
 grow_horizontal = 0
 theme_override_constants/separation = 100
 
+[node name="CarbonHBox" type="HBoxContainer" parent="AppBarHBox"]
+clip_contents = true
+layout_mode = 2
+
+[node name="CarbonDescription" type="Label" parent="AppBarHBox/CarbonHBox"]
+layout_mode = 2
+theme = ExtResource("2_7qrg5")
+text = "ATMOSPHERE_CARBON_DESCRIPTION"
+
+[node name="CarbonAmount" type="Label" parent="AppBarHBox/CarbonHBox"]
+auto_translate_mode = 2
+layout_mode = 2
+theme = ExtResource("2_7qrg5")
+text = "123"
+
+[node name="CarbonUnit" type="Label" parent="AppBarHBox/CarbonHBox"]
+layout_mode = 2
+theme = ExtResource("2_7qrg5")
+text = "CARBON_UNIT"
+
 [node name="TemperatureHBox" type="HBoxContainer" parent="AppBarHBox"]
+clip_contents = true
 layout_mode = 2
 
 [node name="TemperatureDescriptionLabel" type="Label" parent="AppBarHBox/TemperatureHBox"]
@@ -54,6 +76,7 @@ text = "TEMPERATURE_ANOMALY_DESCRIPTION"
 auto_translate_mode = 2
 layout_mode = 2
 theme = ExtResource("2_7qrg5")
+text = "123"
 
 [node name="TemperatureAnomalyUnit" type="Label" parent="AppBarHBox/TemperatureHBox"]
 auto_translate_mode = 2
@@ -62,11 +85,15 @@ theme = ExtResource("2_7qrg5")
 text = "°C"
 
 [node name="TimeHBox" type="HBoxContainer" parent="AppBarHBox"]
+clip_contents = true
+custom_minimum_size = Vector2(300, 0)
 layout_mode = 2
 mouse_filter = 2
 
 [node name="GameTimeLabel" type="Label" parent="AppBarHBox/TimeHBox"]
 auto_translate_mode = 2
+clip_contents = true
+custom_minimum_size = Vector2(180, 0)
 layout_mode = 2
 theme = ExtResource("2_7qrg5")
 text = "January 1st, 2022"

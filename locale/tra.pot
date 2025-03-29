@@ -19,6 +19,14 @@ msgid "COUNTRY_USA_NAME"
 msgstr ""
 
 #: ui/widgets/top_app_bar.tscn
+msgid "ATMOSPHERE_CARBON_DESCRIPTION"
+msgstr ""
+
+#: ui/widgets/top_app_bar.tscn
+msgid "CARBON_UNIT"
+msgstr ""
+
+#: ui/widgets/top_app_bar.tscn
 msgid "TEMPERATURE_ANOMALY_DESCRIPTION"
 msgstr ""
 

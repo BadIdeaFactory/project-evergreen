@@ -5,6 +5,7 @@ enum Keys { USA }
 
 @export var country_key: Keys
 @export var sprite: Sprite2D
+@export var test: StringName
 var selected_material: Material = preload("res://entities/countries/selected_country_material.tres")
 var country_name: String
 
