@@ -35,9 +35,6 @@ time_component = NodePath("../TimeComponent")
 position = Vector2(0, 1)
 
 [node name="StandardGameMode" parent="." node_paths=PackedStringArray("time_component", "temperature_component") instance=ExtResource("10_o6r5s")]
-start_date = null
-loss_date = null
-loss_temperature_anomaly = null
 time_component = NodePath("../Components/TimeComponent")
 temperature_component = NodePath("../Components/TemperatureComponent")
 
