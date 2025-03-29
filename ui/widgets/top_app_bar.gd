@@ -19,7 +19,7 @@ func _ready() -> void:
 	if temperature_view_model:
 		temperature_view_model.on_temperature_anomaly_changed.connect(_on_temperature_anomaly_changed)
 		
-	var carbon_view_model = ViewModelRegistry.retrieve(ViewModelRegistry.Keys.CARBON) as CarbonViewModel
+	var carbon_view_model = ViewModelRegistry.retrieve(ViewModelRegistry.Keys.GLOBAL_CARBON) as GlobalCarbonViewModel
 	if carbon_view_model:
 		carbon_view_model.on_carbon_in_atmosphere_changed.connect(_handle_carbon_atmosphere_changed)
 

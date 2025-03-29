@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://bcq54x0laubvw"]
 
-[ext_resource type="Script" path="res://entities/components/carbon_component.gd" id="1_aa2fy"]
+[ext_resource type="Script" path="res://entities/components/global_carbon_component.gd" id="1_aa2fy"]
 
 [node name="CarbonComponent" type="Node"]
 script = ExtResource("1_aa2fy")

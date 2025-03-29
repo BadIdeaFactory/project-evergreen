@@ -1,5 +1,5 @@
 extends ViewModelBase
-class_name CarbonViewModel
+class_name GlobalCarbonViewModel
 
 signal on_carbon_in_atmosphere_changed (new_carbon_level_ppm: float)
 

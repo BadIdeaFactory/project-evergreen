@@ -1,13 +1,13 @@
 extends Node
-class_name CarbonComponent
+class_name GlobalCarbonComponent
 
-@onready var view_model = CarbonViewModel.new()
+@onready var view_model = GlobalCarbonViewModel.new()
 @export var time_component: TimeComponent
 
 var carbon_level_ppm: float
 
 func _ready():
-	ViewModelRegistry.register(ViewModelRegistry.Keys.CARBON, view_model)
+	ViewModelRegistry.register(ViewModelRegistry.Keys.GLOBAL_CARBON, view_model)
 	time_component.on_new_month.connect(_handle_new_month)
 
 func _handle_new_month(new_timestamp: float):
