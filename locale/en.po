@@ -56,5 +56,29 @@ msgstr ""
 msgid "LOSSMODAL_RESTART_TEXT"
 msgstr "Restart"
 
+#: ui/widgets/country_information_simple.gd
+msgid "EMISSIONS_BUILDINGS_NAME"
+msgstr "Buildings"
+
+#: ui/widgets/country_information_simple.gd
+msgid "EMISSIONS_POWER_NAME"
+msgstr "Power"
+
+#: ui/widgets/country_information_simple.gd
+msgid "EMISSIONS_TRANSPORTATION_NAME"
+msgstr "Transportation"
+
+#: ui/widgets/country_information_simple.gd
+msgid "EMISSIONS_OTHERSECTORS_NAME"
+msgstr "Other Sectors"
+
+#: ui/widgets/country_information_simple.gd
+msgid "EMISSIONS_OTHERINDUSTRIES_NAME"
+msgstr "Other Industries"
+
+#: ui/widgets/country_information_simple.tscn
+msgid "FOSSIL_EMISSIONS_HEADER"
+msgstr "Fossil Emissions (Mt CO₂/yr)"
+
 #~ msgid "ppm"
 #~ msgstr "ppm"

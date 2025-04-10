@@ -1,0 +1,33 @@
+[gd_scene load_steps=3 format=3 uid="uid://clv78oqt54brr"]
+
+[ext_resource type="Theme" uid="uid://dxgsaua2q7y8i" path="res://ui/themes/text_body_grey.tres" id="1_4wg11"]
+[ext_resource type="Script" path="res://ui/widgets/carbon_emission_line_item.gd" id="1_xg2wh"]
+
+[node name="CarbonEmissionLineItem" type="Control" node_paths=PackedStringArray("source_label", "amount_label")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_xg2wh")
+source_label = NodePath("HBoxContainer/SourceLabel")
+amount_label = NodePath("HBoxContainer/AmountLabel")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 0
+offset_right = 297.0
+offset_bottom = 40.0
+theme_override_constants/separation = 35
+
+[node name="SourceLabel" type="Label" parent="HBoxContainer"]
+layout_mode = 2
+theme = ExtResource("1_4wg11")
+text = "Carbon Source"
+
+[node name="AmountLabel" type="Label" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme = ExtResource("1_4wg11")
+text = "3.2"
+horizontal_alignment = 2

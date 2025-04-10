@@ -1,11 +1,17 @@
-[gd_scene load_steps=3 format=3 uid="uid://bww8id20reu27"]
+[gd_scene load_steps=4 format=3 uid="uid://bww8id20reu27"]
 
 [ext_resource type="Script" path="res://entities/countries/country.gd" id="1_j7m2o"]
 [ext_resource type="Texture2D" uid="uid://5tcwuxorjhmw" path="res://art/usa.png" id="2_1k81q"]
+[ext_resource type="PackedScene" uid="uid://dop72j6wl61sl" path="res://entities/components/country_carbon_component.tscn" id="3_fw67n"]
 
-[node name="Country" type="Area2D" node_paths=PackedStringArray("sprite")]
+[node name="Country" type="Area2D" node_paths=PackedStringArray("sprite", "country_carbon_component")]
 script = ExtResource("1_j7m2o")
 sprite = NodePath("Sprite2D")
+country_carbon_component = NodePath("Components/CountryCarbonComponent")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("2_1k81q")
+
+[node name="Components" type="Node" parent="."]
+
+[node name="CountryCarbonComponent" parent="Components" instance=ExtResource("3_fw67n")]

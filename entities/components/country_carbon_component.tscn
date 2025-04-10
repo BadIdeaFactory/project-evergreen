@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://dop72j6wl61sl"]
+
+[ext_resource type="Script" path="res://entities/components/country_carbon_component.gd" id="1_prb0r"]
+
+[node name="CountryCarbonComponent" type="Node"]
+script = ExtResource("1_prb0r")

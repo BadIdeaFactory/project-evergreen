@@ -3,6 +3,8 @@
 # res://ui/widgets/top_app_bar.tscn
 # res://ui/widgets/modal_loss.gd
 # res://ui/widgets/modal_loss.tscn
+# res://ui/widgets/country_information_simple.gd
+# res://ui/widgets/country_information_simple.tscn
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -40,4 +42,28 @@ msgstr ""
 
 #: ui/widgets/modal_loss.tscn
 msgid "LOSSMODAL_RESTART_TEXT"
+msgstr ""
+
+#: ui/widgets/country_information_simple.gd
+msgid "EMISSIONS_BUILDINGS_NAME"
+msgstr ""
+
+#: ui/widgets/country_information_simple.gd
+msgid "EMISSIONS_POWER_NAME"
+msgstr ""
+
+#: ui/widgets/country_information_simple.gd
+msgid "EMISSIONS_TRANSPORTATION_NAME"
+msgstr ""
+
+#: ui/widgets/country_information_simple.gd
+msgid "EMISSIONS_OTHERSECTORS_NAME"
+msgstr ""
+
+#: ui/widgets/country_information_simple.gd
+msgid "EMISSIONS_OTHERINDUSTRIES_NAME"
+msgstr ""
+
+#: ui/widgets/country_information_simple.tscn
+msgid "FOSSIL_EMISSIONS_HEADER"
 msgstr ""

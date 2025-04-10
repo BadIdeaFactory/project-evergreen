@@ -1,0 +1,8 @@
+[gd_resource type="Theme" load_steps=2 format=3 uid="uid://ceegdaleojnsc"]
+
+[ext_resource type="FontFile" uid="uid://b1na1siagvmke" path="res://ui/fonts/poppins/Poppins-SemiBold.ttf" id="1_4aohw"]
+
+[resource]
+default_font = ExtResource("1_4aohw")
+default_font_size = 20
+Label/colors/font_color = Color(0.231373, 0.231373, 0.231373, 1)
