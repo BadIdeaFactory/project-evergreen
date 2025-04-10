@@ -1,10 +1,10 @@
 # LANGUAGE translation for project-evergreen for the following files:
-# res://entities/countries/usa.gd
 # res://ui/widgets/top_app_bar.tscn
 # res://ui/widgets/modal_loss.gd
 # res://ui/widgets/modal_loss.tscn
 # res://ui/widgets/country_information_simple.gd
 # res://ui/widgets/country_information_simple.tscn
+# res://entities/countries/country_names_and_keys_registry.gd
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -15,10 +15,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
-
-#: entities/countries/usa.gd
-msgid "COUNTRY_USA_NAME"
-msgstr ""
 
 #: ui/widgets/top_app_bar.tscn
 msgid "ATMOSPHERE_CARBON_DESCRIPTION"
@@ -66,4 +62,832 @@ msgstr ""
 
 #: ui/widgets/country_information_simple.tscn
 msgid "FOSSIL_EMISSIONS_HEADER"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_ABW_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_AFG_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_AGO_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_AIA_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_ALB_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_ANT_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_ARE_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_ARG_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_ARM_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_ATG_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_AUS_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_AUT_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_AZE_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_BDI_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_BEL_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_BEN_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_BFA_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_BGD_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_BGR_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_BHR_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_BHS_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_BIH_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_BLR_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_BLZ_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_BMU_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_BOL_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_BRA_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_BRB_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_BRN_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_BTN_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_BWA_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_CAF_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_CAN_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_CHE_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_CHL_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_CHN_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_CIV_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_CMR_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_COD_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_COG_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_COK_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_COL_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_COM_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_CPV_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_CRI_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_CUB_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_CYM_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_CYP_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_CZE_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_DEU_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_DJI_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_DMA_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_DNK_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_DOM_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_DZA_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_ECU_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_EGY_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_ERI_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_ESH_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_ESP_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_EST_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_ETH_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_FIN_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_FJI_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_FLK_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_FRA_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_GAB_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_GBR_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_GEO_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_GHA_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_GIB_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_GIN_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_GLP_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_GMB_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_GNB_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_GNQ_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_GRC_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_GRD_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_GRL_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_GTM_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_GUF_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_GUY_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_HKG_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_HND_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_HRV_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_HTI_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_HUN_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_IDN_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_IND_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_IRL_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_IRN_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_IRQ_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_ISL_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_ISR_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_ITA_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_JAM_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_JOR_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_JPN_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_KAZ_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_KEN_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_KGZ_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_KHM_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_KIR_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_KNA_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_KOR_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_KWT_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_LAO_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_LBN_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_LBR_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_LBY_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_LCA_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_LKA_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_LSO_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_LTU_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_LUX_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_LVA_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_MAC_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_MAR_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_MDA_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_MDG_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_MDV_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_MEX_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_MKD_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_MLI_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_MLT_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_MMR_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_MNG_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_MOZ_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_MRT_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_MTQ_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_MUS_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_MWI_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_MYS_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_NAM_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_NCL_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_NER_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_NGA_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_NIC_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_NLD_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_NOR_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_NPL_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_NZL_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_OMN_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_PAK_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_PAN_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_PER_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_PHL_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_PLW_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_PNG_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_POL_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_PRI_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_PRK_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_PRT_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_PRY_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_PYF_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_QAT_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_REU_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_ROU_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_RUS_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_RWA_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_SAU_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_SCG_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_SDN_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_SEN_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_SGP_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_SHN_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_SLB_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_SLE_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_SLV_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_SOM_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_SPM_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_STP_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_SUR_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_SVK_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_SVN_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_SWE_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_SWZ_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_SYC_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_SYR_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_TCA_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_TCD_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_TGO_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_THA_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_TJK_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_TKM_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_TLS_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_TON_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_TTO_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_TUN_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_TUR_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_TWN_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_TZA_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_UGA_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_UKR_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_URY_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_USA_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_UZB_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_VCT_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_VEN_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_VGB_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_VNM_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_VUT_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_WSM_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_YEM_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_ZAF_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_ZMB_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_ZWE_NAME"
 msgstr ""

@@ -18,10 +18,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.5\n"
 
-#: entities/countries/usa.gd
-msgid "COUNTRY_USA_NAME"
-msgstr "United States of America"
-
 #: ui/widgets/top_app_bar.tscn
 msgid "ATMOSPHERE_CARBON_DESCRIPTION"
 msgstr "Atmospheric CO₂ Levels"
@@ -79,6 +75,1038 @@ msgstr "Other Industries"
 #: ui/widgets/country_information_simple.tscn
 msgid "FOSSIL_EMISSIONS_HEADER"
 msgstr "Fossil Emissions (Mt CO₂/yr)"
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_ABW_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_AFG_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_AGO_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_AIA_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_ALB_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_ANT_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_ARE_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_ARG_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_ARM_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_ATG_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_AUS_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_AUT_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_AZE_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_BDI_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_BEL_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_BEN_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_BFA_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_BGD_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_BGR_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_BHR_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_BHS_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_BIH_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_BLR_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_BLZ_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_BMU_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_BOL_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_BRA_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_BRB_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_BRN_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_BTN_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_BWA_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_CAF_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_CAN_NAME"
+msgstr "Canada"
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_CHE_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_CHL_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_CHN_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_CIV_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_CMR_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_COD_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_COG_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_COK_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_COL_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_COM_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_CPV_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_CRI_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_CUB_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_CYM_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_CYP_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_CZE_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_DEU_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_DJI_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_DMA_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_DNK_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_DOM_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_DZA_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_ECU_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_EGY_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_ERI_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_ESH_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_ESP_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_EST_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_ETH_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_FIN_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_FJI_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_FLK_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_FRA_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_GAB_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_GBR_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_GEO_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_GHA_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_GIB_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_GIN_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_GLP_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_GMB_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_GNB_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_GNQ_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_GRC_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_GRD_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_GRL_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_GTM_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_GUF_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_GUY_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_HKG_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_HND_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_HRV_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_HTI_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_HUN_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_IDN_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_IND_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_IRL_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_IRN_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_IRQ_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_ISL_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_ISR_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_ITA_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_JAM_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_JOR_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_JPN_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_KAZ_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_KEN_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_KGZ_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_KHM_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_KIR_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_KNA_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_KOR_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_KWT_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_LAO_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_LBN_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_LBR_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_LBY_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_LCA_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_LKA_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_LSO_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_LTU_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_LUX_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_LVA_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_MAC_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_MAR_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_MDA_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_MDG_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_MDV_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_MEX_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_MKD_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_MLI_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_MLT_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_MMR_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_MNG_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_MOZ_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_MRT_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_MTQ_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_MUS_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_MWI_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_MYS_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_NAM_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_NCL_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_NER_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_NGA_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_NIC_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_NLD_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_NOR_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_NPL_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_NZL_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_OMN_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_PAK_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_PAN_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_PER_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_PHL_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_PLW_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_PNG_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_POL_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_PRI_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_PRK_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_PRT_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_PRY_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_PYF_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_QAT_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_REU_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_ROU_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_RUS_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_RWA_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_SAU_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_SCG_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_SDN_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_SEN_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_SGP_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_SHN_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_SLB_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_SLE_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_SLV_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_SOM_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_SPM_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_STP_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_SUR_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_SVK_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_SVN_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_SWE_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_SWZ_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_SYC_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_SYR_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_TCA_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_TCD_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_TGO_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_THA_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_TJK_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_TKM_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_TLS_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_TON_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_TTO_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_TUN_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_TUR_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_TWN_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_TZA_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_UGA_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_UKR_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_URY_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_USA_NAME"
+msgstr "United States of America"
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_UZB_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_VCT_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_VEN_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_VGB_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_VNM_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_VUT_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_WSM_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_YEM_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_ZAF_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_ZMB_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_ZWE_NAME"
+msgstr ""
 
 #~ msgid "ppm"
 #~ msgstr "ppm"
