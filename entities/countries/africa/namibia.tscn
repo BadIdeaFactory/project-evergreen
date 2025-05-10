@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://b2x5vygrjlc4c"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_4vdfq"]
+[ext_resource type="Texture2D" uid="uid://b8f03yvwbd6tt" path="res://art/countries/africa/namibia.png" id="2_05k7m"]
+
+[node name="Namibia" instance=ExtResource("1_4vdfq")]
+country_code = 133
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_05k7m")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-40.5, -42, -40.5, -33, -37.9, -33, -37.5, -32.6, -37.5, -30, -34.9, -30, -34.5, -29.6, -34.5, -27.4, -31.7, -26, -31.5, -21, -28.9, -21, -28.5, -20.6, -28.5, -18, -25.9, -18, -25.5, -17.6, -25.5, -15.4, -22.7, -14, -22.5, 5.7, -19.5, 6.6, -19.5, 24, -16.9, 24, -16.5, 24.4, -16.5, 27, -13.9, 27, -13.5, 27.4, -13.5, 30, -10.9, 30, -10.5, 30.4, -10.5, 32.7, -7.5, 33.6, -7.5, 35.7, -6.3, 36.2, -3.5, 33.4, -2.2, 33, -1.2, 36, 13.2, 36, 14.2, 33, 16.5, 33, 17.5, 12, 19.2, 12, 19.7, 10.6, 16.5, 8.4, 16.5, -11.6, 16.9, -12, 19.2, -12, 20.2, -15, 22.5, -15, 22.5, -36, 7.9, -36, 7.5, -36.4, 7.5, -38.7, 4.5, -39.7, 4.5, -42)

@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://g4y3wt41fx07"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_lywis"]
+[ext_resource type="Texture2D" uid="uid://cooibadfob3vp" path="res://art/countries/africa/madagascar.png" id="2_aeocc"]
+
+[node name="Madagascar" instance=ExtResource("1_lywis")]
+country_code = 119
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_aeocc")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(15, -48, 15, -45.4, 14.6, -45, 12.3, -45, 11.3, -42, 9, -42, 9, -36.4, 8.6, -36, 6, -36, 6, -33.5, 2, -30.5, -6, -30, -6, -27.4, -6.4, -27, -9, -27, -9, -24.4, -9.4, -24, -12, -24, -12, -21.4, -12.4, -21, -14.7, -21, -15.7, -18, -18, -18, -18, -12.4, -15.2, -11, -15, 5.3, -18, 6.3, -18, 33, -15.4, 33, -15, 33.4, -15, 36, -12.4, 36, -12, 36.4, -12, 38.7, -9, 39.6, -9, 42, -3.3, 42, -2.3, 39, 3, 39, 3, 36.4, 3.4, 36, 5.7, 36, 6.7, 33, 8.8, 33, 9.9, 27, 12, 27, 12, 15.4, 12.4, 15, 15, 15, 15, 6.6, 18, 5.7, 18, -5.6, 18.4, -6, 20.7, -6, 21.7, -9, 23.7, -9, 24.2, -10.4, 21, -12.6, 21, -20.6, 21.4, -21, 24, -21, 24, -23.6, 24.4, -24, 26.7, -24, 27.7, -27, 30, -27, 30, -32.7, 27, -33.7, 27, -44.7, 24, -45.7, 24, -48)

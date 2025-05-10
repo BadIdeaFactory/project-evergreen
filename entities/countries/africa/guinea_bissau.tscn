@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://dce5c680wbxqp"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_jf3av"]
+[ext_resource type="Texture2D" uid="uid://csrm1aq60nnkm" path="res://art/countries/africa/guineabissau.png" id="2_6wucw"]
+
+[node name="GuineaBissau" instance=ExtResource("1_jf3av")]
+country_code = 74
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_6wucw")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-5, -2.5, -5, 3.5, -2.4, 3.5, -2, 3.9, -2, 6.5, 0.599998, 6.5, 1, 6.9, 1, 9.2, 4, 10.1, 4, 12.2, 5.4, 12.7, 7.5, 9.5, 9.7, 9.5, 10.7, 6.5, 15.7, 6.5, 16.7, 3.5, 18.7, 3.5, 19.2, 2.1, 16, -0.0999985, 16, -2.5)

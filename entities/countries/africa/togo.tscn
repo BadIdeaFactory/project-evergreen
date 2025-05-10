@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://bnmfguby61qmg"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_jewtc"]
+[ext_resource type="Texture2D" uid="uid://drf2i5rg7id22" path="res://art/countries/africa/togo.png" id="2_mbs0f"]
+
+[node name="Togo" instance=ExtResource("1_jewtc")]
+country_code = 181
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_mbs0f")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-10.6, -27.7, -12, -27.2, -12, -24.9, -12.4, -24.5, -15, -24.5, -15, -15.8, -12, -14.9, -12, 5.2, -9, 6.1, -9, 8.5, -3.3, 8.5, -2.3, 5.5, 0, 5.5, 0, -15.5, -2.6, -15.5, -3, -15.9, -3, -18.1, -5.8, -19.5, -6, -24.5, -8.5, -24.5)

@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://c4keicehtjwq"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_54afo"]
+[ext_resource type="Texture2D" uid="uid://jg64h6eoqyj5" path="res://art/countries/africa/burundi.png" id="2_pvji6"]
+
+[node name="Country" instance=ExtResource("1_54afo")]
+country_code = 13
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_pvji6")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(0.5, -1, 0.5, 0.599998, -1.9, 3, -3.5, 3, -3.5, 11.5, 0.5, 14.5, 0.5, 15.7, 1.7, 16.2, 5.9, 12, 7.5, 12, 7.5, 6.6, 8.7, 6, 10.2, 6, 10.7, 4.8, 6.5, 0.599998, 6.5, -1)

@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://dgyo0u7qujo5l"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_a7qbm"]
+[ext_resource type="Texture2D" uid="uid://bfseqwv0oxp3l" path="res://art/countries/africa/liberia.png" id="2_38mcy"]
+
+[node name="Liberia" instance=ExtResource("1_a7qbm")]
+country_code = 108
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_38mcy")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(1, -16.5, 1, -13.9, 0.599998, -13.5, -1.7, -13.5, -2.7, -10.5, -5, -10.5, -5, -4.8, -2, -3.9, -2, -1.5, 6.6, -1.5, 7, -1.1, 7, 1.2, 10, 2.1, 10, 4.4, 19, 5.4, 19, 7.5, 24.7, 7.5, 25.7, 4.5, 28, 4.5, 28, -1.5, 25.4, -1.5, 25, -1.9, 25, -4.1, 22.2, -5.5, 22, -10.2, 19, -11.2, 19, -13.2, 17.6, -13.7, 15.5, -10.5, 13.4, -10.5, 13, -10.9, 13, -13.2, 10, -14.2, 10, -16.5)

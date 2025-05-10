@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://cqgmhlbn41vkj"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_avgw5"]
+[ext_resource type="Texture2D" uid="uid://cfcwk4d14e63o" path="res://art/countries/africa/angola.png" id="2_13rcx"]
+
+[node name="Country" instance=ExtResource("1_avgw5")]
+country_code = 2
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_13rcx")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-41.3, -45.2, -42.5, -44.7, -42.5, -43.5, -46.5, -40.5, -46.5, -38.5, -42.5, -35.5, -42.5, -34.3, -41.3, -33.8, -37.1, -38, -35.8, -38, -35.3, -39.2)
+
+[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="." index="3"]
+polygon = PackedVector2Array(-36.5, -36, -36.5, -34.4, -41.9, -29, -43.5, -29, -43.5, -23.6, -41.9, -22, -40.2, -22, -39.2, -19, -37.5, -19, -37.5, -14.7, -40.5, -13.7, -40.5, -11.6, -38.9, -10, -37.2, -10, -36.2, -7, -34.5, -7, -34.5, 6, -36, 6, -39, 10, -40.5, 10, -40.5, 15.4, -41.7, 16, -43.5, 16, -43.5, 21.4, -44.7, 22, -46.5, 22, -46.5, 36.5, -42.5, 39.5, -42.5, 41, -1.5, 41, -1.5, 42.5, 2.5, 45.5, 2.5, 47, 17.2, 47, 18.2, 44, 25.9, 44, 27.5, 42.4, 27.5, 40.6, 28.7, 40, 30.5, 40, 30.5, 19.3, 27.5, 18.3, 27.5, 14, 40.9, 14, 42.5, 12.4, 42.5, 10.6, 43.7, 10, 45.5, 10, 45.5, 4.3, 42.5, 3.3, 42.5, -1.5, 38.5, -4.5, 38.5, -6, 32.8, -6, 31.8, -3, 30.4, -3, 29.4, -12, 27.5, -12, 27.5, -19.4, 30.5, -20.3, 30.5, -25.5, 26.5, -28.5, 26.5, -30, 9, -30, 6, -26, 4.5, -26, 4.5, -24, -5.5, -24, -5.5, -25.7, -8.5, -26.7, -8.5, -31.5, -12.5, -34.5, -12.5, -36)

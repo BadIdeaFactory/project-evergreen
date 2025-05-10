@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://bqrg77his18xa"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_oqudg"]
+[ext_resource type="Texture2D" uid="uid://d0q3kct0rtsvt" path="res://art/countries/africa/burkinafaso.png" id="2_pxdxs"]
+
+[node name="Country" instance=ExtResource("1_oqudg")]
+country_code = 16
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_pxdxs")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(0, -15.5, 0, -13.9, -2.4, -11.5, -4, -11.5, -4, -9.5, -8.7, -9.5, -9.7, -6.5, -14.4, -6.5, -16, -4.9, -16, -3.5, -17.4, -3.5, -19, -1.9, -19, -0.5, -20.5, -0.5, -23.5, 3.5, -25, 3.5, -25, 8.9, -26.2, 9.5, -27.7, 9.5, -28.2, 10.7, -18, 20.9, -18, 22.5, -9.6, 22.5, -8, 20.9, -8, 19.1, -5, 18.2, -5, 13.4, 13, 12.4, 13, 10.5, 14.3, 10.5, 15.3, 13.5, 17.4, 13.5, 19, 11.9, 19, 10.5, 20.4, 10.5, 22, 8.9, 22, 7.5, 23.4, 7.5, 25, 5.9, 25, 4.1, 28, 3.2, 28, 1.1, 26.4, -0.5, 24.7, -0.5, 23.7, -3.5, 19, -3.5, 19, -4.9, 17.4, -6.5, 16, -6.5, 16, -7.9, 14.4, -9.5, 13, -9.5, 13, -11, 9, -14, 9, -15.5)

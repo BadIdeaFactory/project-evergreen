@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://dmlit3boym3nr"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_0oeke"]
+[ext_resource type="Texture2D" uid="uid://cjnxsru2v0scd" path="res://art/countries/africa/sierraleone.png" id="2_03ubs"]
+
+[node name="SierraLeone" instance=ExtResource("1_0oeke")]
+country_code = 167
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_03ubs")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(7.4, -8.2, 6, -7.7, 6, -5.4, 5.6, -5, -2.7, -5, -3.7, -2, -6, -2, -6, 4, -3.5, 4, -0.5, 8, 0, 10, 12, 10, 12, 7.6, 15, 6.7, 15, -2, 12.4, -2, 12, -2.4, 12, -5, 9.5, -5)

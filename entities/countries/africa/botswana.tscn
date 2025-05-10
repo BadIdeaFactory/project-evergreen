@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://bqmbcyl156evf"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_vffmq"]
+[ext_resource type="Texture2D" uid="uid://d2q7eviqix0v" path="res://art/countries/africa/botswana.png" id="2_ojk1t"]
+
+[node name="Country" instance=ExtResource("1_vffmq")]
+country_code = 30
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_ojk1t")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-16.5, -28.6, -16.5, -26.2, -17.1, -25, -25, -25, -28, -21, -29.5, -21, -29.5, -1, -31, -1, -34, 3, -35.5, 3, -35.5, 23.4, -33.9, 25, -32.2, 25, -31.2, 28, -29.5, 28, -29.5, 32.5, -25.5, 35.5, -25.5, 37, -17.1, 37, -15.5, 35.4, -15.5, 33.6, -14.3, 33, -12.5, 33, -12.5, 31, 6.9, 31, 8.5, 29.4, 8.5, 27.6, 11.5, 26.7, 11.5, 25, 15.9, 25, 17.5, 23.4, 17.5, 22, 18.9, 22, 20.5, 20.4, 20.5, 19, 21.9, 19, 23.5, 17.4, 23.5, 16, 24.9, 16, 26.5, 14.4, 26.5, 12.6, 29.5, 11.7, 29.5, 10, 33.9, 10, 35.5, 8.4, 35.5, 6.6, 36.7, 6, 39.1, 6, 37.1, 2, 35.2, 2, 34.2, -1, 29.5, -1, 29.5, -2.4, 27.9, -4, 26.5, -4, 26.5, -5.4, 24.9, -7, 23.5, -7, 23.5, -8.4, 21.9, -10, 20.2, -10, 19.2, -13, 17.5, -13, 17.5, -17.4, 15.9, -19, 14.5, -19, 14.5, -20.5, 10.5, -23.5, 10.5, -25, -12.5, -25, -12.5, -26.6)

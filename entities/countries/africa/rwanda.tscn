@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://b4gf3f1y3aqhl"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_pmvgk"]
+[ext_resource type="Texture2D" uid="uid://chtyosng1ijvx" path="res://art/countries/africa/rwanda.png" id="2_0xvl3"]
+
+[node name="Rwanda" instance=ExtResource("1_pmvgk")]
+country_code = 159
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_0xvl3")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-15.5, -9, -15.5, -6.4, -15.9, -6, -18.5, -6, -18.5, -3.4, -18.9, -3, -21.2, -3, -22.2, 0, -24.2, 0, -24.7, 1.4, -21.5, 3.5, -21.5, 6, -15.8, 6, -14.8, 3, -9.5, 3, -9.5, 0.400002, -9.1, 0, -6.8, 0, -5.8, -3, -3.8, -3, -3.3, -4.4, -6.5, -6.6, -6.5, -9)

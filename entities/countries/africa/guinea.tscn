@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://dy36iogk7lttr"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_vl5s8"]
+[ext_resource type="Texture2D" uid="uid://dlsos46j4lh3n" path="res://art/countries/africa/guinea.png" id="2_22vds"]
+
+[node name="Guinea" instance=ExtResource("1_vl5s8")]
+country_code = 71
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_22vds")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(3.9, -12.2, 2.5, -11.7, 2.5, -9.4, 2.1, -9, -9.5, -9, -9.5, -6.7, -12.5, -5.7, -12.5, -0.400002, -12.9, 0, -18.5, 0, -18.5, 2.6, -18.9, 3, -21.2, 3, -22.2, 6, -24.2, 6, -24.7, 7.4, -21.5, 9.5, -21.5, 11.7, -18.5, 12.6, -18.5, 15, -9.8, 15, -8.8, 12, -0.799999, 12, 0.200001, 9, 2.1, 9, 2.5, 9.4, 2.5, 11.7, 5.5, 12.6, 5.5, 18, 7.8, 18, 8.8, 21, 14.1, 21, 14.5, 21.4, 14.5, 23.6, 17.3, 25, 17.5, 27, 20.5, 27, 20.5, 24.4, 20.9, 24, 23.5, 24, 23.5, 21.4, 23.9, 21, 26.2, 21, 27.2, 18, 29.5, 18, 29.5, 12.3, 26.5, 11.3, 26.5, 0, 23.9, 0, 23.5, -0.400002, 23.5, -3, 20.9, -3, 20.5, -3.4, 20.5, -5.7, 17.5, -6.7, 17.5, -9, 6, -9)

@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://cql00wtjf705d"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_1p2of"]
+[ext_resource type="Texture2D" uid="uid://c2bw2g4n3fr22" path="res://art/countries/africa/thegambia.png" id="2_egiem"]
+
+[node name="TheGambia" instance=ExtResource("1_1p2of")]
+country_code = 73
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_egiem")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(5.5, -5.5, 5.5, -2.9, 5.1, -2.5, 2.8, -2.5, 2.3, -1.1, 5.5, 1, 5.5, 3.5, 20.2, 3.5, 21.2, 0.5, 23.2, 0.5, 23.7, -0.900002, 20.5, -3.1, 20.5, -5.5)

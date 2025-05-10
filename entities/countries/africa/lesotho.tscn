@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://bn1u18q1ebboa"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_2hl8g"]
+[ext_resource type="Texture2D" uid="uid://i4gcokfp3ljf" path="res://art/countries/africa/lesotho.png" id="2_2oxxw"]
+
+[node name="Lesotho" instance=ExtResource("1_2hl8g")]
+country_code = 112
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_2oxxw")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-5.1, -12.7, -6.5, -12.2, -6.5, -9.9, -6.9, -9.5, -9.5, -9.5, -9.5, -6.9, -9.9, -6.5, -12.2, -6.5, -13.2, -3.5, -15.5, -3.5, -15.5, 2.5, -13.2, 2.5, -12.2, 5.5, -3.5, 5.5, -3.5, 3, 0.5, 0, 2.5, -0.5, 2.5, -6.5, -0.0999985, -6.5, -0.5, -6.9, -0.5, -9.5, -3, -9.5)

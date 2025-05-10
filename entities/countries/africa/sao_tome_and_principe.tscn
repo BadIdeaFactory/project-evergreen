@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://bboocnoult1mj"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_nc60r"]
+[ext_resource type="Texture2D" uid="uid://0xnxv8b08d6r" path="res://art/countries/africa/saotomeandprincipe.png" id="2_ktkwk"]
+
+[node name="SaoTomeAndPrincipe" instance=ExtResource("1_nc60r")]
+country_code = 171
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_ktkwk")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-0.799999, -4.2, -2, -3.7, -2, -1.7, -5, -0.700001, -5, 1.7, -2, 2.6, -2, 4.7, -0.599998, 5.2, 1.5, 2, 3.7, 2, 4.2, 0.799999)

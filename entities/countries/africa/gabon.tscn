@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://dley07xgrg7yt"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_8snud"]
+[ext_resource type="Texture2D" uid="uid://db7eovrewftrk" path="res://art/countries/africa/gabon.png" id="2_re1uy"]
+
+[node name="Gabon" instance=ExtResource("1_8snud")]
+country_code = 66
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_re1uy")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(3, -22.5, 3, -20, -1, -17, -9, -16.5, -9, -14.2, -12, -13.2, -12, 1.5, -9.4, 1.5, -9, 1.9, -9, 4.5, -6.4, 4.5, -6, 4.9, -6, 7.2, -3, 8.1, -3, 10.5, 6, 10.5, 6, 7.9, 6.4, 7.5, 8.7, 7.5, 9.7, 4.5, 23.7, 4.5, 24.7, 1.5, 27, 1.5, 27, -7.1, 24.2, -8.5, 24, -9.9, 27, -10.8, 27, -16.2, 24, -17.2, 24, -19.3, 18, -20.4, 18, -22.5)

@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://caxd3vlv7etkk"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_2134k"]
+[ext_resource type="Texture2D" uid="uid://cph7bnhonkvbl" path="res://art/countries/africa/benin.png" id="2_k6rxg"]
+
+[node name="Country" instance=ExtResource("1_2134k")]
+country_code = 15
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_k6rxg")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-7, -21.5, -7, -19.9, -15.4, -11.5, -17, -11.5, -17, -6, -13, -3, -13, -1.5, -11, -1.5, -11, 18, -7, 21, -7, 22.5, -1.6, 22.5, 0, 20.9, 0, 19.1, 1.2, 18.5, 2.7, 18.5, 3.2, 17.3, 2, 16.1, 2, 14.5, 0, 14.5, 0, 4.5, 1.4, 4.5, 3, 2.9, 3, 1.1, 4.2, 0.5, 6, 0.5, 6, -4.9, 7.2, -5.5, 8.7, -5.5, 9.2, -6.7, 8, -7.9, 8, -9.5, 6, -9.5, 6, -17, 2, -20, 2, -21.5)

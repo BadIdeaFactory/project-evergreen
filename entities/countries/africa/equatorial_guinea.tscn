@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://cbjlofutqq2yn"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_d25oi"]
+[ext_resource type="Texture2D" uid="uid://ctba7kuxtsxnw" path="res://art/countries/africa/equitorialguinea.png" id="2_oto58"]
+
+[node name="EquatorialGuinea" instance=ExtResource("1_d25oi")]
+country_code = 75
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_oto58")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(4, -2, 4, 0.5, 0, 3.5, -2, 4, -2, 6.7, 1, 7.6, 1, 10, 9.7, 10, 10.7, 7, 13, 7, 13, 1.3, 10, 0.299999, 10, -2)

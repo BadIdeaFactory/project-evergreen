@@ -1,14 +1,68 @@
-[gd_scene load_steps=4 format=3 uid="uid://xlfbl7fowoic"]
+[gd_scene load_steps=58 format=3 uid="uid://xlfbl7fowoic"]
 
 [ext_resource type="Texture2D" uid="uid://xrpjeff551cv" path="res://art/PixelWorldMap_All_Countries_3x_Green.png" id="1_g7ewq"]
 [ext_resource type="PackedScene" uid="uid://bsbcdmesjv6qv" path="res://entities/countries/usa.tscn" id="2_srtnd"]
 [ext_resource type="PackedScene" uid="uid://cmhrepm0sn766" path="res://entities/countries/canada.tscn" id="3_f7adm"]
+[ext_resource type="PackedScene" uid="uid://b0vtlhn6w422p" path="res://entities/countries/africa/algeria.tscn" id="4_uqfyt"]
+[ext_resource type="PackedScene" uid="uid://cqgmhlbn41vkj" path="res://entities/countries/africa/angola.tscn" id="5_s26wb"]
+[ext_resource type="PackedScene" uid="uid://caxd3vlv7etkk" path="res://entities/countries/africa/benin.tscn" id="6_s24bq"]
+[ext_resource type="PackedScene" uid="uid://bqmbcyl156evf" path="res://entities/countries/africa/botswana.tscn" id="7_r2nrf"]
+[ext_resource type="PackedScene" uid="uid://bqrg77his18xa" path="res://entities/countries/africa/burkinafaso.tscn" id="8_vcf0u"]
+[ext_resource type="PackedScene" uid="uid://c4keicehtjwq" path="res://entities/countries/africa/burundi.tscn" id="9_f7hyo"]
+[ext_resource type="PackedScene" uid="uid://b81o06qog36rq" path="res://entities/countries/africa/cameroon.tscn" id="10_sgyrm"]
+[ext_resource type="PackedScene" uid="uid://oua5ocwd1xnh" path="res://entities/countries/africa/capeverde.tscn" id="11_3rp1n"]
+[ext_resource type="PackedScene" uid="uid://c5s34a77m5kn4" path="res://entities/countries/africa/centralafricanrepublic.tscn" id="12_1b1vi"]
+[ext_resource type="PackedScene" uid="uid://cmv1p5l3y5gr" path="res://entities/countries/africa/chad.tscn" id="13_0npwy"]
+[ext_resource type="PackedScene" uid="uid://nabp35wfxu0w" path="res://entities/countries/africa/comoros.tscn" id="14_56eky"]
+[ext_resource type="PackedScene" uid="uid://cr3fbv32sev8q" path="res://entities/countries/africa/democratic_republic_of_the_congo.tscn" id="15_7ok4c"]
+[ext_resource type="PackedScene" uid="uid://byq7j8uok63db" path="res://entities/countries/africa/djibouti.tscn" id="16_mval2"]
+[ext_resource type="PackedScene" uid="uid://bykmx6g378cqi" path="res://entities/countries/africa/egypt.tscn" id="17_x5cxk"]
+[ext_resource type="PackedScene" uid="uid://cbjlofutqq2yn" path="res://entities/countries/africa/equatorial_guinea.tscn" id="18_53qa6"]
+[ext_resource type="PackedScene" uid="uid://bkhqrmahopmgm" path="res://entities/countries/africa/eritrea.tscn" id="19_4q6py"]
+[ext_resource type="PackedScene" uid="uid://dki15bmjchoae" path="res://entities/countries/africa/eswatini.tscn" id="20_2uhnc"]
+[ext_resource type="PackedScene" uid="uid://cjc2va6uxi53t" path="res://entities/countries/africa/ethiopia.tscn" id="21_wm7nl"]
+[ext_resource type="PackedScene" uid="uid://dley07xgrg7yt" path="res://entities/countries/africa/gabon.tscn" id="22_6x4q4"]
+[ext_resource type="PackedScene" uid="uid://crait1o2plk0e" path="res://entities/countries/africa/ghana.tscn" id="23_pye10"]
+[ext_resource type="PackedScene" uid="uid://dy36iogk7lttr" path="res://entities/countries/africa/guinea.tscn" id="24_iyo4j"]
+[ext_resource type="PackedScene" uid="uid://dce5c680wbxqp" path="res://entities/countries/africa/guinea_bissau.tscn" id="25_nkwv1"]
+[ext_resource type="PackedScene" uid="uid://cwhuqg7ju37kc" path="res://entities/countries/africa/ivory_coast.tscn" id="26_6hsld"]
+[ext_resource type="PackedScene" uid="uid://cueiw0v045ep5" path="res://entities/countries/africa/kenya.tscn" id="27_q73i5"]
+[ext_resource type="PackedScene" uid="uid://bn1u18q1ebboa" path="res://entities/countries/africa/lesotho.tscn" id="28_0e4oh"]
+[ext_resource type="PackedScene" uid="uid://dgyo0u7qujo5l" path="res://entities/countries/africa/liberia.tscn" id="29_8a0wm"]
+[ext_resource type="PackedScene" uid="uid://64pv7sxvjsi5" path="res://entities/countries/africa/libya.tscn" id="30_bg06n"]
+[ext_resource type="PackedScene" uid="uid://g4y3wt41fx07" path="res://entities/countries/africa/madagascar.tscn" id="31_73ern"]
+[ext_resource type="PackedScene" uid="uid://df7yvfkb08dx2" path="res://entities/countries/africa/malawi.tscn" id="32_eprae"]
+[ext_resource type="PackedScene" uid="uid://cve7ph7c7xyew" path="res://entities/countries/africa/mali.tscn" id="33_m3k11"]
+[ext_resource type="PackedScene" uid="uid://c1ohgy4v8i44e" path="res://entities/countries/africa/mauritania.tscn" id="34_v26y0"]
+[ext_resource type="PackedScene" uid="uid://dfjf71nqbdb8c" path="res://entities/countries/africa/mauritius.tscn" id="35_1w87s"]
+[ext_resource type="PackedScene" uid="uid://bvtnd0ibtt0ng" path="res://entities/countries/africa/morocco.tscn" id="36_fv08r"]
+[ext_resource type="PackedScene" uid="uid://bq6ilyj0tbtm2" path="res://entities/countries/africa/mozambique.tscn" id="37_uhypi"]
+[ext_resource type="PackedScene" uid="uid://b2x5vygrjlc4c" path="res://entities/countries/africa/namibia.tscn" id="38_1d3ee"]
+[ext_resource type="PackedScene" uid="uid://dxeulf805mniv" path="res://entities/countries/africa/niger.tscn" id="39_qqj48"]
+[ext_resource type="PackedScene" uid="uid://d170cb78husoe" path="res://entities/countries/africa/nigeria.tscn" id="40_2qsb3"]
+[ext_resource type="PackedScene" uid="uid://bicj46mkgk7qr" path="res://entities/countries/africa/republic_of_the_congo.tscn" id="41_5ql0q"]
+[ext_resource type="PackedScene" uid="uid://b4gf3f1y3aqhl" path="res://entities/countries/africa/rwanda.tscn" id="42_tooyu"]
+[ext_resource type="PackedScene" uid="uid://bboocnoult1mj" path="res://entities/countries/africa/sao_tome_and_principe.tscn" id="43_b0hcs"]
+[ext_resource type="PackedScene" uid="uid://buxwxsc8b5far" path="res://entities/countries/africa/senegal.tscn" id="44_d4q0o"]
+[ext_resource type="PackedScene" uid="uid://cqv08vfsja7sr" path="res://entities/countries/africa/seychelles.tscn" id="45_40fyb"]
+[ext_resource type="PackedScene" uid="uid://dmlit3boym3nr" path="res://entities/countries/africa/sierra_leone.tscn" id="46_fb5ty"]
+[ext_resource type="PackedScene" uid="uid://b1k2q52nolxh6" path="res://entities/countries/africa/somalia.tscn" id="47_a6u2i"]
+[ext_resource type="PackedScene" uid="uid://66m4jntweh0c" path="res://entities/countries/africa/south_africa.tscn" id="48_j6mws"]
+[ext_resource type="PackedScene" uid="uid://5o3huqc4mxl3" path="res://entities/countries/africa/sudan_and_south_sudan.tscn" id="49_2m20n"]
+[ext_resource type="PackedScene" uid="uid://bgxcvqhqx4i7h" path="res://entities/countries/africa/tanzania.tscn" id="50_b1nj8"]
+[ext_resource type="PackedScene" uid="uid://cql00wtjf705d" path="res://entities/countries/africa/the_gambia.tscn" id="51_cj5ti"]
+[ext_resource type="PackedScene" uid="uid://bnmfguby61qmg" path="res://entities/countries/africa/togo.tscn" id="52_58wmo"]
+[ext_resource type="PackedScene" uid="uid://b3qr1cph3se0g" path="res://entities/countries/africa/tunisia.tscn" id="53_j74jr"]
+[ext_resource type="PackedScene" uid="uid://bb1ssppcam8nc" path="res://entities/countries/africa/uganda.tscn" id="54_8gx11"]
+[ext_resource type="PackedScene" uid="uid://c8onyug37hqxu" path="res://entities/countries/africa/western_sahara.tscn" id="55_xdva8"]
+[ext_resource type="PackedScene" uid="uid://codfqqawkhprh" path="res://entities/countries/africa/zambia.tscn" id="56_bdgoa"]
+[ext_resource type="PackedScene" uid="uid://datyrk4pvu0sd" path="res://entities/countries/africa/zimbabwe.tscn" id="57_aj60n"]
 
 [node name="WorldMap" type="Node2D"]
 
 [node name="WorldMapImage" type="TextureRect" parent="."]
-offset_right = 40.0
-offset_bottom = 40.0
+offset_right = 2562.0
+offset_bottom = 1620.0
 texture = ExtResource("1_g7ewq")
 
 [node name="Countries" type="Node" parent="."]
@@ -18,5 +72,169 @@ position = Vector2(1281, 810)
 
 [node name="Canada" parent="Countries" instance=ExtResource("3_f7adm")]
 position = Vector2(1281, 810)
+
+[node name="Africa" type="Node" parent="Countries"]
+
+[node name="Algeria" parent="Countries/Africa" instance=ExtResource("4_uqfyt")]
+position = Vector2(1242, 842)
+
+[node name="Angola" parent="Countries/Africa" instance=ExtResource("5_s26wb")]
+position = Vector2(1338, 1083)
+
+[node name="Benin" parent="Countries/Africa" instance=ExtResource("6_s24bq")]
+position = Vector2(1231, 956)
+
+[node name="Botswana" parent="Countries/Africa" instance=ExtResource("7_r2nrf")]
+position = Vector2(1382, 1146)
+
+[node name="BurkinaFaso" parent="Countries/Africa" instance=ExtResource("8_vcf0u")]
+position = Vector2(1200, 935)
+
+[node name="Burundi" parent="Countries/Africa" instance=ExtResource("9_f7hyo")]
+position = Vector2(1422, 1026)
+
+[node name="Cameroon" parent="Countries/Africa" instance=ExtResource("10_sgyrm")]
+position = Vector2(1305, 973)
+
+[node name="CapeVerde" parent="Countries/Africa" instance=ExtResource("11_3rp1n")]
+position = Vector2(1036, 913)
+
+[node name="CentralAfricanRepublic" parent="Countries/Africa" instance=ExtResource("12_1b1vi")]
+position = Vector2(1356, 971)
+
+[node name="Chad" parent="Countries/Africa" instance=ExtResource("13_0npwy")]
+position = Vector2(1345, 925)
+
+[node name="Comoros" parent="Countries/Africa" instance=ExtResource("14_56eky")]
+position = Vector2(1512, 1082)
+
+[node name="DemocraticRepublicOfTheCongo" parent="Countries/Africa" instance=ExtResource("15_7ok4c")]
+position = Vector2(1367, 1035)
+
+[node name="Djibouti" parent="Countries/Africa" instance=ExtResource("16_mval2")]
+position = Vector2(1516, 949)
+
+[node name="Egypt" parent="Countries/Africa" instance=ExtResource("17_x5cxk")]
+position = Vector2(1430, 847)
+
+[node name="EquatorialGuinea" parent="Countries/Africa" instance=ExtResource("18_53qa6")]
+position = Vector2(1277, 1001)
+
+[node name="Eritrea" parent="Countries/Africa" instance=ExtResource("19_4q6py")]
+position = Vector2(1501, 927)
+
+[node name="Eswatini" parent="Countries/Africa" instance=ExtResource("20_2uhnc")]
+position = Vector2(1432, 1173)
+
+[node name="Ethiopia" parent="Countries/Africa" instance=ExtResource("21_wm7nl")]
+position = Vector2(1495, 952)
+
+[node name="Gabon" parent="Countries/Africa" instance=ExtResource("22_6x4q4")]
+position = Vector2(1287, 1025)
+
+[node name="Ghana" parent="Countries/Africa" instance=ExtResource("23_pye10")]
+position = Vector2(1201, 965)
+
+[node name="Guinea" parent="Countries/Africa" instance=ExtResource("24_iyo4j")]
+position = Vector2(1128, 945)
+
+[node name="GuineaBissau" parent="Countries/Africa" instance=ExtResource("25_nkwv1")]
+position = Vector2(1100, 942)
+
+[node name="IvoryCoast" parent="Countries/Africa" instance=ExtResource("26_6hsld")]
+position = Vector2(1168, 961)
+
+[node name="Kenya" parent="Countries/Africa" instance=ExtResource("27_q73i5")]
+position = Vector2(1476, 1006)
+
+[node name="Lesotho" parent="Countries/Africa" instance=ExtResource("28_0e4oh")]
+position = Vector2(1413, 1204)
+
+[node name="Liberia" parent="Countries/Africa" instance=ExtResource("29_8a0wm")]
+position = Vector2(1133, 980)
+
+[node name="Libya" parent="Countries/Africa" instance=ExtResource("30_bg06n")]
+position = Vector2(1337, 846)
+
+[node name="Madagascar" parent="Countries/Africa" instance=ExtResource("31_73ern")]
+position = Vector2(1536, 1137)
+
+[node name="Malawi" parent="Countries/Africa" instance=ExtResource("32_eprae")]
+position = Vector2(1455, 1093)
+
+[node name="Mali" parent="Countries/Africa" instance=ExtResource("33_m3k11")]
+position = Vector2(1170, 905)
+
+[node name="Mauritania" parent="Countries/Africa" instance=ExtResource("34_v26y0")]
+position = Vector2(1139, 896)
+
+[node name="Mauritius" parent="Countries/Africa" instance=ExtResource("35_1w87s")]
+position = Vector2(1606, 1141)
+
+[node name="Morocco" parent="Countries/Africa" instance=ExtResource("36_fv08r")]
+position = Vector2(1162, 815)
+
+[node name="Mozambique" parent="Countries/Africa" instance=ExtResource("37_uhypi")]
+position = Vector2(1454, 1137)
+
+[node name="Namibia" parent="Countries/Africa" instance=ExtResource("38_1d3ee")]
+position = Vector2(1333, 1161)
+
+[node name="Niger" parent="Countries/Africa" instance=ExtResource("39_qqj48")]
+position = Vector2(1274, 916)
+
+[node name="Nigeria" parent="Countries/Africa" instance=ExtResource("40_2qsb3")]
+position = Vector2(1263, 951)
+
+[node name="RepublicOfTheCongo" parent="Countries/Africa" instance=ExtResource("41_5ql0q")]
+position = Vector2(1321, 1036)
+
+[node name="Rwanda" parent="Countries/Africa" instance=ExtResource("42_tooyu")]
+position = Vector2(1438, 1026)
+
+[node name="SaoTomeAndPrincipe" parent="Countries/Africa" instance=ExtResource("43_b0hcs")]
+position = Vector2(1250, 1021)
+
+[node name="Senegal" parent="Countries/Africa" instance=ExtResource("44_d4q0o")]
+position = Vector2(1105, 928)
+
+[node name="Seychelles" parent="Countries/Africa" instance=ExtResource("45_40fyb")]
+position = Vector2(1588, 1068)
+
+[node name="SierraLeone" parent="Countries/Africa" instance=ExtResource("46_fb5ty")]
+position = Vector2(1121, 959)
+
+[node name="Somalia" parent="Countries/Africa" instance=ExtResource("47_a6u2i")]
+position = Vector2(1541, 976)
+
+[node name="SouthAfrica" parent="Countries/Africa" instance=ExtResource("48_j6mws")]
+position = Vector2(1386, 1197)
+
+[node name="SudanAndSouthSudan" parent="Countries/Africa" instance=ExtResource("49_2m20n")]
+position = Vector2(1429, 939)
+
+[node name="Tanzania" parent="Countries/Africa" instance=ExtResource("50_b1nj8")]
+position = Vector2(1459, 1054)
+
+[node name="TheGambia" parent="Countries/Africa" instance=ExtResource("51_cj5ti")]
+position = Vector2(1090, 932)
+
+[node name="Togo" parent="Countries/Africa" instance=ExtResource("52_58wmo")]
+position = Vector2(1224, 969)
+
+[node name="Tunisia" parent="Countries/Africa" instance=ExtResource("53_j74jr")]
+position = Vector2(1283, 790)
+
+[node name="Uganda" parent="Countries/Africa" instance=ExtResource("54_8gx11")]
+position = Vector2(1437, 1004)
+
+[node name="WesternSahara" parent="Countries/Africa" instance=ExtResource("55_xdva8")]
+position = Vector2(1123, 861)
+
+[node name="Zambia" parent="Countries/Africa" instance=ExtResource("56_bdgoa")]
+position = Vector2(1399, 1088)
+
+[node name="Zimbabwe" parent="Countries/Africa" instance=ExtResource("57_aj60n")]
+position = Vector2(1424, 1134)
 
 [connection signal="mouse_entered" from="Countries/USA" to="Countries/USA" method="_print_test"]

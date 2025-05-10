@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://crait1o2plk0e"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_mx4t0"]
+[ext_resource type="Texture2D" uid="uid://wvopwbmdib6i" path="res://art/countries/africa/ghana.png" id="2_2gsjc"]
+
+[node name="Ghana" instance=ExtResource("1_mx4t0")]
+country_code = 69
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_2gsjc")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-6.5, -19.5, -6.5, -16.9, -6.9, -16.5, -9.3, -16.5, -10.4, -10.5, -12.2, -10.5, -12.7, -9.1, -9.5, -7, -9.5, 1.1, -9.9, 1.5, -12.5, 1.5, -12.5, 6.8, -15.5, 7.8, -15.5, 13.5, -12.9, 13.5, -12.5, 13.9, -12.5, 16.2, -9.5, 17.1, -9.5, 19.5, 5.2, 19.5, 6.2, 16.5, 11.2, 16.5, 12.2, 13.5, 14.5, 13.5, 14.5, -10.2, 11.5, -11.2, 11.5, -16.2, 8.5, -17.2, 8.5, -19.5)

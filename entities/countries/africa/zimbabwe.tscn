@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://datyrk4pvu0sd"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_6ghkf"]
+[ext_resource type="Texture2D" uid="uid://c8mdgm35tmo36" path="res://art/countries/africa/zimbabwe.png" id="2_513jc"]
+
+[node name="Zimbabwe" instance=ExtResource("1_6ghkf")]
+country_code = 206
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_513jc")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-10, -24, -10, -21.4, -10.4, -21, -13, -21, -13, -18.4, -13.4, -18, -16, -18, -16, -15.4, -16.4, -15, -19, -15, -19, -12.4, -19.4, -12, -22, -12, -22, -9.5, -26, -6.5, -28, -6, -28, 0, -25.4, 0, -25, 0.400002, -25, 3, -22.4, 3, -22, 3.4, -22, 6, -19.4, 6, -19, 6.4, -19, 9, -16.4, 9, -16, 9.4, -16, 11.7, -13, 12.6, -13, 14.8, -7, 15.8, -7, 17.9, 2, 18.9, 2, 21, 7.7, 21, 8.7, 18, 11, 18, 11, 12.4, 11.4, 12, 14, 12, 14, 9.4, 14.4, 9, 16.7, 9, 17.7, 6, 20, 6, 20, -17.7, 17, -18.7, 17, -20.8, 11, -21.9, 11, -24)

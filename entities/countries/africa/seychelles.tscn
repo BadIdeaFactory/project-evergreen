@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://cqv08vfsja7sr"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_231k7"]
+[ext_resource type="Texture2D" uid="uid://82kmhmm4hwpb" path="res://art/countries/africa/seychelles.png" id="2_ogcvk"]
+
+[node name="Seychelles" instance=ExtResource("1_231k7")]
+country_code = 177
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_ogcvk")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-11.3, -15.2, -12.5, -14.7, -12.5, -12.7, -15.5, -11.7, -15.5, -9.3, -12.5, -8.4, -12.5, -6.3, -11.1, -5.8, -9, -9, -6.8, -9, -6.3, -10.2)
+
+[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="." index="3"]
+polygon = PackedVector2Array(-14.3, -3.2, -15.5, -2.7, -15.5, -0.700001, -18.5, 0.299999, -18.5, 2.7, -15.5, 3.6, -15.5, 5.7, -14.1, 6.2, -12, 3, -9.8, 3, -9.3, 1.8)

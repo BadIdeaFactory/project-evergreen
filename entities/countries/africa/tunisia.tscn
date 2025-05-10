@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://b3qr1cph3se0g"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_w6os2"]
+[ext_resource type="Texture2D" uid="uid://cih5vmtafakx1" path="res://art/countries/africa/tunisia.png" id="2_yxqoa"]
+
+[node name="Tunisia" instance=ExtResource("1_w6os2")]
+country_code = 188
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_yxqoa")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-11.5, -19, -11.5, -16.4, -11.9, -16, -17.5, -16, -17.5, -1.5, -21.5, 1.5, -23.5, 2, -23.5, 11, -20.9, 11, -20.5, 11.4, -20.5, 14, -17.9, 14, -17.5, 14.4, -17.5, 17, -15, 17, -12, 21, -11.5, 28.7, -8.5, 29.6, -8.5, 32, -2.8, 32, -1.8, 29, 0.5, 29, 0.5, 20.4, 0.900002, 20, 3.2, 20, 4.2, 17, 6.5, 17, 6.5, 11.3, 3.5, 10.3, 3.5, 8.2, -2.3, 7, -1.7, 5, 0.300003, 5, 1.4, -1, 3.2, -1, 3.7, -2.2, 0.900002, -5, 0.5, -9.4, 3.5, -10.3, 3.5, -13, 0.900002, -13, 0.5, -13.4, 0.5, -15.7, -2.5, -16.7, -2.5, -19)

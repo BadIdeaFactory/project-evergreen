@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://dfjf71nqbdb8c"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_hjva5"]
+[ext_resource type="Texture2D" uid="uid://3oo3iff2jqlp" path="res://art/countries/africa/mauritius.png" id="2_0yi8o"]
+
+[node name="Mauritius" instance=ExtResource("1_hjva5")]
+country_code = 130
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_0yi8o")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-5.3, -0.700001, -6.5, -0.200001, -6.5, 1.8, -9.5, 2.8, -9.5, 5.2, -6.5, 6.1, -6.5, 8.2, -5.1, 8.7, -3, 5.5, -0.799999, 5.5, -0.299999, 4.3)
