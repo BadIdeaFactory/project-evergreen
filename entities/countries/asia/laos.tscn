@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://c4wwxupqkiud3"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_fyqn8"]
+[ext_resource type="Texture2D" uid="uid://bsu26eif73gj7" path="res://art/countries/asia/laos.png" id="2_u6cdt"]
+
+[node name="Laos" instance=ExtResource("1_fyqn8")]
+country_code = 106
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_u6cdt")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-10.1, -36.7, -11.5, -36.2, -11.5, -34.2, -14.5, -33.2, -14.5, -27.9, -14.9, -27.5, -20.5, -27.5, -20.5, -24.9, -20.9, -24.5, -23.2, -24.5, -24.2, -21.5, -26.2, -21.5, -26.7, -20.1, -23.5, -18, -23.5, -15.8, -20.5, -14.9, -20.5, -3.5, -18.2, -3.5, -17.2, -0.5, -14.5, -0.5, -14.5, -3, -10.5, -6, -8.5, -5.7, -8.5, -3.5, -2.8, -3.5, -1.8, -6.5, 3.1, -6.5, 3.5, -6.1, 3.5, -3.8, 6.5, -2.9, 6.5, 2.2, 9.5, 3.1, 9.5, 14.2, 12.5, 15.1, 12.5, 17.5, 18.2, 17.5, 19.2, 14.5, 24.2, 14.5, 25.2, 11.5, 27.5, 11.5, 27.5, 5.5, 24.9, 5.5, 24.5, 5.1, 24.5, 2.5, 21.9, 2.5, 21.5, 2.1, 21.5, -0.5, 18.9, -0.5, 18.5, -0.900002, 18.5, -3.5, 15.9, -3.5, 15.5, -3.9, 15.5, -6.5, 12.9, -6.5, 12.5, -6.9, 12.5, -9.2, 9.5, -10.2, 9.5, -21.5, 7.2, -21.5, 6.2, -24.5, -2.1, -24.5, -2.5, -24.9, -2.5, -27.2, -5.5, -28.2, -5.5, -33.5, -8, -33.5)

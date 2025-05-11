@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://c4eu2slrycrq1"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_mb50a"]
+[ext_resource type="Texture2D" uid="uid://bd77gci5uikud" path="res://art/countries/asia/taiwan.png" id="2_kt7os"]
+
+[node name="Taiwan" instance=ExtResource("1_mb50a")]
+country_code = 190
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_kt7os")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(16, -7.5, 16, -4.9, 15.6, -4.5, 13.3, -4.5, 12.3, -1.5, 10.2, -1.5, 9.1, 4.5, 7, 4.5, 7, 13.2, 10, 14.1, 10, 16.5, 16, 16.5, 16, 13.9, 16.4, 13.5, 18.7, 13.5, 19.7, 10.5, 22, 10.5, 22, 2.1, 25, 1.2, 25, -4.2, 22, -5.2, 22, -7.5)

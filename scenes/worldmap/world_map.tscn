@@ -1,4 +1,4 @@
-[gd_scene load_steps=58 format=3 uid="uid://xlfbl7fowoic"]
+[gd_scene load_steps=88 format=3 uid="uid://xlfbl7fowoic"]
 
 [ext_resource type="Texture2D" uid="uid://xrpjeff551cv" path="res://art/PixelWorldMap_All_Countries_3x_Green.png" id="1_g7ewq"]
 [ext_resource type="PackedScene" uid="uid://bsbcdmesjv6qv" path="res://entities/countries/usa.tscn" id="2_srtnd"]
@@ -57,6 +57,36 @@
 [ext_resource type="PackedScene" uid="uid://c8onyug37hqxu" path="res://entities/countries/africa/western_sahara.tscn" id="55_xdva8"]
 [ext_resource type="PackedScene" uid="uid://codfqqawkhprh" path="res://entities/countries/africa/zambia.tscn" id="56_bdgoa"]
 [ext_resource type="PackedScene" uid="uid://datyrk4pvu0sd" path="res://entities/countries/africa/zimbabwe.tscn" id="57_aj60n"]
+[ext_resource type="PackedScene" uid="uid://ddyunyr3gu2bb" path="res://entities/countries/asia/singapore.tscn" id="58_y06px"]
+[ext_resource type="PackedScene" uid="uid://c1u2bup0nxcoy" path="res://entities/countries/asia/south_korea.tscn" id="59_eivn0"]
+[ext_resource type="PackedScene" uid="uid://30smu52854ub" path="res://entities/countries/asia/sri_lanka.tscn" id="60_4n3gt"]
+[ext_resource type="PackedScene" uid="uid://c4eu2slrycrq1" path="res://entities/countries/asia/taiwan.tscn" id="61_6uxp8"]
+[ext_resource type="PackedScene" uid="uid://b50kicnihqjcc" path="res://entities/countries/asia/tajikstan.tscn" id="62_o5qf0"]
+[ext_resource type="PackedScene" uid="uid://x15x05oaahx5" path="res://entities/countries/asia/thailand.tscn" id="63_sv8mj"]
+[ext_resource type="PackedScene" uid="uid://cdb5jq2baoitq" path="res://entities/countries/asia/turkmenistan.tscn" id="64_xxch3"]
+[ext_resource type="PackedScene" uid="uid://dl5xdgl476x8o" path="res://entities/countries/asia/uzbekistan.tscn" id="65_8s20o"]
+[ext_resource type="PackedScene" uid="uid://dtogsexnxftut" path="res://entities/countries/asia/vietnam.tscn" id="66_7q1ds"]
+[ext_resource type="PackedScene" uid="uid://cfmpmmiwo05kj" path="res://entities/countries/asia/philippines.tscn" id="67_7kh6j"]
+[ext_resource type="PackedScene" uid="uid://cquta2ilslp3h" path="res://entities/countries/asia/pakistan.tscn" id="68_55skp"]
+[ext_resource type="PackedScene" uid="uid://j4cej4a6qn44" path="res://entities/countries/asia/north_korea.tscn" id="69_eqadc"]
+[ext_resource type="PackedScene" uid="uid://dgee2cltvy844" path="res://entities/countries/asia/nepal.tscn" id="70_lhj5a"]
+[ext_resource type="PackedScene" uid="uid://dhgsvmd3kq5jj" path="res://entities/countries/asia/myanmar.tscn" id="71_shhb2"]
+[ext_resource type="PackedScene" uid="uid://bktrbc43fl1td" path="res://entities/countries/asia/mongolia.tscn" id="72_qii3s"]
+[ext_resource type="PackedScene" uid="uid://ca5845uwyty18" path="res://entities/countries/asia/maldives.tscn" id="73_75ixx"]
+[ext_resource type="PackedScene" uid="uid://c8rxtrt1i2yt6" path="res://entities/countries/asia/malaysia.tscn" id="74_ncg10"]
+[ext_resource type="PackedScene" uid="uid://c4wwxupqkiud3" path="res://entities/countries/asia/laos.tscn" id="75_p7i7r"]
+[ext_resource type="PackedScene" uid="uid://mqxo5aiiqsyc" path="res://entities/countries/asia/kyrgyzstan.tscn" id="76_khk3i"]
+[ext_resource type="PackedScene" uid="uid://d1twn08w163n3" path="res://entities/countries/asia/kazakhstan.tscn" id="77_cidti"]
+[ext_resource type="PackedScene" uid="uid://cikfwf1l5wumb" path="res://entities/countries/asia/japan.tscn" id="78_vkrqb"]
+[ext_resource type="PackedScene" uid="uid://b4hyvxpcr1bex" path="res://entities/countries/asia/indonesia.tscn" id="79_v37kt"]
+[ext_resource type="PackedScene" uid="uid://cai6vmoo3vaa7" path="res://entities/countries/asia/india.tscn" id="80_d05pj"]
+[ext_resource type="PackedScene" uid="uid://dmu0nur2u6gy7" path="res://entities/countries/asia/east_timor.tscn" id="81_lrvpn"]
+[ext_resource type="PackedScene" uid="uid://wuq7a14cpmms" path="res://entities/countries/asia/china.tscn" id="82_dknsr"]
+[ext_resource type="PackedScene" uid="uid://jsrp8lgaxjdo" path="res://entities/countries/asia/cambodia.tscn" id="83_u46wm"]
+[ext_resource type="PackedScene" uid="uid://cp03v6he71luj" path="res://entities/countries/asia/brunei.tscn" id="84_r1drq"]
+[ext_resource type="PackedScene" uid="uid://cuxmqdogjs6xl" path="res://entities/countries/asia/bhutan.tscn" id="85_2cmgx"]
+[ext_resource type="PackedScene" uid="uid://cqyc8kwcdu824" path="res://entities/countries/asia/bangladesh.tscn" id="86_x2dew"]
+[ext_resource type="PackedScene" uid="uid://qcan6mxxujnk" path="res://entities/countries/asia/afghanistan.tscn" id="87_qgm05"]
 
 [node name="WorldMap" type="Node2D"]
 
@@ -236,5 +266,97 @@ position = Vector2(1399, 1088)
 
 [node name="Zimbabwe" parent="Countries/Africa" instance=ExtResource("57_aj60n")]
 position = Vector2(1424, 1134)
+
+[node name="Asia" type="Node" parent="Countries"]
+
+[node name="Singapore" parent="Countries/Asia" instance=ExtResource("58_y06px")]
+position = Vector2(1949, 1000)
+
+[node name="SouthKorea" parent="Countries/Asia" instance=ExtResource("59_eivn0")]
+position = Vector2(2094, 769)
+
+[node name="SriLanka" parent="Countries/Asia" instance=ExtResource("60_4n3gt")]
+position = Vector2(1782, 968)
+
+[node name="Taiwan" parent="Countries/Asia" instance=ExtResource("61_6uxp8")]
+position = Vector2(2045, 860)
+
+[node name="Tajikstan" parent="Countries/Asia" instance=ExtResource("62_o5qf0")]
+position = Vector2(1722, 757)
+
+[node name="Thailand" parent="Countries/Asia" instance=ExtResource("63_sv8mj")]
+position = Vector2(1920, 940)
+
+[node name="Turkmenistan" parent="Countries/Asia" instance=ExtResource("64_xxch3")]
+position = Vector2(1627, 756)
+
+[node name="Uzbekistan" parent="Countries/Asia" instance=ExtResource("65_8s20o")]
+position = Vector2(1662, 740)
+
+[node name="Vietnam" parent="Countries/Asia" instance=ExtResource("66_7q1ds")]
+position = Vector2(1951, 923)
+
+[node name="Philippines" parent="Countries/Asia" instance=ExtResource("67_7kh6j")]
+position = Vector2(2060, 941)
+
+[node name="Pakistan" parent="Countries/Asia" instance=ExtResource("68_55skp")]
+position = Vector2(1695, 817)
+
+[node name="NorthKorea" parent="Countries/Asia" instance=ExtResource("69_eqadc")]
+position = Vector2(2104, 744)
+
+[node name="Nepal" parent="Countries/Asia" instance=ExtResource("70_lhj5a")]
+position = Vector2(1811, 835)
+
+[node name="MyanmarBurma" parent="Countries/Asia" instance=ExtResource("71_shhb2")]
+position = Vector2(1890, 896)
+
+[node name="Mongolia" parent="Countries/Asia" instance=ExtResource("72_qii3s")]
+position = Vector2(1962, 708)
+
+[node name="Maldives" parent="Countries/Asia" instance=ExtResource("73_75ixx")]
+position = Vector2(1729, 979)
+
+[node name="Malaysia" parent="Countries/Asia" instance=ExtResource("74_ncg10")]
+position = Vector2(2006, 992)
+
+[node name="Laos" parent="Countries/Asia" instance=ExtResource("75_p7i7r")]
+position = Vector2(1939, 909)
+
+[node name="Kyrgyzstan" parent="Countries/Asia" instance=ExtResource("76_khk3i")]
+position = Vector2(1738, 738)
+
+[node name="Kazakhstan" parent="Countries/Asia" instance=ExtResource("77_cidti")]
+position = Vector2(1678, 685)
+
+[node name="Japan" parent="Countries/Asia" instance=ExtResource("78_vkrqb")]
+position = Vector2(2165, 743)
+
+[node name="Indonesia" parent="Countries/Asia" instance=ExtResource("79_v37kt")]
+position = Vector2(2053, 1017)
+
+[node name="India" parent="Countries/Asia" instance=ExtResource("80_d05pj")]
+position = Vector2(1788, 850)
+
+[node name="EastTimor" parent="Countries/Asia" instance=ExtResource("81_lrvpn")]
+position = Vector2(2089, 1059)
+
+[node name="China" parent="Countries/Asia" instance=ExtResource("82_dknsr")]
+position = Vector2(1939, 757)
+
+[node name="Cambodia" parent="Countries/Asia" instance=ExtResource("83_u46wm")]
+position = Vector2(1956, 941)
+
+[node name="Brunei" parent="Countries/Asia" instance=ExtResource("84_r1drq")]
+position = Vector2(2014, 984)
+
+[node name="Bhutan" parent="Countries/Asia" instance=ExtResource("85_2cmgx")]
+position = Vector2(1850, 844)
+
+[node name="Bangladesh" parent="Countries/Asia" instance=ExtResource("86_x2dew")]
+position = Vector2(1854, 873)
+
+[node name="Afghanistan" parent="Countries/Asia" instance=ExtResource("87_qgm05")]
+position = Vector2(1674, 795)
 
 [connection signal="mouse_entered" from="Countries/USA" to="Countries/USA" method="_print_test"]

@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://cuxmqdogjs6xl"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_hmu0w"]
+[ext_resource type="Texture2D" uid="uid://btkhjtwa0qutd" path="res://art/countries/asia/bhutan.png" id="2_22rbe"]
+
+[node name="Bhutan" instance=ExtResource("1_hmu0w")]
+country_code = 29
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_22rbe")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-10.5, -11, -10.5, -8.4, -10.9, -8, -16.2, -8, -17.2, -5, -19.2, -5, -19.7, -3.6, -16.5, -1.5, -16.5, 0.700001, -13.5, 1.6, -13.5, 4, 4.5, 4, 4.5, 1.4, 4.9, 1, 7.2, 1, 8.2, -2, 10.2, -2, 10.7, -3.4, 7.5, -5.6, 7.5, -7.8, 1.5, -8.9, 1.5, -11)

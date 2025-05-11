@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://30smu52854ub"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_he3n2"]
+[ext_resource type="Texture2D" uid="uid://druhnh7n3herw" path="res://art/countries/asia/srilanka.png" id="2_p2qo6"]
+
+[node name="SriLanka" instance=ExtResource("1_he3n2")]
+country_code = 111
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_p2qo6")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-8.5, -13.5, -8.5, -11.2, -11.5, -10.2, -11.5, 7.5, -9.2, 7.5, -8.2, 10.5, 0.5, 10.5, 0.5, 7.9, 0.900002, 7.5, 3.2, 7.5, 4.2, 4.5, 6.5, 4.5, 6.5, -1.5, 3.9, -1.5, 3.5, -1.9, 3.5, -4.2, 0.5, -5.2, 0.5, -10.2, -2.5, -11.2, -2.5, -13.5)

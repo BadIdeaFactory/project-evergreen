@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://j4cej4a6qn44"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_oj3pj"]
+[ext_resource type="Texture2D" uid="uid://j0e05bagk2qw" path="res://art/countries/asia/northkorea.png" id="2_3l20v"]
+
+[node name="NorthKorea" instance=ExtResource("1_oj3pj")]
+country_code = 151
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_3l20v")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(18.4, -18.2, 17, -17.7, 17, -15.4, 16.6, -15, 8.3, -15, 7.3, -12, 5.2, -12, 4, -6.1, -3.3, -6, -4.3, -9, -7, -9, -7, -6.5, -11, -3.5, -15.7, -3, -16.7, 0, -18.8, 0, -19.9, 6, -21.7, 6, -22.2, 7.2, -16.4, 13, -16.8, 15, -19, 15, -19, 20.7, -16, 21.6, -16, 24, -10.7, 24, -9.7, 27, -7, 27, -7, 24.4, -6.6, 24, -4.3, 24, -3.3, 21, 8, 21, 8, 15.3, 5, 14.3, 5, 6.4, 5.4, 6, 10.7, 6, 11.7, 3, 16.7, 3, 17.7, 0, 20, 0, 20, -8.4, 23, -9.3, 23, -15, 20.5, -15)

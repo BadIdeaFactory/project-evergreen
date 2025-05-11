@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://jsrp8lgaxjdo"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_bvhpb"]
+[ext_resource type="Texture2D" uid="uid://hp4oorvpyg5u" path="res://art/countries/asia/cambodia.png" id="2_64aev"]
+
+[node name="Cambodia" instance=ExtResource("1_bvhpb")]
+country_code = 101
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_64aev")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-7.6, -20.2, -9, -19.7, -9, -17.4, -9.4, -17, -23.7, -17, -24.7, -14, -26.8, -14, -27.9, -8, -30, -8, -30, -2, -27.4, -2, -27, -1.6, -27, 1, -24.4, 1, -24, 1.4, -24, 4, -21.4, 4, -21, 4.4, -21, 7, -18.5, 7, -15.5, 11, -15, 13, -9, 13, -9, 10.5, -5, 7.5, -0.300003, 7, 0.699997, 4, 6, 4, 6, 1.4, 6.4, 1, 8.7, 1, 9.7, -2, 12, -2, 12, -10.6, 9.2, -12, 9, -16.7, 6, -17.7, 6, -20, 0.400002, -20, -1, -17.2, -5.5, -17)

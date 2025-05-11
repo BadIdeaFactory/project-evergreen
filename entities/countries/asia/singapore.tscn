@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://ddyunyr3gu2bb"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_47rc1"]
+[ext_resource type="Texture2D" uid="uid://dang05n6fajca" path="res://art/countries/asia/singapore.png" id="2_e5cof"]
+
+[node name="Singapore" instance=ExtResource("1_47rc1")]
+country_code = 164
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_e5cof")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-6.8, 1.8, -8, 2.3, -8, 4.3, -11, 5.3, -11, 7.7, -8, 8.6, -8, 10.7, -6.6, 11.2, -4.5, 8, -2.3, 8, -1.8, 6.8)

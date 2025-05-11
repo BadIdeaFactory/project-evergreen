@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://mqxo5aiiqsyc"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_bc2o5"]
+[ext_resource type="Texture2D" uid="uid://chjg5gy6p5mr3" path="res://art/countries/asia/kyrgyzstan.png" id="2_l7nm5"]
+
+[node name="Kyrgyzstan" instance=ExtResource("1_bc2o5")]
+country_code = 100
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_l7nm5")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-10, -14.5, -10, -11.9, -10.4, -11.5, -12.8, -11.5, -14, -5.6, -18.6, -5.5, -19, -5.9, -19, -8.2, -22, -9.2, -22, -11.5, -27.7, -11.5, -28.7, -8.5, -31, -8.5, -31, -2.5, -28.4, -2.5, -28, -2.1, -28, 0.5, -25.4, 0.5, -25, 0.900002, -25, 3.5, -22.4, 3.5, -22, 3.9, -22, 6.2, -19, 7.1, -19, 12.1, -19.4, 12.5, -27.3, 12.5, -28.3, 9.5, -30.7, 9.5, -31.7, 12.5, -36.7, 12.5, -37.7, 15.5, -39.7, 15.5, -40.2, 16.9, -37, 19, -37, 21.5, -10, 21.5, -10, 19.1, -7, 18.2, -7, 13, -3, 10, 7.7, 9.5, 8.7, 6.5, 20, 6.5, 20, 4, 24, 1, 28.6, 0.5, 30, -2.3, 34.7, -2.5, 35.7, -5.5, 37.7, -5.5, 38.2, -6.9, 35, -9.1, 35, -11.5, -3.6, -11.5, -4, -11.9, -4, -14.5)
