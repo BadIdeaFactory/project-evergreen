@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://l75hpynne7w0"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_bhek8"]
+[ext_resource type="Texture2D" uid="uid://ugbsnfg30egg" path="res://art/countries/europe/belarus.png" id="2_kkdc8"]
+
+[node name="Belarus" instance=ExtResource("1_bhek8")]
+country_code = 22
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_kkdc8")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-10, -26.5, -10, -23.9, -10.4, -23.5, -15.7, -23.5, -16.7, -20.5, -19, -20.5, -19, -15.2, -22, -14.2, -22, -8.9, -22.4, -8.5, -25, -8.5, -25, -6, -29, -3, -37, -2.5, -37, -0.199997, -40, 0.800003, -40, 21.2, -37, 22.1, -37, 24.5, -31.3, 24.5, -30.3, 21.5, -13.7, 21.5, -12.7, 24.5, 14, 24.5, 14, 21.9, 14.4, 21.5, 16.7, 21.5, 17.7, 18.5, 20, 18.5, 20, 12.9, 20.4, 12.5, 22.7, 12.5, 23.7, 9.5, 26, 9.5, 26, 3.5, 23.4, 3.5, 23, 3.1, 23, 0.5, 20.4, 0.5, 20, 0.0999985, 20, -2.2, 17, -3.2, 17, -14.5, 14.4, -14.5, 14, -14.9, 14, -17.2, 11, -18.2, 11, -20.3, 5, -21.4, 5, -23.5, -3.6, -23.5, -4, -23.9, -4, -26.5)

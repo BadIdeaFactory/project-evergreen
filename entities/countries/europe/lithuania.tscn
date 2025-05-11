@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://cfy7v8p8oc8hm"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_l5hss"]
+[ext_resource type="Texture2D" uid="uid://dwnsuauih63cf" path="res://art/countries/europe/lithuania.png" id="2_eia70"]
+
+[node name="Lithuania" instance=ExtResource("1_l5hss")]
+country_code = 113
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_eia70")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-25, -14.5, -25, -12, -29, -9, -31, -8.5, -31, -2.5, -28.7, -2.5, -27.7, 0.5, -19.4, 0.5, -19, 0.900002, -19, 3.2, -16, 4.1, -16, 9.2, -13, 10.1, -13, 12.5, -1, 12.5, -1, 9.9, -0.599998, 9.5, 2, 9.5, 2, 6.9, 2.4, 6.5, 4.7, 6.5, 5.7, 3.5, 7.8, 3.5, 8.9, -2.5, 10.7, -2.5, 11.2, -3.9, 8, -6.1, 8, -8.2, 5, -9.2, 5, -11.2, 2, -12.2, 2, -14.5)

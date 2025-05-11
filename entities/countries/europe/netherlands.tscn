@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://cpi7hedt65811"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_slfk2"]
+[ext_resource type="Texture2D" uid="uid://c3w723xxs0rnk" path="res://art/countries/europe/netherlands.png" id="2_trxlf"]
+
+[node name="Netherlands" instance=ExtResource("1_slfk2")]
+country_code = 138
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_trxlf")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(222, -121.5, 222, -118.9, 221.6, -118.5, 216.3, -118.5, 215.3, -115.5, 213.1, -115.5, 212.1, -106.5, 210.3, -106.5, 209.8, -105.1, 213, -103, 213, -100.8, 216, -99.9, 216, -97.7, 222, -96.7, 222, -94.8, 223.4, -94.3, 225.5, -97.5, 228, -97.5, 228, -109, 232, -112, 234, -112.5, 234, -118.2, 231, -119.2, 231, -121.5)
+
+[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="." index="3"]
+polygon = PackedVector2Array(-256.8, 145.3, -258, 145.8, -258, 147.8, -261, 148.8, -261, 151.2, -258, 152.1, -258, 154.2, -256.6, 154.7, -254.5, 151.5, -252.3, 151.5, -251.8, 150.3)

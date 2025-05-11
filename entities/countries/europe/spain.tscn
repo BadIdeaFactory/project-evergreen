@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://vfypa8w7egpf"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_suoqq"]
+[ext_resource type="Texture2D" uid="uid://owfggr25v8qr" path="res://art/countries/europe/spain.png" id="2_kotou"]
+
+[node name="Spain" instance=ExtResource("1_suoqq")]
+country_code = 59
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_kotou")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-75, -76, -75, -73.4, -75.4, -73, -78, -73, -78, -64.3, -75, -63.4, -75, -61.1, -60, -60, -60, -52.7, -63, -51.7, -63, -40.7, -66, -39.7, -66, -25, -63.7, -25, -62.7, -22, -57.4, -22, -57, -21.6, -57, -19.3, -54, -18.4, -54, -16, -45.3, -16, -44.3, -19, -27, -19, -27, -21.4, -24, -22.3, -24, -27.6, -23.6, -28, -21, -28, -21, -30.5, -17, -33.5, -15, -34, -15, -45.6, -14.6, -46, -9, -46, -9, -48.5, -5, -51.5, -0.399994, -52, 1, -54.8, 5.7, -55, 6.7, -58, 9, -58, 9, -67, -2.7, -67, -3.7, -64, -5.60001, -64, -6, -64.4, -6, -67, -17.6, -67, -18, -67.4, -18, -70, -23.6, -70, -24, -70.4, -24, -72.7, -27, -73.7, -27, -76)
+
+[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="." index="3"]
+polygon = PackedVector2Array(-148.8, 34.8, -150, 35.3, -150, 37.3, -153, 38.3, -153, 40.7, -150, 41.6, -150, 43.7, -148.6, 44.2, -146.5, 41, -144.3, 41, -143.8, 39.8)
+
+[node name="CollisionPolygon2D3" type="CollisionPolygon2D" parent="." index="4"]
+polygon = PackedVector2Array(-136.8, 37.8, -138, 38.3, -138, 40.3, -141, 41.3, -141, 43.7, -138, 44.6, -138, 46.7, -136.6, 47.2, -134.5, 44, -132.3, 44, -131.8, 42.8)

@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://csmlm1betybbw"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_84jml"]
+[ext_resource type="Texture2D" uid="uid://ch4tg6x3gv7wo" path="res://art/countries/europe/albania.png" id="2_vb8se"]
+
+[node name="Albania" instance=ExtResource("1_84jml")]
+country_code = 4
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_vb8se")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-4, -6, -4, -3.4, -4.4, -3, -7, -3, -7, 5.7, -4, 6.6, -4, 12, -1.7, 12, -0.700001, 15, 2, 15, 2, 12.4, 2.4, 12, 4.7, 12, 5.7, 9, 7.7, 9, 8.2, 7.6, 5, 5.4, 5, -2.7, 2, -3.7, 2, -6)

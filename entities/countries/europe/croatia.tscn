@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://bxc0ygfj3mh7i"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_fdnjc"]
+[ext_resource type="Texture2D" uid="uid://7llg8656p2em" path="res://art/countries/europe/croatia.png" id="2_qkjxd"]
+
+[node name="Croatia" instance=ExtResource("1_fdnjc")]
+country_code = 84
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_qkjxd")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-13.6, -15.7, -15, -15.2, -15, -12.9, -15.4, -12.5, -17.7, -12.5, -18.7, -9.5, -20.8, -9.5, -21.9, -3.5, -24, -3.5, -24, 11.2, -21, 12.1, -21, 14.3, -15, 15.3, -15, 17.2, -13.6, 17.7, -11.5, 14.5, -9.3, 14.5, -8.8, 13.3, -14.6, 7.5, -14.1, 2.6, -6, 3.4, -6, 5.2, -4.8, 5.7, -2, 2.9, -0.699997, 2.5, 0.300003, 5.5, 5.7, 5.5, 6.7, 2.5, 8.7, 2.5, 9.2, 1.1, 6, -1.1, 6, -6.2, 3, -7.2, 3, -9.5, -8.6, -9.5, -9, -9.9, -9, -12.5, -11.5, -12.5)

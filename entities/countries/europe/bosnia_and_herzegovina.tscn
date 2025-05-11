@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://b6g4sr2wxalay"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_s5kt4"]
+[ext_resource type="Texture2D" uid="uid://bxnypxal26ftq" path="res://art/countries/europe/bosniaandherzegovina.png" id="2_6jibq"]
+
+[node name="BosniaAndHerzegovina" instance=ExtResource("1_s5kt4")]
+country_code = 21
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_6jibq")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-1.2, -10.2, -4, -7.4, -6, -7.8, -6, -10, -15, -10, -15, -7.7, -18, -6.7, -18, -1, -15.4, -1, -15, -0.599998, -15, 2, -12.4, 2, -12, 2.4, -12, 5, -9.4, 5, -9, 5.4, -9, 7.7, -6, 8.6, -6, 11, 3, 11, 3, 8.4, 3.4, 8, 5.7, 8, 6.7, 5, 9, 5, 9, -3.7, 6, -4.7, 6, -6.8, 0, -7.9, 0, -9.7)

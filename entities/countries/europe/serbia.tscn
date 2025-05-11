@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://cnwtpr01qpb2n"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_i78pd"]
+[ext_resource type="Texture2D" uid="uid://yuiiac5fb4ft" path="res://art/countries/europe/serbia.png" id="2_r40a6"]
+
+[node name="Serbia" instance=ExtResource("1_i78pd")]
+country_code = 161
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_r40a6")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-12, -13, -12, -10.4, -12.4, -10, -15, -10, -15, -4.3, -12, -3.4, -12, 11, -9.4, 11, -9, 11.4, -9, 13.7, -6, 14.6, -6, 17, -0.400002, 17, 1, 14.2, 2.6, 14, 3, 14.4, 3, 16.7, 6, 17.6, 6, 19.7, 7.4, 20.2, 9.5, 17, 12, 17, 12, 2, 9.4, 2, 9, 1.6, 9, -1, 6.4, -1, 6, -1.4, 6, -4, 3.4, -4, 3, -4.4, 3, -7, 0.400002, -7, 0, -7.4, 0, -9.7, -3, -10.7, -3, -13)

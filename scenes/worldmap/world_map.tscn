@@ -1,4 +1,4 @@
-[gd_scene load_steps=88 format=3 uid="uid://xlfbl7fowoic"]
+[gd_scene load_steps=132 format=3 uid="uid://xlfbl7fowoic"]
 
 [ext_resource type="Texture2D" uid="uid://xrpjeff551cv" path="res://art/PixelWorldMap_All_Countries_3x_Green.png" id="1_g7ewq"]
 [ext_resource type="PackedScene" uid="uid://bsbcdmesjv6qv" path="res://entities/countries/usa.tscn" id="2_srtnd"]
@@ -87,6 +87,50 @@
 [ext_resource type="PackedScene" uid="uid://cuxmqdogjs6xl" path="res://entities/countries/asia/bhutan.tscn" id="85_2cmgx"]
 [ext_resource type="PackedScene" uid="uid://cqyc8kwcdu824" path="res://entities/countries/asia/bangladesh.tscn" id="86_x2dew"]
 [ext_resource type="PackedScene" uid="uid://qcan6mxxujnk" path="res://entities/countries/asia/afghanistan.tscn" id="87_qgm05"]
+[ext_resource type="PackedScene" uid="uid://cfy7v8p8oc8hm" path="res://entities/countries/europe/lithuania.tscn" id="88_yuske"]
+[ext_resource type="PackedScene" uid="uid://baqddt0ctnlo2" path="res://entities/countries/europe/luxembourg.tscn" id="89_31vqs"]
+[ext_resource type="PackedScene" uid="uid://djol2ixae3vcd" path="res://entities/countries/europe/malta.tscn" id="90_o0ltg"]
+[ext_resource type="PackedScene" uid="uid://cxi1sw8dhtv55" path="res://entities/countries/europe/moldova.tscn" id="91_60blt"]
+[ext_resource type="PackedScene" uid="uid://bi3n0qey8gpn0" path="res://entities/countries/europe/monaco.tscn" id="92_a3v8h"]
+[ext_resource type="PackedScene" uid="uid://dh1t7uc76u1d3" path="res://entities/countries/europe/montenegro.tscn" id="93_gc2m7"]
+[ext_resource type="PackedScene" uid="uid://cpi7hedt65811" path="res://entities/countries/europe/netherlands.tscn" id="94_hy7lj"]
+[ext_resource type="PackedScene" uid="uid://yk2ugu0eg3sl" path="res://entities/countries/europe/north_macedonia.tscn" id="95_1q235"]
+[ext_resource type="PackedScene" uid="uid://cb8mmlhuhywyh" path="res://entities/countries/europe/norway.tscn" id="96_xgmdp"]
+[ext_resource type="PackedScene" uid="uid://t55dsvk2hnxb" path="res://entities/countries/europe/poland.tscn" id="97_eyiqj"]
+[ext_resource type="PackedScene" uid="uid://dolwgvifuw5qo" path="res://entities/countries/europe/portugal.tscn" id="98_6qwwj"]
+[ext_resource type="PackedScene" uid="uid://dsvxh7l227vxq" path="res://entities/countries/europe/united_kingdom.tscn" id="99_qrajg"]
+[ext_resource type="PackedScene" uid="uid://ccj7gkgvfbkm3" path="res://entities/countries/europe/ukraine.tscn" id="100_wr7uy"]
+[ext_resource type="PackedScene" uid="uid://cn7erduhqhp2l" path="res://entities/countries/europe/switzerland.tscn" id="101_cws0l"]
+[ext_resource type="PackedScene" uid="uid://bdcaeudx2dc61" path="res://entities/countries/europe/sweden.tscn" id="102_j30i1"]
+[ext_resource type="PackedScene" uid="uid://vfypa8w7egpf" path="res://entities/countries/europe/spain.tscn" id="103_bfxd8"]
+[ext_resource type="PackedScene" uid="uid://cea0uj7xwtdan" path="res://entities/countries/europe/slovenia.tscn" id="104_u4dsj"]
+[ext_resource type="PackedScene" uid="uid://cmvheomxljemv" path="res://entities/countries/europe/slovakia.tscn" id="105_ty4lt"]
+[ext_resource type="PackedScene" uid="uid://cnwtpr01qpb2n" path="res://entities/countries/europe/serbia.tscn" id="106_o8xoq"]
+[ext_resource type="PackedScene" uid="uid://b5ij2vti0qqao" path="res://entities/countries/europe/san_marino.tscn" id="107_3orjj"]
+[ext_resource type="PackedScene" uid="uid://bmf56ddt8o7dp" path="res://entities/countries/europe/russia.tscn" id="108_xddks"]
+[ext_resource type="PackedScene" uid="uid://wpwbn82esvec" path="res://entities/countries/europe/romania.tscn" id="109_0078o"]
+[ext_resource type="PackedScene" uid="uid://csmlm1betybbw" path="res://entities/countries/europe/albania.tscn" id="110_h71o8"]
+[ext_resource type="PackedScene" uid="uid://ly0m6w2nk3g8" path="res://entities/countries/europe/andorra.tscn" id="111_lrhwo"]
+[ext_resource type="PackedScene" uid="uid://cqywkat6854eq" path="res://entities/countries/europe/austria.tscn" id="112_di0lj"]
+[ext_resource type="PackedScene" uid="uid://l75hpynne7w0" path="res://entities/countries/europe/belarus.tscn" id="113_jfvfm"]
+[ext_resource type="PackedScene" uid="uid://d1g2o1shsxfko" path="res://entities/countries/europe/belgium.tscn" id="114_bxwfp"]
+[ext_resource type="PackedScene" uid="uid://b6g4sr2wxalay" path="res://entities/countries/europe/bosnia_and_herzegovina.tscn" id="115_ybhws"]
+[ext_resource type="PackedScene" uid="uid://c20bymjedix6t" path="res://entities/countries/europe/bulgaria.tscn" id="116_nq5od"]
+[ext_resource type="PackedScene" uid="uid://bxc0ygfj3mh7i" path="res://entities/countries/europe/croatia.tscn" id="117_y3ovm"]
+[ext_resource type="PackedScene" uid="uid://bxpt8yf8tglro" path="res://entities/countries/europe/czech_republic.tscn" id="118_c5h2u"]
+[ext_resource type="PackedScene" uid="uid://8hpklg3w42kj" path="res://entities/countries/europe/denmark.tscn" id="119_16kmy"]
+[ext_resource type="PackedScene" uid="uid://c2ytjthwrdcfx" path="res://entities/countries/europe/estonia.tscn" id="120_thhgb"]
+[ext_resource type="PackedScene" uid="uid://dswixikw3jo3w" path="res://entities/countries/europe/finland.tscn" id="121_k7xuh"]
+[ext_resource type="PackedScene" uid="uid://c04rpup58e1xh" path="res://entities/countries/europe/france.tscn" id="122_5xcki"]
+[ext_resource type="PackedScene" uid="uid://dix5bqrugrsmi" path="res://entities/countries/europe/germany.tscn" id="123_q6o20"]
+[ext_resource type="PackedScene" uid="uid://cht7pgsfp2rm5" path="res://entities/countries/europe/greece.tscn" id="124_eyt0f"]
+[ext_resource type="PackedScene" uid="uid://dfwipvybmikbf" path="res://entities/countries/europe/hungary.tscn" id="125_bqfql"]
+[ext_resource type="PackedScene" uid="uid://by7vg4ko2dals" path="res://entities/countries/europe/iceland.tscn" id="126_fqed5"]
+[ext_resource type="PackedScene" uid="uid://dlmw3kr0ouex5" path="res://entities/countries/europe/ireland.tscn" id="127_tkrrq"]
+[ext_resource type="PackedScene" uid="uid://co4s5600cwqed" path="res://entities/countries/europe/italy.tscn" id="128_b2avx"]
+[ext_resource type="PackedScene" uid="uid://ehu7mccy44kl" path="res://entities/countries/europe/kosovo.tscn" id="129_65qph"]
+[ext_resource type="PackedScene" uid="uid://cdgpexxxiq0g7" path="res://entities/countries/europe/latvia.tscn" id="130_1tt5v"]
+[ext_resource type="PackedScene" uid="uid://coeh7gut66r5d" path="res://entities/countries/europe/liechtenstein.tscn" id="131_ucl4d"]
 
 [node name="WorldMap" type="Node2D"]
 
@@ -358,5 +402,139 @@ position = Vector2(1854, 873)
 
 [node name="Afghanistan" parent="Countries/Asia" instance=ExtResource("87_qgm05")]
 position = Vector2(1674, 795)
+
+[node name="Europe" type="Node" parent="Countries"]
+
+[node name="Lithuania" parent="Countries/Europe" instance=ExtResource("88_yuske")]
+position = Vector2(1387, 615)
+
+[node name="Luxembourg" parent="Countries/Europe" instance=ExtResource("89_31vqs")]
+position = Vector2(1258, 664)
+
+[node name="Malta" parent="Countries/Europe" instance=ExtResource("90_o0ltg")]
+position = Vector2(1326, 782)
+
+[node name="Moldova" parent="Countries/Europe" instance=ExtResource("91_60blt")]
+position = Vector2(1405, 691)
+
+[node name="Monaco" parent="Countries/Europe" instance=ExtResource("92_a3v8h")]
+position = Vector2(1265, 729)
+
+[node name="Montenegro" parent="Countries/Europe" instance=ExtResource("93_gc2m7")]
+position = Vector2(1347, 713)
+
+[node name="Netherlands" parent="Countries/Europe" instance=ExtResource("94_hy7lj")]
+position = Vector2(1026, 751)
+
+[node name="NorthMacedonia" parent="Countries/Europe" instance=ExtResource("95_1q235")]
+position = Vector2(1351, 739)
+
+[node name="Norway" parent="Countries/Europe" instance=ExtResource("96_xgmdp")]
+position = Vector2(1327, 383)
+
+[node name="Poland" parent="Countries/Europe" instance=ExtResource("97_eyiqj")]
+position = Vector2(1340, 645)
+
+[node name="Portugal" parent="Countries/Europe" instance=ExtResource("98_6qwwj")]
+position = Vector2(1154, 760)
+
+[node name="UnitedKingdom" parent="Countries/Europe" instance=ExtResource("99_qrajg")]
+position = Vector2(951, 1041)
+
+[node name="Ukraine" parent="Countries/Europe" instance=ExtResource("100_wr7uy")]
+position = Vector2(1419, 659)
+
+[node name="Switzerland" parent="Countries/Europe" instance=ExtResource("101_cws0l")]
+position = Vector2(1275, 698)
+
+[node name="Sweden" parent="Countries/Europe" instance=ExtResource("102_j30i1")]
+position = Vector2(1312, 526)
+
+[node name="Spain" parent="Countries/Europe" instance=ExtResource("103_bfxd8")]
+position = Vector2(1224, 796)
+
+[node name="Slovenia" parent="Countries/Europe" instance=ExtResource("104_u4dsj")]
+position = Vector2(1325, 708)
+
+[node name="Slovakia" parent="Countries/Europe" instance=ExtResource("105_ty4lt")]
+position = Vector2(1328, 665)
+
+[node name="Serbia" parent="Countries/Europe" instance=ExtResource("106_o8xoq")]
+position = Vector2(1356, 712)
+
+[node name="SanMarino" parent="Countries/Europe" instance=ExtResource("107_3orjj")]
+position = Vector2(1298, 715)
+
+[node name="Russia" parent="Countries/Europe" instance=ExtResource("108_xddks")]
+position = Vector2(1879, 410)
+
+[node name="Romania" parent="Countries/Europe" instance=ExtResource("109_0078o")]
+position = Vector2(1388, 710)
+
+[node name="Albania" parent="Countries/Europe" instance=ExtResource("110_h71o8")]
+position = Vector2(1351, 735)
+
+[node name="Andorra" parent="Countries/Europe" instance=ExtResource("111_lrhwo")]
+position = Vector2(1210, 738)
+
+[node name="Austria" parent="Countries/Europe" instance=ExtResource("112_di0lj")]
+position = Vector2(1319, 693)
+
+[node name="Belarus" parent="Countries/Europe" instance=ExtResource("113_jfvfm")]
+position = Vector2(1414, 624)
+
+[node name="Belgium" parent="Countries/Europe" instance=ExtResource("114_bxwfp")]
+position = Vector2(1241, 658)
+
+[node name="BosniaAndHerzegovina" parent="Countries/Europe" instance=ExtResource("115_ybhws")]
+position = Vector2(1338, 718)
+
+[node name="Bulgaria" parent="Countries/Europe" instance=ExtResource("116_nq5od")]
+position = Vector2(1391, 728)
+
+[node name="Croatia" parent="Countries/Europe" instance=ExtResource("117_y3ovm")]
+position = Vector2(1338, 709)
+
+[node name="CzechRepublic" parent="Countries/Europe" instance=ExtResource("118_c5h2u")]
+position = Vector2(1339, 669)
+
+[node name="Denmark" parent="Countries/Europe" instance=ExtResource("119_16kmy")]
+position = Vector2(1214, 558)
+
+[node name="Estonia" parent="Countries/Europe" instance=ExtResource("120_thhgb")]
+position = Vector2(1407, 573)
+
+[node name="Finland" parent="Countries/Europe" instance=ExtResource("121_k7xuh")]
+position = Vector2(1394, 485)
+
+[node name="France" parent="Countries/Europe" instance=ExtResource("122_5xcki")]
+position = Vector2(1248, 884)
+
+[node name="Germany" parent="Countries/Europe" instance=ExtResource("123_q6o20")]
+position = Vector2(1299, 655)
+
+[node name="Greece" parent="Countries/Europe" instance=ExtResource("124_eyt0f")]
+position = Vector2(1384, 751)
+
+[node name="Hungary" parent="Countries/Europe" instance=ExtResource("125_bqfql")]
+position = Vector2(1345, 694)
+
+[node name="Iceland" parent="Countries/Europe" instance=ExtResource("126_fqed5")]
+position = Vector2(1079, 495)
+
+[node name="Ireland" parent="Countries/Europe" instance=ExtResource("127_tkrrq")]
+position = Vector2(1169, 645)
+
+[node name="Italy" parent="Countries/Europe" instance=ExtResource("128_b2avx")]
+position = Vector2(1309, 731)
+
+[node name="Kosovo" parent="Countries/Europe" instance=ExtResource("129_65qph")]
+position = Vector2(1354, 737)
+
+[node name="Latvia" parent="Countries/Europe" instance=ExtResource("130_1tt5v")]
+position = Vector2(1378, 590)
+
+[node name="Liechtenstein" parent="Countries/Europe" instance=ExtResource("131_ucl4d")]
+position = Vector2(1295, 689)
 
 [connection signal="mouse_entered" from="Countries/USA" to="Countries/USA" method="_print_test"]

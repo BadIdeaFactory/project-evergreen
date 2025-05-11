@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://dolwgvifuw5qo"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_0or1f"]
+[ext_resource type="Texture2D" uid="uid://bj424nbr00kxi" path="res://art/countries/europe/portugal.png" id="2_7js31"]
+
+[node name="Portugal" instance=ExtResource("1_0or1f")]
+country_code = 152
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_7js31")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-5, -27.5, -5, -25.2, -8, -24.2, -8, -6.9, -8.4, -6.5, -10.7, -6.5, -11.7, -3.5, -13.7, -3.5, -14.2, -2.3, -8.4, 3.5, -8, 11.2, -5, 12.1, -5, 14.5, 3.7, 14.5, 4.7, 11.5, 7, 11.5, 7, -3.1, 7.4, -3.5, 9.9, -3.5, 10.9, -15.5, 13, -15.5, 13, -24.2, 10, -25.2, 10, -27.5)

@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://d1g2o1shsxfko"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_xc20l"]
+[ext_resource type="Texture2D" uid="uid://y2f8so2mdtkt" path="res://art/countries/europe/belgium.png" id="2_as7sm"]
+
+[node name="Belgium" instance=ExtResource("1_xc20l")]
+country_code = 14
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_as7sm")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-3.1, -13.7, -4.5, -13.2, -4.5, -11, -8.5, -8, -13.5, -7.5, -13.5, -5.2, -16.5, -4.2, -16.5, -1.5, -14.2, -1.5, -13.2, 1.5, -7.9, 1.5, -7.5, 1.9, -7.5, 4.2, -4.5, 5.1, -4.5, 7.3, 1.5, 8.3, 1.5, 10.5, 7.5, 10.5, 7.5, 7.9, 7.9, 7.5, 10.2, 7.5, 11.2, 4.5, 13.5, 4.5, 13.5, -1.5, 11, -1.5, 8, -5.5, 7.5, -7.5, 1.9, -7.5, 1.5, -7.9, 1.5, -10.5, -1, -10.5)

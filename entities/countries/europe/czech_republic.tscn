@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://bxpt8yf8tglro"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_ov5cm"]
+[ext_resource type="Texture2D" uid="uid://b72ruf732fkms" path="res://art/countries/europe/czechrepublic.png" id="2_e50tj"]
+
+[node name="CzechRepublic" instance=ExtResource("1_ov5cm")]
+country_code = 48
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_e50tj")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-26.1, -18.2, -27.5, -17.7, -27.5, -15.4, -27.9, -15, -33.2, -15, -34.2, -12, -39.5, -12, -39.5, -9.4, -39.9, -9, -42.2, -9, -43.2, -6, -45.2, -6, -45.7, -4.6, -42.5, -2.5, -42.5, 3, -39.9, 3, -39.5, 3.4, -39.5, 6, -36.9, 6, -36.5, 6.4, -36.5, 8.7, -33.5, 9.6, -33.5, 12, -27.5, 12, -27.5, 9.5, -23.5, 6.5, -19.2, 6, -18.2, 9, -10.2, 9, -9.2, 12, -3.5, 12, -3.5, 9.4, -3.1, 9, -0.5, 9, -0.5, 6.4, -0.0999985, 6, 2.2, 6, 3.2, 3, 5.5, 3, 5.5, -3, 2.9, -3, 2.5, -3.4, 2.5, -5.7, -0.5, -6.7, -0.5, -9, -15.1, -9, -15.5, -9.4, -15.5, -11.7, -18.5, -12.7, -18.5, -15, -24, -15)

@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://coeh7gut66r5d"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_lqtqp"]
+[ext_resource type="Texture2D" uid="uid://l7qvutbv6tea" path="res://art/countries/europe/liechtenstein.png" id="2_07jny"]
+
+[node name="Liechtenstein" instance=ExtResource("1_lqtqp")]
+country_code = 33
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_07jny")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-15.6, -4.7, -17, -4.2, -17, -2.2, -20, -1.2, -20, 4.2, -17, 5.1, -17, 7.2, -15.6, 7.7, -13.5, 4.5, -11, 4.5, -11, -1.5, -13.5, -1.5)

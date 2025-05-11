@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://baqddt0ctnlo2"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_efjnv"]
+[ext_resource type="Texture2D" uid="uid://cc3m8okxbeb0" path="res://art/countries/europe/luxembourg.png" id="2_2np2j"]
+
+[node name="Luxembourg" instance=ExtResource("1_efjnv")]
+country_code = 114
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_2np2j")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-10, -1, -10, 1.6, -10.4, 2, -12.7, 2, -13.2, 3.4, -10, 5.5, -10, 8, -4.3, 8, -3.3, 5, -1.3, 5, -0.800003, 3.6, -4, 1.4, -4, -1)

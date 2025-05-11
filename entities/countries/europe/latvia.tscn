@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://cdgpexxxiq0g7"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_yo01x"]
+[ext_resource type="Texture2D" uid="uid://brluqqiyrardu" path="res://art/countries/europe/latvia.png" id="2_od7u5"]
+
+[node name="Latvia" instance=ExtResource("1_yo01x")]
+country_code = 115
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_od7u5")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(4.5, -8, 4.5, -5.4, 4.1, -5, 1.5, -5, 1.5, 0.5, -2.5, 3.5, -4.3, 3, -4.5, -2, -6.8, -2, -7.8, -5, -16.2, -5, -17.2, -2, -19.3, -2, -20.4, 4, -22.5, 4, -22.5, 12.7, -19.5, 13.6, -19.5, 15.7, -18.1, 16.2, -16, 13, 10.1, 13, 10.5, 13.4, 10.5, 15.6, 13.3, 17, 13.5, 19, 19.1, 19, 20.5, 16.2, 25.5, 16, 25.5, 13.5, 29.5, 10.5, 31.5, 10, 31.5, 1, 28.9, 1, 28.5, 0.599998, 28.5, -1.7, 25.5, -2.7, 25.5, -5, 10.9, -5, 10.5, -5.4, 10.5, -8)

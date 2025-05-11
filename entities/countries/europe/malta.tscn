@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://djol2ixae3vcd"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_ckhe6"]
+[ext_resource type="Texture2D" uid="uid://0byu7ys5qk1n" path="res://art/countries/europe/malta.png" id="2_pvlsf"]
+
+[node name="Malta" instance=ExtResource("1_ckhe6")]
+country_code = 124
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_pvlsf")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-18.5, -5, -18.5, -2.4, -18.9, -2, -21.2, -2, -21.7, -0.599998, -18.5, 1.5, -18.5, 4, -12.8, 4, -11.8, 1, -9.8, 1, -9.3, -0.400002, -12.5, -2.6, -12.5, -5)

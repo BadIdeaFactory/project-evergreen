@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://b5ij2vti0qqao"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_lgqbj"]
+[ext_resource type="Texture2D" uid="uid://06h77jfups24" path="res://art/countries/europe/sanmarino.png" id="2_ue020"]
+
+[node name="SanMarino" instance=ExtResource("1_lgqbj")]
+country_code = 94
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_ue020")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-0.800003, -1.2, -2, -0.699997, -2, 1.3, -5, 2.3, -5, 4.7, -2, 5.6, -2, 7.7, -0.599998, 8.2, 1.5, 5, 3.7, 5, 4.2, 3.8)

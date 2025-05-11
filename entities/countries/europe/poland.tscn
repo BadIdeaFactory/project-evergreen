@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://t55dsvk2hnxb"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_ny32j"]
+[ext_resource type="Texture2D" uid="uid://cqy5ygcwnrf8k" path="res://art/countries/europe/poland.png" id="2_kdhsm"]
+
+[node name="Poland" instance=ExtResource("1_ny32j")]
+country_code = 149
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_kdhsm")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-11, -30, -11, -27.4, -11.4, -27, -16.7, -27, -17.7, -24, -22.7, -24, -23.7, -21, -31.7, -21, -32.7, -18, -35, -18, -35, -6.4, -32.2, -5, -32, -0.300003, -29, 0.599998, -29, 8.7, -26, 9.6, -26, 12, -20.4, 12, -20, 12.4, -20, 14.6, -17.2, 16, -17, 18, -2.4, 18, -2, 18.4, -2, 20.6, 0.800003, 22, 1, 24, 15.6, 24, 16, 24.4, 16, 27, 21.6, 27, 22, 27.4, 22, 29.7, 25, 30.6, 25, 32.7, 26.2, 33.2, 29, 30.4, 31, 30, 31, 21.4, 31.4, 21, 34, 21, 34, 18.4, 34.4, 18, 36.7, 18, 37.7, 15, 40, 15, 40, 9.4, 37.2, 8, 37, 6.6, 40, 5.7, 40, 3.3, 37, 2.3, 37, -20.7, 34, -21.7, 34, -24, 1.4, -24, 1, -24.4, 1, -26.7, -2, -27.7, -2, -30)

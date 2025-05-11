@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://c2ytjthwrdcfx"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_nr2r1"]
+[ext_resource type="Texture2D" uid="uid://docem7eh1owrt" path="res://art/countries/europe/estonia.png" id="2_wh8km"]
+
+[node name="Estonia" instance=ExtResource("1_nr2r1")]
+country_code = 60
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_wh8km")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-21, -12.5, -21, -9.9, -21.4, -9.5, -27, -9.5, -27, -7, -31, -4, -33, -3.5, -33, 5.2, -30, 6.1, -30, 8.3, -24, 9.3, -24, 11.3, -18, 12.3, -18, 14.5, -6.3, 14.5, -5.3, 11.5, -3.1, 11.5, -2.1, -3.5, -0.300003, -3.5, 0.199997, -4.9, -3, -7.1, -3, -9.3, -9, -10.4, -9, -12.5)
+
+[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="." index="3"]
+polygon = PackedVector2Array(-40.8, -0.699997, -42, -0.199997, -42, 1.8, -45, 2.8, -45, 5.2, -42, 6.1, -42, 8.2, -40.6, 8.7, -38.5, 5.5, -36.3, 5.5, -35.8, 4.3)

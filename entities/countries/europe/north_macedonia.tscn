@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://yk2ugu0eg3sl"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_hwc6f"]
+[ext_resource type="Texture2D" uid="uid://cvddf42m2gtbm" path="res://art/countries/europe/northmacedonia.png" id="2_1asib"]
+
+[node name="NorthMacedonia" instance=ExtResource("1_hwc6f")]
+country_code = 122
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_1asib")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(12.4, -9.7, 11, -9.2, 11, -6.9, 10.6, -6.5, 5.3, -6.5, 4.3, -3.5, 2, -3.5, 2, 2.5, 4.3, 2.5, 5.3, 5.5, 14, 5.5, 14, 3, 18, 0, 20, -0.5, 20, -3.5, 17.4, -3.5, 17, -3.9, 17, -6.5, 14.5, -6.5)

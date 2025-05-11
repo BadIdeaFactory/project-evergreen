@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://dh1t7uc76u1d3"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_n6v8b"]
+[ext_resource type="Texture2D" uid="uid://beyeqsnjklmy" path="res://art/countries/europe/montenegro.png" id="2_sysdt"]
+
+[node name="Montenegro" instance=ExtResource("1_n6v8b")]
+country_code = 161
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_sysdt")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-1.8, 6.8, -3, 7.3, -3, 9.5, -7, 12.5, -9, 13, -9, 16, -6.4, 16, -6, 16.4, -6, 18.7, -3, 19.6, -3, 21.7, -1.6, 22.2, 0.5, 19, 2.7, 19, 3.7, 16, 5.7, 16, 6.2, 14.8)
