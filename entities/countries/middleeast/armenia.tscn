@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://c3e5f7p6poyy3"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_do0an"]
+[ext_resource type="Texture2D" uid="uid://okxin67p5m5i" path="res://art/countries/middleeast/armenia.png" id="2_k5wx2"]
+
+[node name="Armenia" instance=ExtResource("1_do0an")]
+country_code = 8
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_k5wx2")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-8, -11.5, -8, -8.9, -8.4, -8.5, -10.7, -8.5, -11.2, -7.1, -8, -5, -8, 0.5, -5.4, 0.5, -5, 0.900002, -5, 3.5, -2.4, 3.5, -2, 3.9, -2, 6.2, 1, 7.1, 1, 9.2, 2.4, 9.7, 4.5, 6.5, 9.7, 6.5, 10.7, 3.5, 12.7, 3.5, 13.2, 2.1, 10, -0.0999985, 10, -5.5, 7.4, -5.5, 7, -5.9, 7, -8.2, 4, -9.2, 4, -11.5)

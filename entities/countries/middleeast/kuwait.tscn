@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://dofy0knfq3iwy"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_l0a0a"]
+[ext_resource type="Texture2D" uid="uid://blxkhmpfve31t" path="res://art/countries/middleeast/kuwait.png" id="2_2g7y3"]
+
+[node name="Kuwait" instance=ExtResource("1_l0a0a")]
+country_code = 105
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_2g7y3")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(3.4, -13.2, 2, -12.7, 2, -10.4, 1.6, -10, -0.699997, -10, -1.7, -7, -3.7, -7, -4.2, -5.8, -1.4, -3, -1, -1, 5, -1, 5, -3.4, 8, -4.3, 8, -10, 5.5, -10)

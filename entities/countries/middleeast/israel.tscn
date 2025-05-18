@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://b03qpgea4e3dq"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_dgxv4"]
+[ext_resource type="Texture2D" uid="uid://b82x7u7miaecs" path="res://art/countries/middleeast/israel.png" id="2_rr24k"]
+
+[node name="Israel" instance=ExtResource("1_dgxv4")]
+country_code = 93
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_rr24k")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(18.7, -4.2, 17.5, -3.7, 17.5, -1.4, 17.1, -1, 14.5, -1, 14.5, 1.6, 14.1, 2, 11.8, 2, 10.8, 5, 8.8, 5, 8.3, 6.2, 11.1, 9, 10.7, 11, 8.5, 11, 8.5, 17, 10.8, 17, 11.8, 20, 14.5, 20, 14.5, 17.4, 14.9, 17, 17.2, 17, 18.2, 14, 20.5, 14, 20.5, 8.3, 17.5, 7.3, 17.5, 5.4, 17.9, 5, 20.2, 5, 21.2, 2, 23.2, 2, 23.7, 0.800003)
+
+[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="." index="3"]
+polygon = PackedVector2Array(20.5, 5, 20.5, 8, 23.5, 8, 23.5, 5)
+
+[node name="CollisionPolygon2D3" type="CollisionPolygon2D" parent="." index="4"]
+polygon = PackedVector2Array(5.5, 8, 5.5, 11, 8.5, 11, 8.5, 8)

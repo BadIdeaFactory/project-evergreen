@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://c7l7v1df7em1b"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_ypw7t"]
+[ext_resource type="Texture2D" uid="uid://c3fgt5o8ulou3" path="res://art/countries/middleeast/palestine.png" id="2_co6f7"]
+
+[node name="Palestine" instance=ExtResource("1_ypw7t")]
+country_code = 93
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_co6f7")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(5.7, -13.2, 4.5, -12.7, 4.5, -10.7, 1.5, -9.7, 1.5, -7.3, 4.5, -6.4, 4.5, -4.3, 5.9, -3.8, 8, -7, 10.2, -7, 10.7, -8.2)
+
+[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="." index="3"]
+polygon = PackedVector2Array(-3.3, -10.2, -4.5, -9.7, -4.5, -7.7, -7.5, -6.7, -7.5, -4.3, -4.5, -3.4, -4.5, -1.3, -3.1, -0.800003, -1, -4, 1.2, -4, 1.7, -5.2)

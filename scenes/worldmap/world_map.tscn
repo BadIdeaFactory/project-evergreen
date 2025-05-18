@@ -1,4 +1,4 @@
-[gd_scene load_steps=132 format=3 uid="uid://xlfbl7fowoic"]
+[gd_scene load_steps=151 format=3 uid="uid://xlfbl7fowoic"]
 
 [ext_resource type="Texture2D" uid="uid://xrpjeff551cv" path="res://art/PixelWorldMap_All_Countries_3x_Green.png" id="1_g7ewq"]
 [ext_resource type="PackedScene" uid="uid://bsbcdmesjv6qv" path="res://entities/countries/usa.tscn" id="2_srtnd"]
@@ -131,6 +131,25 @@
 [ext_resource type="PackedScene" uid="uid://ehu7mccy44kl" path="res://entities/countries/europe/kosovo.tscn" id="129_65qph"]
 [ext_resource type="PackedScene" uid="uid://cdgpexxxiq0g7" path="res://entities/countries/europe/latvia.tscn" id="130_1tt5v"]
 [ext_resource type="PackedScene" uid="uid://coeh7gut66r5d" path="res://entities/countries/europe/liechtenstein.tscn" id="131_ucl4d"]
+[ext_resource type="PackedScene" uid="uid://ke2ggf67vqwh" path="res://entities/countries/middleeast/saudi_arabia.tscn" id="132_h6jsh"]
+[ext_resource type="PackedScene" uid="uid://btxvgyvjsbgn1" path="res://entities/countries/middleeast/syria.tscn" id="133_no0o1"]
+[ext_resource type="PackedScene" uid="uid://cnpod270gpvvp" path="res://entities/countries/middleeast/turkey.tscn" id="134_y7o8s"]
+[ext_resource type="PackedScene" uid="uid://bjh3uqrjdoh2v" path="res://entities/countries/middleeast/united_arab_emirates.tscn" id="135_crfo8"]
+[ext_resource type="PackedScene" uid="uid://cf3lub1g1xi06" path="res://entities/countries/middleeast/yemen.tscn" id="136_ur58a"]
+[ext_resource type="PackedScene" uid="uid://dwbvavj7uymsf" path="res://entities/countries/middleeast/qatar.tscn" id="137_xms8x"]
+[ext_resource type="PackedScene" uid="uid://c7l7v1df7em1b" path="res://entities/countries/middleeast/palestine.tscn" id="138_4qepk"]
+[ext_resource type="PackedScene" uid="uid://drunippjx7p5j" path="res://entities/countries/middleeast/oman.tscn" id="139_8u0ik"]
+[ext_resource type="PackedScene" uid="uid://crmnxha8h7kpo" path="res://entities/countries/middleeast/lebanon.tscn" id="140_0ulxn"]
+[ext_resource type="PackedScene" uid="uid://dofy0knfq3iwy" path="res://entities/countries/middleeast/kuwait.tscn" id="141_m2l07"]
+[ext_resource type="PackedScene" uid="uid://c6ehwwiqb4im3" path="res://entities/countries/middleeast/jordan.tscn" id="142_ak6xp"]
+[ext_resource type="PackedScene" uid="uid://b03qpgea4e3dq" path="res://entities/countries/middleeast/israel.tscn" id="143_3hef1"]
+[ext_resource type="PackedScene" uid="uid://b153553321kag" path="res://entities/countries/middleeast/iraq.tscn" id="144_b4iba"]
+[ext_resource type="PackedScene" uid="uid://ift582w87b5v" path="res://entities/countries/middleeast/iran.tscn" id="145_at0wv"]
+[ext_resource type="PackedScene" uid="uid://cbw6bdvto1at1" path="res://entities/countries/middleeast/georgia.tscn" id="146_vvbgt"]
+[ext_resource type="PackedScene" uid="uid://d6eyxgpxfygp" path="res://entities/countries/middleeast/cyprus.tscn" id="147_m1q8w"]
+[ext_resource type="PackedScene" uid="uid://t4yhnqyu3i4t" path="res://entities/countries/middleeast/bahrain.tscn" id="148_q8kvu"]
+[ext_resource type="PackedScene" uid="uid://3nqwyj2erxto" path="res://entities/countries/middleeast/azerbaijan.tscn" id="149_smvmr"]
+[ext_resource type="PackedScene" uid="uid://c3e5f7p6poyy3" path="res://entities/countries/middleeast/armenia.tscn" id="150_ej4xq"]
 
 [node name="WorldMap" type="Node2D"]
 
@@ -536,5 +555,64 @@ position = Vector2(1378, 590)
 
 [node name="Liechtenstein" parent="Countries/Europe" instance=ExtResource("131_ucl4d")]
 position = Vector2(1295, 689)
+
+[node name="MiddleEast" type="Node" parent="Countries"]
+
+[node name="SaudiArabia" parent="Countries/MiddleEast" instance=ExtResource("132_h6jsh")]
+position = Vector2(1540, 859)
+
+[node name="Syria" parent="Countries/MiddleEast" instance=ExtResource("133_no0o1")]
+position = Vector2(1494, 796)
+
+[node name="Turkey" parent="Countries/MiddleEast" instance=ExtResource("134_y7o8s")]
+position = Vector2(1461, 746)
+
+[node name="UnitedArabEmirates" parent="Countries/MiddleEast" instance=ExtResource("135_crfo8")]
+position = Vector2(1600, 868)
+
+[node name="Yemen" parent="Countries/MiddleEast" instance=ExtResource("136_ur58a")]
+position = Vector2(1542, 916)
+
+[node name="Qatar" parent="Countries/MiddleEast" instance=ExtResource("137_xms8x")]
+position = Vector2(1580, 859)
+
+[node name="Palestine" parent="Countries/MiddleEast" instance=ExtResource("138_4qepk")]
+position = Vector2(1454, 822)
+
+[node name="Oman" parent="Countries/MiddleEast" instance=ExtResource("139_8u0ik")]
+position = Vector2(1606, 886)
+
+[node name="Lebanon" parent="Countries/MiddleEast" instance=ExtResource("140_0ulxn")]
+position = Vector2(1454, 798)
+
+[node name="Kuwait" parent="Countries/MiddleEast" instance=ExtResource("141_m2l07")]
+position = Vector2(1543, 832)
+
+[node name="Jordan" parent="Countries/MiddleEast" instance=ExtResource("142_ak6xp")]
+position = Vector2(1471, 818)
+
+[node name="Israel" parent="Countries/MiddleEast" instance=ExtResource("143_3hef1")]
+position = Vector2(1441, 807)
+
+[node name="Iraq" parent="Countries/MiddleEast" instance=ExtResource("144_b4iba")]
+position = Vector2(1514, 796)
+
+[node name="Iran" parent="Countries/MiddleEast" instance=ExtResource("145_at0wv")]
+position = Vector2(1595, 808)
+
+[node name="Georgia" parent="Countries/MiddleEast" instance=ExtResource("146_vvbgt")]
+position = Vector2(1510, 729)
+
+[node name="Cyprus" parent="Countries/MiddleEast" instance=ExtResource("147_m1q8w")]
+position = Vector2(1450, 792)
+
+[node name="Bahrain" parent="Countries/MiddleEast" instance=ExtResource("148_q8kvu")]
+position = Vector2(1556, 843)
+
+[node name="Azerbaijan" parent="Countries/MiddleEast" instance=ExtResource("149_smvmr")]
+position = Vector2(1543, 742)
+
+[node name="Armenia" parent="Countries/MiddleEast" instance=ExtResource("150_ej4xq")]
+position = Vector2(1524, 749)
 
 [connection signal="mouse_entered" from="Countries/USA" to="Countries/USA" method="_print_test"]

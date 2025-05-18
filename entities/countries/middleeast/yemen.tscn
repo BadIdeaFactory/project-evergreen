@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://cf3lub1g1xi06"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_tgce8"]
+[ext_resource type="Texture2D" uid="uid://cl2r23mf6kk47" path="res://art/countries/middleeast/yemen.png" id="2_y8dt8"]
+
+[node name="Yemen" instance=ExtResource("1_tgce8")]
+country_code = 203
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_y8dt8")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(6, -15.5, 6, -12.9, 5.6, -12.5, 3, -12.5, 3, -7, -1, -4, -5.6, -3.5, -6, -3.9, -6, -6.4, -15, -7.4, -15, -9.5, -26.7, -9.5, -27.7, -6.5, -30, -6.5, -30, 11.1, -27.2, 12.5, -27, 20.5, -24.7, 20.5, -23.7, 23.5, -15, 23.5, -15, 20.9, -14.6, 20.5, -12.3, 20.5, -11.3, 17.5, 6, 17.5, 6, 15, 10, 12, 14.7, 11.5, 15.7, 8.5, 30, 8.5, 30, 6, 34, 3, 38.7, 2.5, 39.7, -0.5, 42, -0.5, 42, -6.5, 39.4, -6.5, 39, -6.9, 39, -9.5, 36.4, -9.5, 36, -9.9, 36, -12.2, 33, -13.2, 33, -15.5)

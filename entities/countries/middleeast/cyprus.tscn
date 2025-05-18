@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://d6eyxgpxfygp"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_hnq4c"]
+[ext_resource type="Texture2D" uid="uid://3mn4irupxciv" path="res://art/countries/middleeast/cyprus.png" id="2_gga4y"]
+
+[node name="Cyprus" instance=ExtResource("1_hnq4c")]
+country_code = 47
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_gga4y")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-13, -9, -13, -6.7, -16, -5.7, -16, -3, -13.4, -3, -13, -2.6, -13, -0.300003, -10, 0.599998, -10, 2.7, -8.6, 3.2, -6.5, 0, 1.7, 0, 2.7, -3, 4.7, -3, 5.2, -4.4, 2, -6.6, 2, -9)

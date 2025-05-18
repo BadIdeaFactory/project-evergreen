@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://dwbvavj7uymsf"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_pmbec"]
+[ext_resource type="Texture2D" uid="uid://ceb6br7lqom5p" path="res://art/countries/middleeast/qatar.png" id="2_441j5"]
+
+[node name="Qatar" instance=ExtResource("1_pmbec")]
+country_code = 155
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_441j5")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-9.6, -10.2, -11, -9.7, -11, -7.4, -11.4, -7, -13.7, -7, -14.7, -4, -16.7, -4, -17.2, -2.8, -11.4, 3, -11, 5, -8, 5, -8, 2.6, -5, 1.7, -5, -7, -7.5, -7)

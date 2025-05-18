@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://bjh3uqrjdoh2v"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_ngly0"]
+[ext_resource type="Texture2D" uid="uid://clay0m2pe8i2a" path="res://art/countries/middleeast/unitedarabemirates.png" id="2_mgs1m"]
+
+[node name="UnitedArabEmirates" instance=ExtResource("1_ngly0")]
+country_code = 6
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_mgs1m")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(0.699997, -16.7, -0.5, -16.2, -0.5, -13.9, -0.900002, -13.5, -3.5, -13.5, -3.5, -10.9, -3.9, -10.5, -6.5, -10.5, -6.5, -8, -10.5, -5, -11.8, -4.5, -12.8, -7.5, -27.5, -7.5, -27.5, -1.5, -25, -1.5, -22, 2.5, -21.5, 4.5, -0.5, 4.5, -0.5, 2.1, 2.5, 1.2, 2.5, -4.1, 2.9, -4.5, 5.2, -4.5, 6.2, -7.5, 8.2, -7.5, 8.7, -8.7)

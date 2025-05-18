@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://t4yhnqyu3i4t"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_dyg5o"]
+[ext_resource type="Texture2D" uid="uid://xs6ki8mpnei6" path="res://art/countries/middleeast/bahrain.png" id="2_w4b3n"]
+
+[node name="Bahrain" instance=ExtResource("1_dyg5o")]
+country_code = 19
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_w4b3n")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(4.5, -0.5, 4.5, 2.1, 4.1, 2.5, 1.8, 2.5, 1.3, 3.9, 4.5, 6, 4.5, 8.5, 10.2, 8.5, 11.2, 5.5, 13.2, 5.5, 13.7, 4.1, 10.5, 1.9, 10.5, -0.5)

@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://3nqwyj2erxto"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_rv733"]
+[ext_resource type="Texture2D" uid="uid://da8vlvm77eygb" path="res://art/countries/middleeast/azerbaijan.png" id="2_n2jd7"]
+
+[node name="Azerbaijan" instance=ExtResource("1_rv733")]
+country_code = 12
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_n2jd7")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-16, -6.5, -16, -4.2, -19, -3.2, -19, -0.5, -16.5, -0.5, -13.5, 3.5, -13, 8.1, -10.2, 9.5, -10, 11.1, -10.4, 11.5, -15.7, 11.5, -16.7, 14.5, -18.7, 14.5, -19.2, 15.9, -16, 18, -16, 20.5, -4, 20.5, -4, 17.9, -3.6, 17.5, -1.3, 17.5, -0.300003, 14.5, 1.6, 14.5, 2, 14.9, 2, 20.5, 4.3, 20.5, 5.3, 23.5, 10.8, 23.5, 11.9, 17.5, 14, 17.5, 14, -3.3, 8, -4.4, 8, -6.5)

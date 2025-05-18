@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://c6ehwwiqb4im3"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_kc1p5"]
+[ext_resource type="Texture2D" uid="uid://bij7py5syipwt" path="res://art/countries/middleeast/jordan.png" id="2_ay5wk"]
+
+[node name="Jordan" instance=ExtResource("1_kc1p5")]
+country_code = 96
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_ay5wk")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(9.9, -20.7, 8.5, -20.2, 8.5, -17.9, 8.1, -17.5, 5.8, -17.5, 4.8, -14.5, -6.5, -14.5, -6.5, -11.9, -6.9, -11.5, -9.2, -11.5, -10.2, -8.5, -12.2, -8.5, -12.7, -7.1, -9.5, -5, -9.5, 0.0999985, -9.9, 0.5, -12.5, 0.5, -12.5, 3.1, -12.9, 3.5, -15.2, 3.5, -16.2, 6.5, -18.5, 6.5, -18.5, 12.2, -15.5, 13.1, -15.5, 15.5, -3.5, 15.5, -3.5, 12.9, -3.1, 12.5, -0.800003, 12.5, 0.199997, 9.5, 5.5, 9.5, 5.5, 7.1, 8.5, 6.2, 8.5, 3.5, 5.9, 3.5, 5.5, 3.1, 5.5, 0.800003, 2.5, -0.199997, 2.5, -2.1, 2.9, -2.5, 5.2, -2.5, 6.2, -5.5, 11.2, -5.5, 12.2, -8.5, 14.5, -8.5, 14.5, -17.5, 12, -17.5)
