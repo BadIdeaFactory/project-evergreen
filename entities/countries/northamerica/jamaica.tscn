@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://dardtduu5pxhe"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_x2kg7"]
+[ext_resource type="Texture2D" uid="uid://ecmx72h0nxmr" path="res://art/countries/northamerica/jamaica.png" id="2_xdy1u"]
+
+[node name="Jamaica" instance=ExtResource("1_x2kg7")]
+country_code = 95
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_xdy1u")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-1, -1.5, -1, 1.1, -1.4, 1.5, -3.7, 1.5, -4.7, 4.5, -6.7, 4.5, -7.2, 5.9, -4, 8, -4, 10.5, 1.7, 10.5, 2.7, 7.5, 7.7, 7.5, 8.7, 4.5, 10.7, 4.5, 11.2, 3.1, 8, 0.900002, 8, -1.5)

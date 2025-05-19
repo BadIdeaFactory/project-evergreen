@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://5tcwuxorjhmw"
-path="res://.godot/imported/usa.png-8c5d33101e14960209704a6533cd0a60.ctex"
+uid="uid://cdyqk7g47o3lf"
+path="res://.godot/imported/belize.png-6d59a5bfe48dd1e7091f50a07fb2f537.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/usa.png"
-dest_files=["res://.godot/imported/usa.png-8c5d33101e14960209704a6533cd0a60.ctex"]
+source_file="res://art/countries/northamerica/belize.png"
+dest_files=["res://.godot/imported/belize.png-6d59a5bfe48dd1e7091f50a07fb2f537.ctex"]
 
 [params]
 

@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://ci8tc1203w1mw"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_copcx"]
+[ext_resource type="Texture2D" uid="uid://b5xwklxbd40t0" path="res://art/countries/northamerica/cuba.png" id="2_1sfep"]
+
+[node name="Cuba" instance=ExtResource("1_copcx")]
+country_code = 45
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_1sfep")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-27, -10, -27, -7.4, -27.4, -7, -29.7, -7, -30.7, -4, -33, -4, -33, 1.7, -30, 2.6, -30, 5, -24, 5, -24, 2.4, -23.6, 2, -21.3, 2, -20.3, -1, -15.4, -1, -15, -0.599998, -15, 1.7, -12, 2.6, -12, 5, 5.6, 5, 6, 5.4, 6, 7.7, 9, 8.6, 9, 11, 14.6, 11, 15, 11.4, 15, 13.7, 18, 14.6, 18, 17, 35.7, 17, 36.7, 14, 38.7, 14, 39.2, 12.6, 36, 10.4, 36, 8, 30.4, 8, 30, 7.6, 30, 5.3, 27, 4.3, 27, 2, 21.4, 2, 21, 1.6, 21, -0.800003, 15, -1.9, 15, -4, 0.400002, -4, 0, -4.4, 0, -6.7, -3, -7.7, -3, -10)

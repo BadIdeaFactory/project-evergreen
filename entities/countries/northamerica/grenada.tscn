@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://b0tyghlkldk4c"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_or4js"]
+[ext_resource type="Texture2D" uid="uid://0ug0d6h7ul34" path="res://art/countries/northamerica/grenada.png" id="2_1xp02"]
+
+[node name="Grenada" instance=ExtResource("1_or4js")]
+country_code = 77
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_1xp02")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-3.8, 2.8, -5, 3.3, -5, 5.3, -8, 6.3, -8, 8.7, -5, 9.6, -5, 11.7, -3.6, 12.2, -1.5, 9, 0.700001, 9, 1.2, 7.8)

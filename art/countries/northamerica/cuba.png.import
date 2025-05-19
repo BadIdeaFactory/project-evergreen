@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cja7bri61jcys"
-path="res://.godot/imported/canada.png-2bfbf4730dc04e7b70c4c9a79322e83c.ctex"
+uid="uid://b5xwklxbd40t0"
+path="res://.godot/imported/cuba.png-eb8d4441ea3c3a114053fffd6a51534a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/canada.png"
-dest_files=["res://.godot/imported/canada.png-2bfbf4730dc04e7b70c4c9a79322e83c.ctex"]
+source_file="res://art/countries/northamerica/cuba.png"
+dest_files=["res://.godot/imported/cuba.png-eb8d4441ea3c3a114053fffd6a51534a.ctex"]
 
 [params]
 

@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://dsg1avm7chfbp"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_hyquq"]
+[ext_resource type="Texture2D" uid="uid://cbqhr4mtbknno" path="res://art/countries/northamerica/guatemala.png" id="2_8d3ep"]
+
+[node name="Guatemala" instance=ExtResource("1_hyquq")]
+country_code = 79
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_8d3ep")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-22, -10.5, -22, -7.9, -22.4, -7.5, -24.7, -7.5, -25.7, -4.5, -28, -4.5, -28, 1.1, -28.4, 1.5, -31, 1.5, -31, 4.1, -31.4, 4.5, -33.7, 4.5, -34.7, 7.5, -36.7, 7.5, -37.2, 8.9, -34, 11, -34, 13.2, -31, 14.1, -31, 16.5, -16, 16.5, -16, 13.9, -15.6, 13.5, -13.3, 13.5, -12.3, 10.5, -10.2, 10.5, -9.1, 4.5, -7.3, 4.5, -6.8, 3.1, -10, 0.900002, -10, -10.5)

@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://3q76qciew2mo"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_sj1me"]
+[ext_resource type="Texture2D" uid="uid://w2qe7tp2hy51" path="res://art/countries/northamerica/antiguaandbarbuda.png" id="2_c8alq"]
+
+[node name="AntiguaAndBarbuda" instance=ExtResource("1_sj1me")]
+country_code = 9
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_c8alq")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-11.8, 3.3, -13, 3.8, -13, 5.8, -16, 6.8, -16, 9.2, -13, 10.1, -13, 12.2, -11.6, 12.7, -9.5, 9.5, -7.3, 9.5, -6.8, 8.3)

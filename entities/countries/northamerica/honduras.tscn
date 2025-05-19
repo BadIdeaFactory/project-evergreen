@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://bthmjnmxpjlm"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_pj3rs"]
+[ext_resource type="Texture2D" uid="uid://cdvkk21vx3aoj" path="res://art/countries/northamerica/honduras.png" id="2_hy0su"]
+
+[node name="Honduras" instance=ExtResource("1_pj3rs")]
+country_code = 83
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_hy0su")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-21.6, 2.8, -23, 3.3, -23, 5.3, -26, 6.3, -26, 12, -23.7, 12, -22.7, 15, -17.4, 15, -17, 15.4, -17, 18, -14.4, 18, -14, 18.4, -14, 20.7, -11, 21.6, -11, 23.7, -9.6, 24.2, -7.5, 21, -2, 21, -2, 18.4, -1.6, 18, 1, 18, 1, 15.5, 5, 12.5, 9.7, 12, 10.7, 9, 12.7, 9, 13.2, 7.6, 10, 5.4, 10, 3, -4.6, 3, -6, 5.8, -19.5, 6)

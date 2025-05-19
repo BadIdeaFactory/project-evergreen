@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://eml0wsvpr0ur"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_epvqq"]
+[ext_resource type="Texture2D" uid="uid://bj0sv6kx1kuv7" path="res://art/countries/northamerica/trinidadandtobago.png" id="2_x35p8"]
+
+[node name="TrinidadAndTobago" instance=ExtResource("1_epvqq")]
+country_code = 187
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_x35p8")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(1.2, 8.8, 0, 9.3, 0, 11.3, -3, 12.3, -3, 14.7, 0, 15.6, 0, 17.7, 1.4, 18.2, 3.5, 15, 5.7, 15, 6.2, 13.8)

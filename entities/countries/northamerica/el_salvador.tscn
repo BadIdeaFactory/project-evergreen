@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://cox72wt40srn0"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_4wtj7"]
+[ext_resource type="Texture2D" uid="uid://0am3vpt1kxnl" path="res://art/countries/northamerica/elsalvador.png" id="2_7vwnp"]
+
+[node name="ElSalvador" instance=ExtResource("1_4wtj7")]
+country_code = 168
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_7vwnp")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-4.1, -8.2, -5.5, -7.7, -5.5, -5.4, -5.9, -5, -8.2, -5, -9.2, -2, -11.2, -2, -11.7, -0.599998, -8.5, 1.5, -8.5, 3.8, -2.5, 4.8, -2.5, 7, 6.2, 7, 7.2, 4, 9.2, 4, 9.7, 2.6, 6.5, 0.400002, 6.5, -1.7, 3.5, -2.7, 3.5, -5, -2, -5)

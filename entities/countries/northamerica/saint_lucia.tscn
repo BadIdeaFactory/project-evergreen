@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://b48rptt5h3le8"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_c0ior"]
+[ext_resource type="Texture2D" uid="uid://62mk463acurx" path="res://art/countries/northamerica/saintlucia.png" id="2_gog7h"]
+
+[node name="SaintLucia" instance=ExtResource("1_c0ior")]
+country_code = 110
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_gog7h")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-21.3, -8.2, -22.5, -7.7, -22.5, -5.7, -25.5, -4.7, -25.5, -2.3, -22.5, -1.4, -22.5, 0.699997, -21.1, 1.2, -19, -2, -16.8, -2, -16.3, -3.2)

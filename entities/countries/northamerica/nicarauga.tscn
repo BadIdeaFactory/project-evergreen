@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://chqiihm7uqmmn"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_j7y0a"]
+[ext_resource type="Texture2D" uid="uid://kivhx6ogbncg" path="res://art/countries/northamerica/nicarauga.png" id="2_mq32f"]
+
+[node name="Nicarauga" instance=ExtResource("1_j7y0a")]
+country_code = 137
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_mq32f")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-9.5, -15, -9.5, -12.4, -9.9, -12, -12.5, -12, -12.5, -9.4, -12.9, -9, -15.2, -9, -16.2, -6, -21.5, -6, -21.5, -3.4, -21.9, -3, -24.2, -3, -25.2, 0, -27.2, 0, -27.7, 1.4, -24.5, 3.5, -24.5, 5.8, -18.5, 6.8, -18.5, 8.7, -17.1, 9.2, -15, 6, -9.9, 6, -9.5, 6.4, -9.5, 9, -7, 9, -4, 13, -3.5, 15, 2.5, 15, 2.5, -2.4, 5.5, -3.3, 5.5, -11.7, 2.5, -12.7, 2.5, -15)

@@ -1,8 +1,6 @@
-[gd_scene load_steps=151 format=3 uid="uid://xlfbl7fowoic"]
+[gd_scene load_steps=173 format=3 uid="uid://xlfbl7fowoic"]
 
 [ext_resource type="Texture2D" uid="uid://xrpjeff551cv" path="res://art/PixelWorldMap_All_Countries_3x_Green.png" id="1_g7ewq"]
-[ext_resource type="PackedScene" uid="uid://bsbcdmesjv6qv" path="res://entities/countries/usa.tscn" id="2_srtnd"]
-[ext_resource type="PackedScene" uid="uid://cmhrepm0sn766" path="res://entities/countries/canada.tscn" id="3_f7adm"]
 [ext_resource type="PackedScene" uid="uid://b0vtlhn6w422p" path="res://entities/countries/africa/algeria.tscn" id="4_uqfyt"]
 [ext_resource type="PackedScene" uid="uid://cqgmhlbn41vkj" path="res://entities/countries/africa/angola.tscn" id="5_s26wb"]
 [ext_resource type="PackedScene" uid="uid://caxd3vlv7etkk" path="res://entities/countries/africa/benin.tscn" id="6_s24bq"]
@@ -148,8 +146,32 @@
 [ext_resource type="PackedScene" uid="uid://cbw6bdvto1at1" path="res://entities/countries/middleeast/georgia.tscn" id="146_vvbgt"]
 [ext_resource type="PackedScene" uid="uid://d6eyxgpxfygp" path="res://entities/countries/middleeast/cyprus.tscn" id="147_m1q8w"]
 [ext_resource type="PackedScene" uid="uid://t4yhnqyu3i4t" path="res://entities/countries/middleeast/bahrain.tscn" id="148_q8kvu"]
+[ext_resource type="PackedScene" uid="uid://bsbcdmesjv6qv" path="res://entities/countries/northamerica/united_states_of_america.tscn" id="149_ruwtc"]
 [ext_resource type="PackedScene" uid="uid://3nqwyj2erxto" path="res://entities/countries/middleeast/azerbaijan.tscn" id="149_smvmr"]
 [ext_resource type="PackedScene" uid="uid://c3e5f7p6poyy3" path="res://entities/countries/middleeast/armenia.tscn" id="150_ej4xq"]
+[ext_resource type="PackedScene" uid="uid://eml0wsvpr0ur" path="res://entities/countries/northamerica/trinidad_and_tobago.tscn" id="150_h4wyg"]
+[ext_resource type="PackedScene" uid="uid://b48rptt5h3le8" path="res://entities/countries/northamerica/saint_lucia.tscn" id="151_cvfip"]
+[ext_resource type="PackedScene" uid="uid://bt2rguanvi5lj" path="res://entities/countries/northamerica/saint_kitts_and_nevis.tscn" id="152_oyn7y"]
+[ext_resource type="PackedScene" uid="uid://nqsjaytek1vp" path="res://entities/countries/northamerica/panama.tscn" id="153_8ykax"]
+[ext_resource type="PackedScene" uid="uid://chqiihm7uqmmn" path="res://entities/countries/northamerica/nicarauga.tscn" id="154_ydahv"]
+[ext_resource type="PackedScene" uid="uid://c3xrvikq2j1rw" path="res://entities/countries/northamerica/mexico.tscn" id="155_hlsfb"]
+[ext_resource type="PackedScene" uid="uid://dardtduu5pxhe" path="res://entities/countries/northamerica/jamaica.tscn" id="156_pm242"]
+[ext_resource type="PackedScene" uid="uid://bthmjnmxpjlm" path="res://entities/countries/northamerica/honduras.tscn" id="157_wrm50"]
+[ext_resource type="PackedScene" uid="uid://bo38tqbygrf0u" path="res://entities/countries/northamerica/haiti.tscn" id="158_fpg53"]
+[ext_resource type="PackedScene" uid="uid://dsg1avm7chfbp" path="res://entities/countries/northamerica/guatemala.tscn" id="159_af6ky"]
+[ext_resource type="PackedScene" uid="uid://b0tyghlkldk4c" path="res://entities/countries/northamerica/grenada.tscn" id="160_82ct4"]
+[ext_resource type="PackedScene" uid="uid://bh3ju7p3m1lvq" path="res://entities/countries/northamerica/greenland.tscn" id="161_2wiwj"]
+[ext_resource type="PackedScene" uid="uid://cox72wt40srn0" path="res://entities/countries/northamerica/el_salvador.tscn" id="162_vdu7u"]
+[ext_resource type="PackedScene" uid="uid://dxkocxh242r6d" path="res://entities/countries/northamerica/dominican_republic.tscn" id="163_mltql"]
+[ext_resource type="PackedScene" uid="uid://ck0n67c2mcai6" path="res://entities/countries/northamerica/dominica.tscn" id="164_jnsm2"]
+[ext_resource type="PackedScene" uid="uid://csf1vfmubqpu" path="res://entities/countries/northamerica/curacao.tscn" id="165_cxspg"]
+[ext_resource type="PackedScene" uid="uid://ci8tc1203w1mw" path="res://entities/countries/northamerica/cuba.tscn" id="166_8jlix"]
+[ext_resource type="PackedScene" uid="uid://6dmww3lp2wig" path="res://entities/countries/northamerica/costa_rica.tscn" id="167_53a1l"]
+[ext_resource type="PackedScene" uid="uid://cmhrepm0sn766" path="res://entities/countries/northamerica/canada.tscn" id="168_nm6t3"]
+[ext_resource type="PackedScene" uid="uid://bhcucpv8wyhsy" path="res://entities/countries/northamerica/belize.tscn" id="169_pwsgx"]
+[ext_resource type="PackedScene" uid="uid://csbynmkw04kse" path="res://entities/countries/northamerica/barbados.tscn" id="170_v3jdt"]
+[ext_resource type="PackedScene" uid="uid://hfrn4fpulqu8" path="res://entities/countries/northamerica/bahamas.tscn" id="171_lppn0"]
+[ext_resource type="PackedScene" uid="uid://3q76qciew2mo" path="res://entities/countries/northamerica/antigua_and_barbuda.tscn" id="172_7wqe4"]
 
 [node name="WorldMap" type="Node2D"]
 
@@ -159,12 +181,6 @@ offset_bottom = 1620.0
 texture = ExtResource("1_g7ewq")
 
 [node name="Countries" type="Node" parent="."]
-
-[node name="USA" parent="Countries" instance=ExtResource("2_srtnd")]
-position = Vector2(1281, 810)
-
-[node name="Canada" parent="Countries" instance=ExtResource("3_f7adm")]
-position = Vector2(1281, 810)
 
 [node name="Africa" type="Node" parent="Countries"]
 
@@ -615,4 +631,76 @@ position = Vector2(1543, 742)
 [node name="Armenia" parent="Countries/MiddleEast" instance=ExtResource("150_ej4xq")]
 position = Vector2(1524, 749)
 
-[connection signal="mouse_entered" from="Countries/USA" to="Countries/USA" method="_print_test"]
+[node name="NorthAmerica" type="Node" parent="Countries"]
+
+[node name="UnitedStatesOfAmerica" parent="Countries/NorthAmerica" instance=ExtResource("149_ruwtc")]
+position = Vector2(1157, 685)
+
+[node name="TrinidadAndTobago" parent="Countries/NorthAmerica" instance=ExtResource("150_h4wyg")]
+position = Vector2(780, 930)
+
+[node name="SaintLucia" parent="Countries/NorthAmerica" instance=ExtResource("151_cvfip")]
+position = Vector2(812, 926)
+
+[node name="SaintKittsAndNevis" parent="Countries/NorthAmerica" instance=ExtResource("152_oyn7y")]
+position = Vector2(790, 910)
+
+[node name="Panama" parent="Countries/NorthAmerica" instance=ExtResource("153_8ykax")]
+position = Vector2(646, 959)
+
+[node name="Nicarauga" parent="Countries/NorthAmerica" instance=ExtResource("154_ydahv")]
+position = Vector2(622, 936)
+
+[node name="Mexico" parent="Countries/NorthAmerica" instance=ExtResource("155_hlsfb")]
+position = Vector2(511, 848)
+
+[node name="Jamaica" parent="Countries/NorthAmerica" instance=ExtResource("156_pm242")]
+position = Vector2(667, 898)
+
+[node name="Honduras" parent="Countries/NorthAmerica" instance=ExtResource("157_wrm50")]
+position = Vector2(608, 912)
+
+[node name="Haiti" parent="Countries/NorthAmerica" instance=ExtResource("158_fpg53")]
+position = Vector2(715, 904)
+
+[node name="Guatemala" parent="Countries/NorthAmerica" instance=ExtResource("159_af6ky")]
+position = Vector2(595, 913)
+
+[node name="Grenada" parent="Countries/NorthAmerica" instance=ExtResource("160_82ct4")]
+position = Vector2(779, 927)
+
+[node name="Greenland" parent="Countries/NorthAmerica" instance=ExtResource("161_2wiwj")]
+position = Vector2(923, 308)
+
+[node name="ElSalvador" parent="Countries/NorthAmerica" instance=ExtResource("162_vdu7u")]
+position = Vector2(588, 929)
+
+[node name="DominicanRepublic" parent="Countries/NorthAmerica" instance=ExtResource("163_mltql")]
+position = Vector2(730, 906)
+
+[node name="Dominica" parent="Countries/NorthAmerica" instance=ExtResource("164_jnsm2")]
+position = Vector2(792, 907)
+
+[node name="Curacao" parent="Countries/NorthAmerica" instance=ExtResource("165_cxspg")]
+position = Vector2(726, 940)
+
+[node name="Cuba" parent="Countries/NorthAmerica" instance=ExtResource("166_8jlix")]
+position = Vector2(651, 877)
+
+[node name="CostaRica" parent="Countries/NorthAmerica" instance=ExtResource("167_53a1l")]
+position = Vector2(634, 952)
+
+[node name="Canada" parent="Countries/NorthAmerica" instance=ExtResource("168_nm6t3")]
+position = Vector2(585, 398)
+
+[node name="Belize" parent="Countries/NorthAmerica" instance=ExtResource("169_pwsgx")]
+position = Vector2(583, 915)
+
+[node name="Barbados" parent="Countries/NorthAmerica" instance=ExtResource("170_v3jdt")]
+position = Vector2(782, 938)
+
+[node name="Bahamas" parent="Countries/NorthAmerica" instance=ExtResource("171_lppn0")]
+position = Vector2(683, 862)
+
+[node name="AntiguaAndBarbuda" parent="Countries/NorthAmerica" instance=ExtResource("172_7wqe4")]
+position = Vector2(790, 900)

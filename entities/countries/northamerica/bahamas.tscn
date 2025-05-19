@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://hfrn4fpulqu8"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_4fyog"]
+[ext_resource type="Texture2D" uid="uid://fpa270a0lw7o" path="res://art/countries/northamerica/bahamas.png" id="2_c27qy"]
+
+[node name="Bahamas" instance=ExtResource("1_4fyog")]
+country_code = 20
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_c27qy")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-17, -10.5, -17, -7.9, -17.4, -7.5, -20, -7.5, -20, -1.8, -17, -0.900002, -17, 1.2, -15.6, 1.7, -13.5, -1.5, -11.3, -1.5, -10.3, -4.5, -8.3, -4.5, -7.8, -5.9, -11, -8.1, -11, -10.5)
+
+[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="." index="3"]
+polygon = PackedVector2Array(-3.6, -4.7, -5, -4.2, -5, -1.9, -5.4, -1.5, -7.7, -1.5, -8.2, -0.0999985, -5, 2, -5, 7.5, -2.4, 7.5, -2, 7.9, -2, 10.2, 1, 11.1, 1, 13.2, 2.4, 13.7, 4.5, 10.5, 6.7, 10.5, 7.2, 9.1, 4, 6.9, 4, 1.5, 1.4, 1.5, 1, 1.1, 1, -1.5, -1.5, -1.5)
+
+[node name="CollisionPolygon2D3" type="CollisionPolygon2D" parent="." index="4"]
+polygon = PackedVector2Array(11.2, 7.3, 10, 7.8, 10, 9.8, 7, 10.8, 7, 13.5, 9.6, 13.5, 10, 13.9, 10, 16.5, 12.6, 16.5, 13, 16.9, 13, 19.2, 16, 20.1, 16, 22.2, 17.4, 22.7, 19.5, 19.5, 21.7, 19.5, 22.2, 18.3)

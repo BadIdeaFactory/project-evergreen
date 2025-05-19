@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://bt2rguanvi5lj"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_rgjmi"]
+[ext_resource type="Texture2D" uid="uid://bpnmmks7qf3lv" path="res://art/countries/northamerica/saintkittsandnevis.png" id="2_6ie3o"]
+
+[node name="SaintKittsAndNevis" instance=ExtResource("1_rgjmi")]
+country_code = 103
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_6ie3o")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-20.3, -1.2, -21.5, -0.700001, -21.5, 1.3, -24.5, 2.3, -24.5, 4.7, -21.5, 5.6, -21.5, 7.7, -20.1, 8.2, -18, 5, -15.8, 5, -15.3, 3.8)
