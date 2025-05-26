@@ -4,3 +4,5 @@
 
 [resource]
 shader = ExtResource("1_bbqy0")
+shader_parameter/mix_percentage = 0.8
+shader_parameter/color = Color(0.478206, 0.618867, 0.947949, 1)
