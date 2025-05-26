@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://cnlfivgiyewts"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_61yio"]
+[ext_resource type="Texture2D" uid="uid://cdsff8s4tblxw" path="res://art/countries/southamerica/guyana.png" id="2_yo2kq"]
+
+[node name="Guyana" instance=ExtResource("1_61yio")]
+country_code = 81
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_yo2kq")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(10.5, -17, 10.5, -14.4, 10.1, -14, 7.5, -14, 7.5, -8.7, 4.5, -7.7, 4.5, 0.699997, 7.5, 1.6, 7.5, 3.8, 13.4, 5, 13.5, 15.7, 16.5, 16.6, 16.5, 22, 18.8, 22, 19.8, 25, 25.1, 25, 26.5, 22.2, 34.2, 22, 35.2, 19, 37.2, 19, 37.7, 17.8, 31.9, 12, 31.5, 1.6, 34.5, 0.699997, 34.5, -5, 32.2, -5, 31.2, -8, 25.9, -8, 25.5, -8.4, 25.5, -13.7, 22.5, -14.7, 22.5, -17)

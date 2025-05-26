@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://dmfh5teh6c6fg"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_d4o24"]
+[ext_resource type="Texture2D" uid="uid://dct7wdlgq71kx" path="res://art/countries/southamerica/uruguay.png" id="2_4xuy6"]
+
+[node name="Uruguay" instance=ExtResource("1_d4o24")]
+country_code = 194
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_4xuy6")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-2, -11.5, -2, -8.9, -2.4, -8.5, -4.7, -8.5, -5.7, -5.5, -7.9, -5.5, -8.9, 9.5, -11, 9.5, -11, 15.2, -8, 16.1, -8, 18.5, -2.7, 18.5, -1.7, 21.5, 9.3, 21.5, 10.3, 24.5, 22, 24.5, 22, 21.9, 22.4, 21.5, 25, 21.5, 25, 18.9, 25.4, 18.5, 27.7, 18.5, 28.7, 15.5, 31, 15.5, 31, 6.5, 28.4, 6.5, 28, 6.1, 28, 3.5, 25.4, 3.5, 25, 3.1, 25, 0.800003, 22, -0.199997, 22, -2.5, 16.4, -2.5, 16, -2.9, 16, -5.5, 10.4, -5.5, 10, -5.9, 10, -8.2, 7, -9.2, 7, -11.5)

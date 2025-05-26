@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://baknuastxbewx"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_lo3mc"]
+[ext_resource type="Texture2D" uid="uid://baop8fct1c7a4" path="res://art/countries/southamerica/paraguay.png" id="2_hwp1a"]
+
+[node name="Paraguay" instance=ExtResource("1_lo3mc")]
+country_code = 153
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_hwp1a")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-28.5, -25.5, -28.5, -22.9, -28.9, -22.5, -34.2, -22.5, -35.2, -19.5, -37.5, -19.5, -37.5, -11.2, -40.5, -10.2, -40.5, -4.5, -37.9, -4.5, -37.5, -4.1, -37.5, -1.8, -34.5, -0.900002, -34.5, 1.5, -28.9, 1.5, -28.5, 1.9, -28.5, 4.2, -25.5, 5.1, -25.5, 7.5, -10.9, 7.5, -10.5, 7.9, -10.5, 10.1, -7.7, 11.5, -7.5, 19.1, -7.9, 19.5, -10.2, 19.5, -11.2, 22.5, -13.2, 22.5, -13.7, 23.9, -10.5, 26, -10.5, 28.5, 7.5, 28.5, 7.5, 25.9, 7.9, 25.5, 10.5, 25.5, 10.5, 22.9, 10.9, 22.5, 13.5, 22.5, 13.5, 19.9, 13.9, 19.5, 16.2, 19.5, 17.2, 16.5, 19.5, 16.5, 19.5, 4.5, 17.2, 4.5, 16.2, 1.5, 10.9, 1.5, 10.5, 1.1, 10.5, -4.2, 7.5, -5.2, 7.5, -7.5, -4.1, -7.5, -4.5, -7.9, -4.5, -9.9, -1.5, -10.8, -1.5, -13.5, -4.1, -13.5, -4.5, -13.9, -4.5, -16.5, -7.1, -16.5, -7.5, -16.9, -7.5, -19.5, -10.1, -19.5, -10.5, -19.9, -10.5, -22.2, -13.5, -23.2, -13.5, -25.5)
