@@ -28,7 +28,7 @@ func _ready() -> void:
 	if countries_view_model:
 		var country_view_model = CountryViewModel.new()
 		country_view_model.set_country_carbon_component(country_carbon_component)
-		country_view_model.country = self
+		country_view_model.initialize(self)
 		countries_view_model.register_country_vm(country_code, country_view_model)
 
 func select() -> void:

@@ -32,8 +32,8 @@ func _process(delta: float):
 		time_since_last_update = 0
 		time += 86400 # seconds in a day
 		on_new_day.emit(time)
-		view_model.set_time(time)
-		var datetime_dict = Time.get_datetime_dict_from_unix_time(time)
+		view_model.set_time(int(time))
+		var datetime_dict = Time.get_datetime_dict_from_unix_time(int(time))
 		var current_month = datetime_dict.get("month")
 		if last_month == Time.MONTH_DECEMBER and current_month == Time.MONTH_JANUARY || current_month > last_month:
 			last_month = current_month

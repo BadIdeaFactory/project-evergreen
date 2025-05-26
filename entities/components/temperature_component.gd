@@ -15,7 +15,7 @@ func _ready() -> void:
 	ViewModelRegistry.register(ViewModelRegistry.Keys.TEMPERATURE, view_model)
 	time_component.on_new_day.connect(_handle_new_day)
 	
-func _handle_new_day(new_timestamp: int) -> void:
+func _handle_new_day(_new_timestamp: int) -> void:
 	# TODO: this is a large increase for testing. it should be based on the state of the world.
 	set_temperature_anomaly(temperature_anomaly_celsius + .001)
 

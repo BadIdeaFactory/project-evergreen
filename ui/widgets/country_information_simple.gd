@@ -14,11 +14,27 @@ func _ready() -> void:
 func bind_vm(view_model: CountryViewModel) -> void:
 	country_name_label.text = view_model.country.country_name
 	var country_carbon_vm = view_model.country_carbon_vm
+	
+	if country_carbon_vm.on_buildings_co2_changed.is_connected(_handle_buildings_co2_changed):
+		country_carbon_vm.on_buildings_co2_changed.disconnect(_handle_buildings_co2_changed)
 	country_carbon_vm.on_buildings_co2_changed.connect(_handle_buildings_co2_changed)
+	
+	if country_carbon_vm.on_power_co2_changed.is_connected(_handle_power_co2_changed):
+		country_carbon_vm.on_power_co2_changed.disconnect(_handle_power_co2_changed)
 	country_carbon_vm.on_power_co2_changed.connect(_handle_power_co2_changed)
+	
+	if country_carbon_vm.on_transportation_co2_changed.is_connected(_handle_transportation_co2_changed):
+		country_carbon_vm.on_transportation_co2_changed.disconnect(_handle_transportation_co2_changed)
 	country_carbon_vm.on_transportation_co2_changed.connect(_handle_transportation_co2_changed)
+	
+	if country_carbon_vm.on_other_sectors_co2_changed.is_connected(_handle_other_sectors_co2_changed):
+		country_carbon_vm.on_other_sectors_co2_changed.disconnect(_handle_other_sectors_co2_changed)
 	country_carbon_vm.on_other_sectors_co2_changed.connect(_handle_other_sectors_co2_changed)
+	
+	if country_carbon_vm.on_other_industry_co2_changed.is_connected(_handle_other_industries_co2_changed):
+		country_carbon_vm.on_other_industry_co2_changed.disconnect(_handle_other_industries_co2_changed)
 	country_carbon_vm.on_other_industry_co2_changed.connect(_handle_other_industries_co2_changed)
+	
 	country_carbon_vm.rebroadcast()
 	visible = true
 	
