@@ -17,6 +17,18 @@ func _ready():
 	Input.set_custom_mouse_cursor(arrow_icon, Input.CURSOR_ARROW)
 
 func _unhandled_input(event: InputEvent) -> void:
+	if event.is_action_pressed("start_drag"):
+		Input.set_custom_mouse_cursor(drag_icon, Input.CURSOR_DRAG)
+		is_dragging = true
+		hud.mouse_default_cursor_shape = Control.CURSOR_DRAG
+	elif event.is_action_released("start_drag"):
+		is_dragging = false
+		hud.mouse_default_cursor_shape = Control.CURSOR_ARROW
+	
+	if event is InputEventMouseMotion and is_dragging:
+		camera_component.apply_camera_movement(event.relative * mouse_drag_scroll_speed * -1)
+		return
+	
 	if event.is_action_pressed("select"):
 		var params = PhysicsPointQueryParameters2D.new()
 		params.position = get_global_mouse_position()
@@ -37,17 +49,6 @@ func _unhandled_input(event: InputEvent) -> void:
 		menu_instance = menu_scene.instantiate()
 		hud.add_child(menu_instance)
 		return
-	
-	if event.is_action_pressed("start_drag"):
-		Input.set_custom_mouse_cursor(drag_icon, Input.CURSOR_DRAG)
-		is_dragging = true
-		hud.mouse_default_cursor_shape = Control.CURSOR_DRAG
-	elif event.is_action_released("start_drag"):
-		is_dragging = false
-		hud.mouse_default_cursor_shape = Control.CURSOR_ARROW
-	
-	if event is InputEventMouseMotion and is_dragging:
-		camera_component.apply_camera_movement(event.relative * mouse_drag_scroll_speed)
 
 func _process(_delta: float) -> void:
 	var camera_movement := Vector2.ZERO
