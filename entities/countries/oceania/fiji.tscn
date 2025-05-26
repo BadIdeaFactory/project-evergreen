@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://dpjslly2gar7a"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_x1mux"]
+[ext_resource type="Texture2D" uid="uid://c84ap3ih2srbl" path="res://art/countries/oceania/fiji.png" id="2_2txgx"]
+
+[node name="Fiji" instance=ExtResource("1_x1mux")]
+country_code = 63
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_2txgx")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(11.7, -18.2, 10.5, -17.7, 10.5, -15.7, 7.5, -14.7, 7.5, -12.3, 10.5, -11.4, 10.5, -9.3, 11.9, -8.8, 14, -12, 16.2, -12, 16.7, -13.2)
+
+[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="." index="3"]
+polygon = PackedVector2Array(-1.5, -9, -1.5, -6.4, -1.9, -6, -4.2, -6, -4.7, -4.6, -1.5, -2.5, -1.5, 0, 7.2, 0, 8.2, -3, 10.2, -3, 10.7, -4.4, 7.5, -6.6, 7.5, -9)
+
+[node name="CollisionPolygon2D3" type="CollisionPolygon2D" parent="." index="4"]
+polygon = PackedVector2Array(20.7, -9.2, 19.5, -8.7, 19.5, -6.7, 16.5, -5.7, 16.5, -3.3, 19.5, -2.4, 19.5, -0.300003, 20.9, 0.199997, 23, -3, 25.2, -3, 25.7, -4.2)
+
+[node name="CollisionPolygon2D4" type="CollisionPolygon2D" parent="." index="5"]
+polygon = PackedVector2Array(17.7, 2.8, 16.5, 3.3, 16.5, 5.3, 13.5, 6.3, 13.5, 8.7, 16.5, 9.6, 16.5, 11.7, 17.9, 12.2, 20, 9, 22.2, 9, 22.7, 7.8)

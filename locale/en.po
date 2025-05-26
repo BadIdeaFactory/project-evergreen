@@ -77,977 +77,798 @@ msgid "FOSSIL_EMISSIONS_HEADER"
 msgstr "Fossil Emissions (Mt CO₂/yr)"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_ABW_NAME"
 msgstr "Aruba"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_AFG_NAME"
 msgstr "Afghanistan"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_AGO_NAME"
 msgstr "Angola"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_AIA_NAME"
 msgstr "Anguilla"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_ALB_NAME"
 msgstr "Albania"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_ANT_NAME"
 msgstr "Curaçao"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_ARE_NAME"
 msgstr "United Arab Emirates"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_ARG_NAME"
 msgstr "Argentina"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_ARM_NAME"
 msgstr "Armenia"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_ATG_NAME"
 msgstr "Antigua and Barbuda"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_AUS_NAME"
 msgstr "Australia"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_AUT_NAME"
 msgstr "Austria"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_AZE_NAME"
 msgstr "Azerbaijan"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_BDI_NAME"
 msgstr "Burundi"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_BEL_NAME"
 msgstr "Belgium"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_BEN_NAME"
 msgstr "Benin"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_BFA_NAME"
 msgstr "Burkina Faso"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_BGD_NAME"
 msgstr "Bangladesh"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_BGR_NAME"
 msgstr "Bulgaria"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_BHR_NAME"
 msgstr "Bahrain"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_BHS_NAME"
 msgstr "Bahamas"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_BIH_NAME"
 msgstr "Bosnia and Herzegovina"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_BLR_NAME"
 msgstr "Belarus"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_BLZ_NAME"
 msgstr "Belize"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_BMU_NAME"
 msgstr "Bermuda"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_BOL_NAME"
 msgstr "Bolivia"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_BRA_NAME"
 msgstr "Brazil"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_BRB_NAME"
 msgstr "Barbados"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_BRN_NAME"
 msgstr "Brunei"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_BTN_NAME"
 msgstr "Bhutan"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_BWA_NAME"
 msgstr "Botswana"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_CAF_NAME"
 msgstr "Central African Republic"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_CAN_NAME"
 msgstr "Canada"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_CHE_NAME"
 msgstr "Switzerland and Liechtenstein"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_CHL_NAME"
 msgstr "Chile"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_CHN_NAME"
 msgstr "China"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_CIV_NAME"
 msgstr "Côte d’Ivoire"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_CMR_NAME"
 msgstr "Cameroon"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_COD_NAME"
 msgstr "Democratic Republic of the Congo"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_COG_NAME"
 msgstr "Congo"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_COK_NAME"
 msgstr "Cook Islands"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_COL_NAME"
 msgstr "Colombia"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_COM_NAME"
 msgstr "Comoros"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_CPV_NAME"
 msgstr "Cabo Verde"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_CRI_NAME"
 msgstr "Costa Rica"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_CUB_NAME"
 msgstr "Cuba"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_CYM_NAME"
 msgstr "Cayman Islands"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_CYP_NAME"
 msgstr "Cyprus"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_CZE_NAME"
 msgstr "Czechia"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_DEU_NAME"
 msgstr "Germany"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_DJI_NAME"
 msgstr "Djibouti"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_DMA_NAME"
 msgstr "Dominica"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_DNK_NAME"
 msgstr "Denmark"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_DOM_NAME"
 msgstr "Dominican Republic"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_DZA_NAME"
 msgstr "Algeria"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_ECU_NAME"
 msgstr "Ecuador"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_EGY_NAME"
 msgstr "Egypt"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_ERI_NAME"
 msgstr "Eritrea"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_ESH_NAME"
 msgstr "Western Sahara"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_ESP_NAME"
 msgstr "Spain and Andorra"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_EST_NAME"
 msgstr "Estonia"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_ETH_NAME"
 msgstr "Ethiopia"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_FIN_NAME"
 msgstr "Finland"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_FJI_NAME"
 msgstr "Fiji"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_FLK_NAME"
 msgstr "Falkland Islands"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_FRA_NAME"
 msgstr "France and Monaco"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_FSM_NAME"
+msgstr "Federated States of Micronesia"
+
+#: entities/countries/country_names_and_keys_registry.gd
 msgid "COUNTRY_GAB_NAME"
 msgstr "Gabon"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_GBR_NAME"
 msgstr "United Kingdom"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_GEO_NAME"
 msgstr "Georgia"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_GHA_NAME"
 msgstr "Ghana"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_GIB_NAME"
 msgstr "Gibraltar"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_GIN_NAME"
 msgstr "Guinea"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_GLP_NAME"
 msgstr "Guadeloupe"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_GMB_NAME"
 msgstr "The Gambia"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_GNB_NAME"
 msgstr "Guinea-Bissau"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_GNQ_NAME"
 msgstr "Equatorial Guinea"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_GRC_NAME"
 msgstr "Greece"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_GRD_NAME"
 msgstr "Grenada"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_GRL_NAME"
 msgstr "Greenland"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_GTM_NAME"
 msgstr "Guatemala"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_GUF_NAME"
 msgstr "French Guiana"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_GUY_NAME"
 msgstr "Guyana"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_HKG_NAME"
 msgstr "Hong Kong"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_HND_NAME"
 msgstr "Honduras"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_HRV_NAME"
 msgstr "Croatia"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_HTI_NAME"
 msgstr "Haiti"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_HUN_NAME"
 msgstr "Hungary"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_IDN_NAME"
 msgstr "Indonesia"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_IND_NAME"
 msgstr "India"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_IRL_NAME"
 msgstr "Ireland"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_IRN_NAME"
 msgstr "Iran"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_IRQ_NAME"
 msgstr "Iraq"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_ISL_NAME"
 msgstr "Iceland"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_ISR_NAME"
 msgstr "Israel and Palestine, State of"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_ITA_NAME"
 msgstr "Italy, San Marino and the Holy See"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_JAM_NAME"
 msgstr "Jamaica"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_JOR_NAME"
 msgstr "Jordan"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_JPN_NAME"
 msgstr "Japan"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_KAZ_NAME"
 msgstr "Kazakhstan"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_KEN_NAME"
 msgstr "Kenya"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_KGZ_NAME"
 msgstr "Kyrgyzstan"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_KHM_NAME"
 msgstr "Cambodia"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_KIR_NAME"
 msgstr "Kiribati"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_KNA_NAME"
 msgstr "Saint Kitts and Nevis"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_KOR_NAME"
 msgstr "South Korea"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_KWT_NAME"
 msgstr "Kuwait"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_LAO_NAME"
 msgstr "Laos"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_LBN_NAME"
 msgstr "Lebanon"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_LBR_NAME"
 msgstr "Liberia"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_LBY_NAME"
 msgstr "Libya"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_LCA_NAME"
 msgstr "Saint Lucia"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_LKA_NAME"
 msgstr "Sri Lanka"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_LSO_NAME"
 msgstr "Lesotho"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_LTU_NAME"
 msgstr "Lithuania"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_LUX_NAME"
 msgstr "Luxembourg"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_LVA_NAME"
 msgstr "Latvia"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_MAC_NAME"
 msgstr "Macao"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_MAR_NAME"
 msgstr "Morocco"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_MDA_NAME"
 msgstr "Moldova"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_MDG_NAME"
 msgstr "Madagascar"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_MDV_NAME"
 msgstr "Maldives"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_MEX_NAME"
 msgstr "Mexico"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_MKD_NAME"
 msgstr "North Macedonia"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_MHL_NAME"
+msgstr "Republic of the Marshall Islands"
+
+#: entities/countries/country_names_and_keys_registry.gd
 msgid "COUNTRY_MLI_NAME"
 msgstr "Mali"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_MLT_NAME"
 msgstr "Malta"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_MMR_NAME"
 msgstr "Myanmar/Burma"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_MNG_NAME"
 msgstr "Mongolia"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_MOZ_NAME"
 msgstr "Mozambique"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_MRT_NAME"
 msgstr "Mauritania"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_MTQ_NAME"
 msgstr "Martinique"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_MUS_NAME"
 msgstr "Mauritius"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_MWI_NAME"
 msgstr "Malawi"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_MYS_NAME"
 msgstr "Malaysia"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_NAM_NAME"
 msgstr "Namibia"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_NCL_NAME"
 msgstr "New Caledonia"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_NER_NAME"
 msgstr "Niger"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_NGA_NAME"
 msgstr "Nigeria"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_NIC_NAME"
 msgstr "Nicaragua"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_NLD_NAME"
 msgstr "Netherlands"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_NOR_NAME"
 msgstr "Norway"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_NPL_NAME"
 msgstr "Nepal"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_NRU_NAME"
+msgstr "Republic of Nauru"
+
+#: entities/countries/country_names_and_keys_registry.gd
 msgid "COUNTRY_NZL_NAME"
 msgstr "New Zealand"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_OMN_NAME"
 msgstr "Oman"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_PAK_NAME"
 msgstr "Pakistan"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_PAN_NAME"
 msgstr "Panama"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_PER_NAME"
 msgstr "Peru"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_PHL_NAME"
 msgstr "Philippines"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_PLW_NAME"
 msgstr "Palau"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_PNG_NAME"
 msgstr "Papua New Guinea"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_POL_NAME"
 msgstr "Poland"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_PRI_NAME"
 msgstr "Puerto Rico"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_PRK_NAME"
 msgstr "North Korea"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_PRT_NAME"
 msgstr "Portugal"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_PRY_NAME"
 msgstr "Paraguay"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_PYF_NAME"
 msgstr "French Polynesia"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_QAT_NAME"
 msgstr "Qatar"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_REU_NAME"
 msgstr "Réunion"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_ROU_NAME"
 msgstr "Romania"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_RUS_NAME"
 msgstr "Russia"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_RWA_NAME"
 msgstr "Rwanda"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_SAU_NAME"
 msgstr "Saudi Arabia"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_SCG_NAME"
 msgstr "Serbia and Montenegro"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_SDN_NAME"
 msgstr "Sudan and South Sudan"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_SEN_NAME"
 msgstr "Senegal"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_SGP_NAME"
 msgstr "Singapore"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_SHN_NAME"
 msgstr "Saint Helena, Ascension and Tristan da Cunha"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_SLB_NAME"
 msgstr "Solomon Islands"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_SLE_NAME"
 msgstr "Sierra Leone"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_SLV_NAME"
 msgstr "El Salvador"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_SOM_NAME"
 msgstr "Somalia"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_SPM_NAME"
 msgstr "Saint Pierre and Miquelon"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_STP_NAME"
 msgstr "São Tomé and Príncipe"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_SUR_NAME"
 msgstr "Suriname"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_SVK_NAME"
 msgstr "Slovakia"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_SVN_NAME"
 msgstr "Slovenia"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_SWE_NAME"
 msgstr "Sweden"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_SWZ_NAME"
 msgstr "Eswatini"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_SYC_NAME"
 msgstr "Seychelles"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_SYR_NAME"
 msgstr "Syria"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_TCA_NAME"
 msgstr "Turks and Caicos Islands"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_TCD_NAME"
 msgstr "Chad"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_TGO_NAME"
 msgstr "Togo"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_THA_NAME"
 msgstr "Thailand"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_TJK_NAME"
 msgstr "Tajikistan"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_TKM_NAME"
 msgstr "Turkmenistan"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_TLS_NAME"
 msgstr "Timor-Leste"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_TON_NAME"
 msgstr "Tonga"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_TTO_NAME"
 msgstr "Trinidad and Tobago"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_TUN_NAME"
 msgstr "Tunisia"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_TUR_NAME"
 msgstr "Turkey"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
+msgid "COUNTRY_TUV_NAME"
+msgstr "Tuvalu"
+
+#: entities/countries/country_names_and_keys_registry.gd
 msgid "COUNTRY_TWN_NAME"
 msgstr "Taiwan"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_TZA_NAME"
 msgstr "Tanzania"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_UGA_NAME"
 msgstr "Uganda"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_UKR_NAME"
 msgstr "Ukraine"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_URY_NAME"
 msgstr "Uruguay"
 
@@ -1064,47 +885,38 @@ msgid "COUNTRY_VCT_NAME"
 msgstr "Saint Vincent and the Grenadines"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_VEN_NAME"
 msgstr "Venezuela"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_VGB_NAME"
 msgstr "British Virgin Islands"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_VNM_NAME"
 msgstr "Vietnam"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_VUT_NAME"
 msgstr "Vanuatu"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_WSM_NAME"
 msgstr "Samoa"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_YEM_NAME"
 msgstr "Yemen"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_ZAF_NAME"
 msgstr "South Africa"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_ZMB_NAME"
 msgstr "Zambia"
 
 #: entities/countries/country_names_and_keys_registry.gd
-#| msgid "COUNTRY_USA_NAME"
 msgid "COUNTRY_ZWE_NAME"
 msgstr "Zimbabwe"
 

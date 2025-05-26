@@ -1,4 +1,4 @@
-[gd_scene load_steps=173 format=3 uid="uid://xlfbl7fowoic"]
+[gd_scene load_steps=187 format=3 uid="uid://xlfbl7fowoic"]
 
 [ext_resource type="Texture2D" uid="uid://xrpjeff551cv" path="res://art/PixelWorldMap_All_Countries_3x_Green.png" id="1_g7ewq"]
 [ext_resource type="PackedScene" uid="uid://b0vtlhn6w422p" path="res://entities/countries/africa/algeria.tscn" id="4_uqfyt"]
@@ -172,6 +172,20 @@
 [ext_resource type="PackedScene" uid="uid://csbynmkw04kse" path="res://entities/countries/northamerica/barbados.tscn" id="170_v3jdt"]
 [ext_resource type="PackedScene" uid="uid://hfrn4fpulqu8" path="res://entities/countries/northamerica/bahamas.tscn" id="171_lppn0"]
 [ext_resource type="PackedScene" uid="uid://3q76qciew2mo" path="res://entities/countries/northamerica/antigua_and_barbuda.tscn" id="172_7wqe4"]
+[ext_resource type="PackedScene" uid="uid://ccnxrk0nx2s3g" path="res://entities/countries/oceania/australia.tscn" id="173_v5j45"]
+[ext_resource type="PackedScene" uid="uid://dpjslly2gar7a" path="res://entities/countries/oceania/fiji.tscn" id="174_dk2si"]
+[ext_resource type="PackedScene" uid="uid://blyahswvy71bk" path="res://entities/countries/oceania/kiribati.tscn" id="175_rqgkr"]
+[ext_resource type="PackedScene" uid="uid://bovampf1mofeu" path="res://entities/countries/oceania/marshall_islands.tscn" id="176_l6cod"]
+[ext_resource type="PackedScene" uid="uid://drqgjnk8obvdt" path="res://entities/countries/oceania/micronesia.tscn" id="177_r5jf6"]
+[ext_resource type="PackedScene" uid="uid://lemae8vvhn5q" path="res://entities/countries/oceania/nauru.tscn" id="178_6kpm3"]
+[ext_resource type="PackedScene" uid="uid://durtiq6m3087r" path="res://entities/countries/oceania/new_zealand.tscn" id="179_smpru"]
+[ext_resource type="PackedScene" uid="uid://dffrgt368tgxn" path="res://entities/countries/oceania/palau.tscn" id="180_8a0e4"]
+[ext_resource type="PackedScene" uid="uid://c1oegacdhvgjf" path="res://entities/countries/oceania/papua_new_guinea.tscn" id="181_voncp"]
+[ext_resource type="PackedScene" uid="uid://b1n1qy355kfcd" path="res://entities/countries/oceania/samoa.tscn" id="182_6ibnu"]
+[ext_resource type="PackedScene" uid="uid://buw345bb3y737" path="res://entities/countries/oceania/soloman_islands.tscn" id="183_72i2p"]
+[ext_resource type="PackedScene" uid="uid://hhkidfk20oln" path="res://entities/countries/oceania/tonga.tscn" id="184_apvga"]
+[ext_resource type="PackedScene" uid="uid://b5wknmvwiwriu" path="res://entities/countries/oceania/tuvalu.tscn" id="185_tslxk"]
+[ext_resource type="PackedScene" uid="uid://fupgdxwrq1b3" path="res://entities/countries/oceania/vanuatu.tscn" id="186_sye3o"]
 
 [node name="WorldMap" type="Node2D"]
 
@@ -704,3 +718,47 @@ position = Vector2(683, 862)
 
 [node name="AntiguaAndBarbuda" parent="Countries/NorthAmerica" instance=ExtResource("172_7wqe4")]
 position = Vector2(790, 900)
+
+[node name="Oceania" type="Node" parent="Countries"]
+
+[node name="Australia" parent="Countries/Oceania" instance=ExtResource("173_v5j45")]
+position = Vector2(2140, 1188)
+
+[node name="Fiji" parent="Countries/Oceania" instance=ExtResource("174_dk2si")]
+position = Vector2(2459, 1125)
+
+[node name="Kiribati" parent="Countries/Oceania" instance=ExtResource("175_rqgkr")]
+position = Vector2(2494, 994)
+
+[node name="MarshallIslands" parent="Countries/Oceania" instance=ExtResource("176_l6cod")]
+position = Vector2(2427, 959)
+
+[node name="Micronesia" parent="Countries/Oceania" instance=ExtResource("177_r5jf6")]
+position = Vector2(2282, 974)
+
+[node name="Nauru" parent="Countries/Oceania" instance=ExtResource("178_6kpm3")]
+position = Vector2(2333, 1011)
+
+[node name="NewZealand" parent="Countries/Oceania" instance=ExtResource("179_smpru")]
+position = Vector2(2408, 1281)
+
+[node name="Palau" parent="Countries/Oceania" instance=ExtResource("180_8a0e4")]
+position = Vector2(2168, 980)
+
+[node name="PapuaNewGuinea" parent="Countries/Oceania" instance=ExtResource("181_voncp")]
+position = Vector2(2248, 1044)
+
+[node name="Samoa" parent="Countries/Oceania" instance=ExtResource("182_6ibnu")]
+position = Vector2(2516, 1098)
+
+[node name="SolomanIslands" parent="Countries/Oceania" instance=ExtResource("183_72i2p")]
+position = Vector2(2342, 1072)
+
+[node name="Tonga" parent="Countries/Oceania" instance=ExtResource("184_apvga")]
+position = Vector2(2487, 1154)
+
+[node name="Tuvalu" parent="Countries/Oceania" instance=ExtResource("185_tslxk")]
+position = Vector2(2446, 1033)
+
+[node name="Vanuatu" parent="Countries/Oceania" instance=ExtResource("186_sye3o")]
+position = Vector2(2352, 1120)

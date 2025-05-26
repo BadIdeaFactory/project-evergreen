@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://fupgdxwrq1b3"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_xd11o"]
+[ext_resource type="Texture2D" uid="uid://rxaasv3xo18d" path="res://art/countries/oceania/vanuatu.png" id="2_n120l"]
+
+[node name="Vanuatu" instance=ExtResource("1_xd11o")]
+country_code = 201
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_n120l")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(-1.6, -13.2, -3, -12.7, -3, -10.7, -6, -9.7, -6, -4.3, -3, -3.4, -3, -1.3, -1.6, -0.800003, 0.5, -4, 3, -4, 3, -10, 0.5, -10)
+
+[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="." index="3"]
+polygon = PackedVector2Array(4.2, -1.2, 3, -0.699997, 3, 1.3, 0, 2.3, 0, 4.7, 3, 5.6, 3, 7.7, 4.4, 8.2, 6.5, 5, 8.7, 5, 9.2, 3.8)

@@ -21,7 +21,8 @@ static func _static_init():
 func _ready() -> void:
 	var country_code_str = CountryNameAndKeyRegistry.COUNTRY_CODES.keys()[country_code]
 	country_name = CountryNameAndKeyRegistry.Get().country_names[country_code_str]
-	country_carbon_component.initialize_carbon(carbon_initialization_data[country_code_str])
+	if carbon_initialization_data.has(country_code_str):
+		country_carbon_component.initialize_carbon(carbon_initialization_data[country_code_str])
 	
 	var countries_view_model = ViewModelRegistry.retrieve(ViewModelRegistry.Keys.COUNTRIES) as CountriesViewModel
 	if countries_view_model:

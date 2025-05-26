@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://b1n1qy355kfcd"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_n61m1"]
+[ext_resource type="Texture2D" uid="uid://be1vrrxkxwkob" path="res://art/countries/oceania/samoa.png" id="2_id8t3"]
+
+[node name="Samoa" instance=ExtResource("1_n61m1")]
+country_code = 202
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_id8t3")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(8.2, -0.200001, 7, 0.299999, 7, 2.3, 4, 3.3, 4, 5.7, 7, 6.6, 7, 8.7, 8.4, 9.2, 10.5, 6, 12.7, 6, 13.2, 4.8)

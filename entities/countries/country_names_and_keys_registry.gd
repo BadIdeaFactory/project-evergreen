@@ -73,6 +73,7 @@ var country_names: Dictionary = {
 	"FJI": tr("COUNTRY_FJI_NAME"),
 	"FLK": tr("COUNTRY_FLK_NAME"),
 	"FRA": tr("COUNTRY_FRA_NAME"),
+	"FSM": tr("COUNTRY_FSM_NAME"),
 	"GAB": tr("COUNTRY_GAB_NAME"),
 	"GBR": tr("COUNTRY_GBR_NAME"),
 	"GEO": tr("COUNTRY_GEO_NAME"),
@@ -130,6 +131,7 @@ var country_names: Dictionary = {
 	"MDV": tr("COUNTRY_MDV_NAME"),
 	"MEX": tr("COUNTRY_MEX_NAME"),
 	"MKD": tr("COUNTRY_MKD_NAME"),
+	"MHL": tr("COUNTRY_MHL_NAME"),
 	"MLI": tr("COUNTRY_MLI_NAME"),
 	"MLT": tr("COUNTRY_MLT_NAME"),
 	"MMR": tr("COUNTRY_MMR_NAME"),
@@ -148,6 +150,7 @@ var country_names: Dictionary = {
 	"NLD": tr("COUNTRY_NLD_NAME"),
 	"NOR": tr("COUNTRY_NOR_NAME"),
 	"NPL": tr("COUNTRY_NPL_NAME"),
+	"NRU": tr("COUNTRY_NRU_NAME"),
 	"NZL": tr("COUNTRY_NZL_NAME"),
 	"OMN": tr("COUNTRY_OMN_NAME"),
 	"PAK": tr("COUNTRY_PAK_NAME"),
@@ -197,6 +200,7 @@ var country_names: Dictionary = {
 	"TTO": tr("COUNTRY_TTO_NAME"),
 	"TUN": tr("COUNTRY_TUN_NAME"),
 	"TUR": tr("COUNTRY_TUR_NAME"),
+	"TUV": tr("COUNTRY_TUV_NAME"),
 	"TWN": tr("COUNTRY_TWN_NAME"),
 	"TZA": tr("COUNTRY_TZA_NAME"),
 	"UGA": tr("COUNTRY_UGA_NAME"),
@@ -423,5 +427,11 @@ enum COUNTRY_CODES {
 	YEM,
 	ZAF,
 	ZMB,
-	ZWE
+	ZWE,
+	
+	# From what I can tell, these countries are not tracked by EDGAR
+	FSM,
+	MHL,
+	NRU,
+	TUV,
 }

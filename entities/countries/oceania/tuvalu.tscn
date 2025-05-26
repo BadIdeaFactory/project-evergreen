@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://b5wknmvwiwriu"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_gpo2h"]
+[ext_resource type="Texture2D" uid="uid://ciltfmay0mjrw" path="res://art/countries/oceania/tuvalu.png" id="2_fxr8l"]
+
+[node name="Tuvalu" instance=ExtResource("1_gpo2h")]
+country_code = 210
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_fxr8l")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(15.2, 4.3, 14, 4.8, 14, 6.8, 11, 7.8, 11, 10.2, 14, 11.1, 14, 13.2, 15.4, 13.7, 17.5, 10.5, 19.7, 10.5, 20.2, 9.3)

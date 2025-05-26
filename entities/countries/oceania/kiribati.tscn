@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://blyahswvy71bk"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_rmoef"]
+[ext_resource type="Texture2D" uid="uid://bqnmt7rui7icq" path="res://art/countries/oceania/kiribati.png" id="2_lcweg"]
+
+[node name="Kiribati" instance=ExtResource("1_rmoef")]
+country_code = 102
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_lcweg")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(6.7, -10.2, 5.5, -9.7, 5.5, -7.7, 2.5, -6.7, 2.5, -4.3, 5.5, -3.4, 5.5, -1.3, 6.9, -0.799999, 9, -4, 11.2, -4, 11.7, -5.2)
+
+[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="." index="3"]
+polygon = PackedVector2Array(18.7, -4.2, 17.5, -3.7, 17.5, -1.7, 14.5, -0.700001, 14.5, 1.7, 17.5, 2.6, 17.5, 4.7, 18.9, 5.2, 21, 2, 23.2, 2, 23.7, 0.799999)
+
+[node name="CollisionPolygon2D3" type="CollisionPolygon2D" parent="." index="4"]
+polygon = PackedVector2Array(9.7, 1.8, 8.5, 2.3, 8.5, 4.3, 5.5, 5.3, 5.5, 7.7, 8.5, 8.6, 8.5, 10.7, 9.9, 11.2, 12, 8, 14.2, 8, 14.7, 6.8)

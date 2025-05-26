@@ -329,6 +329,10 @@ msgid "COUNTRY_FRA_NAME"
 msgstr ""
 
 #: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_FSM_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
 msgid "COUNTRY_GAB_NAME"
 msgstr ""
 
@@ -557,6 +561,10 @@ msgid "COUNTRY_MKD_NAME"
 msgstr ""
 
 #: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_MHL_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
 msgid "COUNTRY_MLI_NAME"
 msgstr ""
 
@@ -626,6 +634,10 @@ msgstr ""
 
 #: entities/countries/country_names_and_keys_registry.gd
 msgid "COUNTRY_NPL_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_NRU_NAME"
 msgstr ""
 
 #: entities/countries/country_names_and_keys_registry.gd
@@ -822,6 +834,10 @@ msgstr ""
 
 #: entities/countries/country_names_and_keys_registry.gd
 msgid "COUNTRY_TUR_NAME"
+msgstr ""
+
+#: entities/countries/country_names_and_keys_registry.gd
+msgid "COUNTRY_TUV_NAME"
 msgstr ""
 
 #: entities/countries/country_names_and_keys_registry.gd

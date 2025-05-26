@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://lemae8vvhn5q"]
+
+[ext_resource type="PackedScene" uid="uid://bww8id20reu27" path="res://entities/countries/country.tscn" id="1_cefr7"]
+[ext_resource type="Texture2D" uid="uid://biwht2gkv6j8e" path="res://art/countries/oceania/nauru.png" id="2_spg52"]
+
+[node name="Nauru" instance=ExtResource("1_cefr7")]
+country_code = 209
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_spg52")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." index="2"]
+polygon = PackedVector2Array(8.7, 5.8, 7.5, 6.3, 7.5, 8.3, 4.5, 9.3, 4.5, 11.7, 7.5, 12.6, 7.5, 14.7, 8.9, 15.2, 11, 12, 13.2, 12, 13.7, 10.8)
